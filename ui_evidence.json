@@ -1,0 +1,4197 @@
+{
+  "run_id": "cdp-run-1794773256634",
+  "framework": "tauri",
+  "commit": "d36c87a",
+  "interactions": [
+    {
+      "control_id": "header.project_title",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::OptimizationSearchView::header.project_title::disabled",
+      "sequence_number": 1,
+      "screen_state_id": "OptimizationSearchView:disabled",
+      "source_hash": "c6eab8c1652247f4"
+    },
+    {
+      "control_id": "header.project_title",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::OptimizationSearchView::header.project_title",
+      "sequence_number": 2,
+      "screen_state_id": "OptimizationSearchView",
+      "source_hash": "c6eab8c1652247f4"
+    },
+    {
+      "control_id": "header.preset_select",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::OptimizationSearchView::header.preset_select",
+      "sequence_number": 3,
+      "screen_state_id": "OptimizationSearchView",
+      "source_hash": "2b8648f149c5cd76"
+    },
+    {
+      "control_id": "header.currency_year",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::OptimizationSearchView::header.currency_year",
+      "sequence_number": 4,
+      "screen_state_id": "OptimizationSearchView",
+      "source_hash": "05f66dbec83efe8f"
+    },
+    {
+      "control_id": "header.unit_toggle",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::OptimizationSearchView::header.unit_toggle::disabled",
+      "sequence_number": 5,
+      "screen_state_id": "OptimizationSearchView:disabled",
+      "source_hash": "7b8043d2bff2c771"
+    },
+    {
+      "control_id": "header.unit_toggle",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::OptimizationSearchView::header.unit_toggle",
+      "sequence_number": 6,
+      "screen_state_id": "OptimizationSearchView",
+      "source_hash": "7b8043d2bff2c771"
+    },
+    {
+      "control_id": "header.unit_toggle",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::OptimizationSearchView::header.unit_toggle::disabled",
+      "sequence_number": 7,
+      "screen_state_id": "OptimizationSearchView:disabled",
+      "source_hash": "7b8043d2bff2c771"
+    },
+    {
+      "control_id": "header.unit_toggle",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::OptimizationSearchView::header.unit_toggle",
+      "sequence_number": 8,
+      "screen_state_id": "OptimizationSearchView",
+      "source_hash": "7b8043d2bff2c771"
+    },
+    {
+      "control_id": "header.nav_tab",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::OptimizationSearchView::header.nav_tab::disabled",
+      "sequence_number": 9,
+      "screen_state_id": "OptimizationSearchView:disabled",
+      "source_hash": "5405b1f17478dcce"
+    },
+    {
+      "control_id": "header.nav_tab",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::OptimizationSearchView::header.nav_tab",
+      "sequence_number": 10,
+      "screen_state_id": "OptimizationSearchView",
+      "source_hash": "5405b1f17478dcce"
+    },
+    {
+      "control_id": "header.help_btn",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::OptimizationSearchView::header.help_btn::disabled",
+      "sequence_number": 11,
+      "screen_state_id": "OptimizationSearchView:disabled",
+      "source_hash": "2628174352a31d69"
+    },
+    {
+      "control_id": "header.help_btn",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::OptimizationSearchView::header.help_btn",
+      "sequence_number": 12,
+      "screen_state_id": "OptimizationSearchView",
+      "source_hash": "2628174352a31d69"
+    },
+    {
+      "control_id": "header.help_close_btn",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::HelpModal::header.help_close_btn::disabled",
+      "sequence_number": 13,
+      "screen_state_id": "HelpModal:disabled",
+      "source_hash": "1bbc6cc6a5b69d7d"
+    },
+    {
+      "control_id": "header.help_close_btn",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::HelpModal::header.help_close_btn",
+      "sequence_number": 14,
+      "screen_state_id": "HelpModal",
+      "source_hash": "1bbc6cc6a5b69d7d"
+    },
+    {
+      "control_id": "schematic.toggle_dimensions",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::OptimizationSearchView::schematic.toggle_dimensions::disabled",
+      "sequence_number": 15,
+      "screen_state_id": "OptimizationSearchView:disabled",
+      "source_hash": "4237036a48e4220f"
+    },
+    {
+      "control_id": "schematic.toggle_dimensions",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::OptimizationSearchView::schematic.toggle_dimensions",
+      "sequence_number": 16,
+      "screen_state_id": "OptimizationSearchView",
+      "source_hash": "4237036a48e4220f"
+    },
+    {
+      "control_id": "schematic.toggle_internals",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::OptimizationSearchView::schematic.toggle_internals::disabled",
+      "sequence_number": 17,
+      "screen_state_id": "OptimizationSearchView:disabled",
+      "source_hash": "825eff585592a916"
+    },
+    {
+      "control_id": "schematic.toggle_internals",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::OptimizationSearchView::schematic.toggle_internals",
+      "sequence_number": 18,
+      "screen_state_id": "OptimizationSearchView",
+      "source_hash": "825eff585592a916"
+    },
+    {
+      "control_id": "sizing_studio.payload_mass",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.payload_mass::disabled",
+      "sequence_number": 19,
+      "screen_state_id": "SizingStudioView:disabled",
+      "source_hash": "56cc2930b6ea1a47"
+    },
+    {
+      "control_id": "sizing_studio.payload_mass",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.payload_mass",
+      "sequence_number": 20,
+      "screen_state_id": "SizingStudioView",
+      "source_hash": "56cc2930b6ea1a47"
+    },
+    {
+      "control_id": "sizing_studio.payload_dia",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.payload_dia::disabled",
+      "sequence_number": 21,
+      "screen_state_id": "SizingStudioView:disabled",
+      "source_hash": "1334ce3df0fb798a"
+    },
+    {
+      "control_id": "sizing_studio.payload_dia",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.payload_dia",
+      "sequence_number": 22,
+      "screen_state_id": "SizingStudioView",
+      "source_hash": "1334ce3df0fb798a"
+    },
+    {
+      "control_id": "sizing_studio.core_dia",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.core_dia::disabled",
+      "sequence_number": 23,
+      "screen_state_id": "SizingStudioView:disabled",
+      "source_hash": "aa4438a858a38be1"
+    },
+    {
+      "control_id": "sizing_studio.core_dia",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.core_dia",
+      "sequence_number": 24,
+      "screen_state_id": "SizingStudioView",
+      "source_hash": "aa4438a858a38be1"
+    },
+    {
+      "control_id": "sizing_studio.stage_count",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.stage_count::disabled",
+      "sequence_number": 25,
+      "screen_state_id": "SizingStudioView:disabled",
+      "source_hash": "24a6a8a1fbf5ce19"
+    },
+    {
+      "control_id": "sizing_studio.stage_count",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.stage_count",
+      "sequence_number": 26,
+      "screen_state_id": "SizingStudioView",
+      "source_hash": "24a6a8a1fbf5ce19"
+    },
+    {
+      "control_id": "sizing_studio.stage_engine",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.stage_engine",
+      "sequence_number": 27,
+      "screen_state_id": "SizingStudioView",
+      "source_hash": "364d72383da4c7ae"
+    },
+    {
+      "control_id": "sizing_studio.stage_material",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.stage_material",
+      "sequence_number": 28,
+      "screen_state_id": "SizingStudioView",
+      "source_hash": "a02ffead41ca603c"
+    },
+    {
+      "control_id": "sizing_studio.stage_recovery",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.stage_recovery",
+      "sequence_number": 29,
+      "screen_state_id": "SizingStudioView",
+      "source_hash": "0d49499f0417ee2d"
+    },
+    {
+      "control_id": "sizing_studio.booster_count",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.booster_count",
+      "sequence_number": 30,
+      "screen_state_id": "SizingStudioView",
+      "source_hash": "5f1473069b1b094e"
+    },
+    {
+      "control_id": "sizing_studio.booster_engine",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.booster_engine",
+      "sequence_number": 31,
+      "screen_state_id": "SizingStudioView",
+      "source_hash": "56c06a1115b8b8df"
+    },
+    {
+      "control_id": "sizing_studio.staging_mode",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.staging_mode",
+      "sequence_number": 32,
+      "screen_state_id": "SizingStudioView",
+      "source_hash": "bc7183a53e971a8b"
+    },
+    {
+      "control_id": "sizing_studio.fairing_profile",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.fairing_profile",
+      "sequence_number": 33,
+      "screen_state_id": "SizingStudioView",
+      "source_hash": "577eeb4a52fc9c41"
+    },
+    {
+      "control_id": "sizing_studio.cryo_state",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.cryo_state",
+      "sequence_number": 34,
+      "screen_state_id": "SizingStudioView",
+      "source_hash": "2ebdc18bf6df5e4a"
+    },
+    {
+      "control_id": "sizing_studio.s1_dv_split",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.s1_dv_split::disabled",
+      "sequence_number": 35,
+      "screen_state_id": "SizingStudioView:disabled",
+      "source_hash": "7882278e3c477a98"
+    },
+    {
+      "control_id": "sizing_studio.s1_dv_split",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.s1_dv_split",
+      "sequence_number": 36,
+      "screen_state_id": "SizingStudioView",
+      "source_hash": "7882278e3c477a98"
+    },
+    {
+      "control_id": "sizing_studio.expected_reuses",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.expected_reuses::disabled",
+      "sequence_number": 37,
+      "screen_state_id": "SizingStudioView:disabled",
+      "source_hash": "aa2b9ea56137d929"
+    },
+    {
+      "control_id": "sizing_studio.expected_reuses",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.expected_reuses",
+      "sequence_number": 38,
+      "screen_state_id": "SizingStudioView",
+      "source_hash": "aa2b9ea56137d929"
+    },
+    {
+      "control_id": "sizing_studio.mass_margin",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.mass_margin::disabled",
+      "sequence_number": 39,
+      "screen_state_id": "SizingStudioView:disabled",
+      "source_hash": "659f9244246ce6bc"
+    },
+    {
+      "control_id": "sizing_studio.mass_margin",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.mass_margin",
+      "sequence_number": 40,
+      "screen_state_id": "SizingStudioView",
+      "source_hash": "659f9244246ce6bc"
+    },
+    {
+      "control_id": "sizing_studio.enforce_packing",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.enforce_packing::disabled",
+      "sequence_number": 41,
+      "screen_state_id": "SizingStudioView:disabled",
+      "source_hash": "4685392e8eb88d3b"
+    },
+    {
+      "control_id": "sizing_studio.enforce_packing",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.enforce_packing",
+      "sequence_number": 42,
+      "screen_state_id": "SizingStudioView",
+      "source_hash": "4685392e8eb88d3b"
+    },
+    {
+      "control_id": "sizing_studio.enforce_packing",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.enforce_packing::disabled",
+      "sequence_number": 43,
+      "screen_state_id": "SizingStudioView:disabled",
+      "source_hash": "4685392e8eb88d3b"
+    },
+    {
+      "control_id": "sizing_studio.enforce_packing",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.enforce_packing",
+      "sequence_number": 44,
+      "screen_state_id": "SizingStudioView",
+      "source_hash": "4685392e8eb88d3b"
+    },
+    {
+      "control_id": "sizing_studio.pressurization_toggle",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.pressurization_toggle::disabled",
+      "sequence_number": 45,
+      "screen_state_id": "SizingStudioView:disabled",
+      "source_hash": "54b136931e0cd69b"
+    },
+    {
+      "control_id": "sizing_studio.pressurization_toggle",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.pressurization_toggle",
+      "sequence_number": 46,
+      "screen_state_id": "SizingStudioView",
+      "source_hash": "54b136931e0cd69b"
+    },
+    {
+      "control_id": "sizing_studio.pressurization_toggle",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.pressurization_toggle::disabled",
+      "sequence_number": 47,
+      "screen_state_id": "SizingStudioView:disabled",
+      "source_hash": "54b136931e0cd69b"
+    },
+    {
+      "control_id": "sizing_studio.pressurization_toggle",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.pressurization_toggle",
+      "sequence_number": 48,
+      "screen_state_id": "SizingStudioView",
+      "source_hash": "54b136931e0cd69b"
+    },
+    {
+      "control_id": "sizing_studio.export_brief_btn",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.export_brief_btn::disabled",
+      "sequence_number": 49,
+      "screen_state_id": "SizingStudioView:disabled",
+      "source_hash": "d5a0b7daf0644a1d"
+    },
+    {
+      "control_id": "sizing_studio.export_brief_btn",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.export_brief_btn",
+      "sequence_number": 50,
+      "screen_state_id": "SizingStudioView",
+      "source_hash": "d5a0b7daf0644a1d"
+    },
+    {
+      "control_id": "base_layout.tvc_toggle",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::BaseLayoutView::base_layout.tvc_toggle::disabled",
+      "sequence_number": 51,
+      "screen_state_id": "BaseLayoutView:disabled",
+      "source_hash": "1493fa0bf7eefb12"
+    },
+    {
+      "control_id": "base_layout.tvc_toggle",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::BaseLayoutView::base_layout.tvc_toggle",
+      "sequence_number": 52,
+      "screen_state_id": "BaseLayoutView",
+      "source_hash": "1493fa0bf7eefb12"
+    },
+    {
+      "control_id": "base_layout.notouch_toggle",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::BaseLayoutView::base_layout.notouch_toggle::disabled",
+      "sequence_number": 53,
+      "screen_state_id": "BaseLayoutView:disabled",
+      "source_hash": "97a231c57a457411"
+    },
+    {
+      "control_id": "base_layout.notouch_toggle",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::BaseLayoutView::base_layout.notouch_toggle",
+      "sequence_number": 54,
+      "screen_state_id": "BaseLayoutView",
+      "source_hash": "97a231c57a457411"
+    },
+    {
+      "control_id": "base_layout.reset_btn",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::BaseLayoutView::base_layout.reset_btn::disabled",
+      "sequence_number": 55,
+      "screen_state_id": "BaseLayoutView:disabled",
+      "source_hash": "95c504ba1f112119"
+    },
+    {
+      "control_id": "base_layout.reset_btn",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::BaseLayoutView::base_layout.reset_btn",
+      "sequence_number": 56,
+      "screen_state_id": "BaseLayoutView",
+      "source_hash": "95c504ba1f112119"
+    },
+    {
+      "control_id": "sizing_studio.rubber_scale_open",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.rubber_scale_open::disabled",
+      "sequence_number": 57,
+      "screen_state_id": "SizingStudioView:disabled",
+      "source_hash": "067beddf17941890"
+    },
+    {
+      "control_id": "sizing_studio.rubber_scale_open",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.rubber_scale_open",
+      "sequence_number": 58,
+      "screen_state_id": "SizingStudioView",
+      "source_hash": "067beddf17941890"
+    },
+    {
+      "control_id": "sizing_studio.rubber_ref",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::RubberModal::sizing_studio.rubber_ref",
+      "sequence_number": 59,
+      "screen_state_id": "RubberModal",
+      "source_hash": "ae9246d77547c807"
+    },
+    {
+      "control_id": "sizing_studio.rubber_target_stage",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::RubberModal::sizing_studio.rubber_target_stage",
+      "sequence_number": 60,
+      "screen_state_id": "RubberModal",
+      "source_hash": "e637a986959177cc"
+    },
+    {
+      "control_id": "sizing_studio.rubber_apply",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::RubberModal::sizing_studio.rubber_apply::disabled",
+      "sequence_number": 61,
+      "screen_state_id": "RubberModal:disabled",
+      "source_hash": "b9f2e3314a1e1e66"
+    },
+    {
+      "control_id": "sizing_studio.rubber_apply",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::RubberModal::sizing_studio.rubber_apply",
+      "sequence_number": 62,
+      "screen_state_id": "RubberModal",
+      "source_hash": "b9f2e3314a1e1e66"
+    },
+    {
+      "control_id": "sizing_studio.rubber_cancel",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::RubberModal::sizing_studio.rubber_cancel::disabled",
+      "sequence_number": 63,
+      "screen_state_id": "RubberModal:disabled",
+      "source_hash": "051aec4bbc58f102"
+    },
+    {
+      "control_id": "sizing_studio.rubber_cancel",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::RubberModal::sizing_studio.rubber_cancel",
+      "sequence_number": 64,
+      "screen_state_id": "RubberModal",
+      "source_hash": "051aec4bbc58f102"
+    },
+    {
+      "control_id": "sizing_studio.inspect_cost",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.inspect_cost::disabled",
+      "sequence_number": 65,
+      "screen_state_id": "SizingStudioView:disabled",
+      "source_hash": "d055b77f5602ebf7"
+    },
+    {
+      "control_id": "sizing_studio.inspect_cost",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.inspect_cost",
+      "sequence_number": 66,
+      "screen_state_id": "SizingStudioView",
+      "source_hash": "d055b77f5602ebf7"
+    },
+    {
+      "control_id": "inspector.close_btn",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::ProvenanceDrawer::inspector.close_btn::disabled",
+      "sequence_number": 67,
+      "screen_state_id": "ProvenanceDrawer:disabled",
+      "source_hash": "6affbf5d9f8f9b2b"
+    },
+    {
+      "control_id": "inspector.close_btn",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::ProvenanceDrawer::inspector.close_btn",
+      "sequence_number": 68,
+      "screen_state_id": "ProvenanceDrawer",
+      "source_hash": "6affbf5d9f8f9b2b"
+    },
+    {
+      "control_id": "sizing_studio.inspect_glow",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.inspect_glow::disabled",
+      "sequence_number": 69,
+      "screen_state_id": "SizingStudioView:disabled",
+      "source_hash": "2e0dffa183956e41"
+    },
+    {
+      "control_id": "sizing_studio.inspect_glow",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.inspect_glow",
+      "sequence_number": 70,
+      "screen_state_id": "SizingStudioView",
+      "source_hash": "2e0dffa183956e41"
+    },
+    {
+      "control_id": "inspector.correction_value",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::ProvenanceDrawer::inspector.correction_value::disabled",
+      "sequence_number": 71,
+      "screen_state_id": "ProvenanceDrawer:disabled",
+      "source_hash": "84ec6188e0362931"
+    },
+    {
+      "control_id": "inspector.correction_value",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::ProvenanceDrawer::inspector.correction_value",
+      "sequence_number": 72,
+      "screen_state_id": "ProvenanceDrawer",
+      "source_hash": "84ec6188e0362931"
+    },
+    {
+      "control_id": "inspector.correction_rationale",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::ProvenanceDrawer::inspector.correction_rationale",
+      "sequence_number": 73,
+      "screen_state_id": "ProvenanceDrawer",
+      "source_hash": "df87f2946f758815"
+    },
+    {
+      "control_id": "inspector.submit_correction",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::ProvenanceDrawer::inspector.submit_correction::disabled",
+      "sequence_number": 74,
+      "screen_state_id": "ProvenanceDrawer:disabled",
+      "source_hash": "e46e34bfbf464660"
+    },
+    {
+      "control_id": "inspector.submit_correction",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::ProvenanceDrawer::inspector.submit_correction",
+      "sequence_number": 75,
+      "screen_state_id": "ProvenanceDrawer",
+      "source_hash": "e46e34bfbf464660"
+    },
+    {
+      "control_id": "sizing_studio.back_to_search_top",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.back_to_search_top::disabled",
+      "sequence_number": 76,
+      "screen_state_id": "SizingStudioView:disabled",
+      "source_hash": "0b6df9a182c307c9"
+    },
+    {
+      "control_id": "sizing_studio.back_to_search_top",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.back_to_search_top",
+      "sequence_number": 77,
+      "screen_state_id": "SizingStudioView",
+      "source_hash": "0b6df9a182c307c9"
+    },
+    {
+      "control_id": "sizing_studio.back_to_search_btn",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.back_to_search_btn::disabled",
+      "sequence_number": 78,
+      "screen_state_id": "SizingStudioView:disabled",
+      "source_hash": "582014206e9d6949"
+    },
+    {
+      "control_id": "sizing_studio.back_to_search_btn",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::SizingStudioView::sizing_studio.back_to_search_btn",
+      "sequence_number": 79,
+      "screen_state_id": "SizingStudioView",
+      "source_hash": "582014206e9d6949"
+    },
+    {
+      "control_id": "heritage_vehicles.search",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::HeritageVehiclesView::heritage_vehicles.search::disabled",
+      "sequence_number": 80,
+      "screen_state_id": "HeritageVehiclesView:disabled",
+      "source_hash": "0f7f780d75d02e5f"
+    },
+    {
+      "control_id": "heritage_vehicles.search",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::HeritageVehiclesView::heritage_vehicles.search",
+      "sequence_number": 81,
+      "screen_state_id": "HeritageVehiclesView",
+      "source_hash": "0f7f780d75d02e5f"
+    },
+    {
+      "control_id": "heritage_vehicles.country_filter",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::HeritageVehiclesView::heritage_vehicles.country_filter",
+      "sequence_number": 82,
+      "screen_state_id": "HeritageVehiclesView",
+      "source_hash": "f5ce6689a389f427"
+    },
+    {
+      "control_id": "heritage_vehicles.status_filter",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::HeritageVehiclesView::heritage_vehicles.status_filter",
+      "sequence_number": 83,
+      "screen_state_id": "HeritageVehiclesView",
+      "source_hash": "687150d9d1a5d0ab"
+    },
+    {
+      "control_id": "catalog.column_picker_btn",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::HeritageVehiclesView::catalog.column_picker_btn::disabled",
+      "sequence_number": 84,
+      "screen_state_id": "HeritageVehiclesView:disabled",
+      "source_hash": "a0d2021174548ead"
+    },
+    {
+      "control_id": "catalog.column_picker_btn",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::HeritageVehiclesView::catalog.column_picker_btn",
+      "sequence_number": 85,
+      "screen_state_id": "HeritageVehiclesView",
+      "source_hash": "a0d2021174548ead"
+    },
+    {
+      "control_id": "catalog.col_toggle",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::HeritageVehiclesView::catalog.col_toggle::disabled",
+      "sequence_number": 86,
+      "screen_state_id": "HeritageVehiclesView:disabled",
+      "source_hash": "3116cedadc26a12e"
+    },
+    {
+      "control_id": "catalog.col_toggle",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::HeritageVehiclesView::catalog.col_toggle",
+      "sequence_number": 87,
+      "screen_state_id": "HeritageVehiclesView",
+      "source_hash": "3116cedadc26a12e"
+    },
+    {
+      "control_id": "catalog.sort_col",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::HeritageVehiclesView::catalog.sort_col::disabled",
+      "sequence_number": 88,
+      "screen_state_id": "HeritageVehiclesView:disabled",
+      "source_hash": "3cb97401373d9170"
+    },
+    {
+      "control_id": "catalog.sort_col",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::HeritageVehiclesView::catalog.sort_col",
+      "sequence_number": 89,
+      "screen_state_id": "HeritageVehiclesView",
+      "source_hash": "3cb97401373d9170"
+    },
+    {
+      "control_id": "heritage_vehicles.inspect_cell",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::HeritageVehiclesView::heritage_vehicles.inspect_cell::disabled",
+      "sequence_number": 90,
+      "screen_state_id": "HeritageVehiclesView:disabled",
+      "source_hash": "bf4935756939bc6a"
+    },
+    {
+      "control_id": "heritage_vehicles.inspect_cell",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::HeritageVehiclesView::heritage_vehicles.inspect_cell",
+      "sequence_number": 91,
+      "screen_state_id": "HeritageVehiclesView",
+      "source_hash": "bf4935756939bc6a"
+    },
+    {
+      "control_id": "inspector.citation_link",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::ProvenanceDrawer::inspector.citation_link",
+      "sequence_number": 92,
+      "screen_state_id": "ProvenanceDrawer",
+      "source_hash": "18c8722123ec67b5"
+    },
+    {
+      "control_id": "heritage_engines.search",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::HeritageEnginesView::heritage_engines.search::disabled",
+      "sequence_number": 93,
+      "screen_state_id": "HeritageEnginesView:disabled",
+      "source_hash": "2fa0e7e4af8676c9"
+    },
+    {
+      "control_id": "heritage_engines.search",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::HeritageEnginesView::heritage_engines.search",
+      "sequence_number": 94,
+      "screen_state_id": "HeritageEnginesView",
+      "source_hash": "2fa0e7e4af8676c9"
+    },
+    {
+      "control_id": "heritage_engines.propellant_filter",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::HeritageEnginesView::heritage_engines.propellant_filter",
+      "sequence_number": 95,
+      "screen_state_id": "HeritageEnginesView",
+      "source_hash": "ad0a2b1ba2234562"
+    },
+    {
+      "control_id": "heritage_engines.cycle_filter",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::HeritageEnginesView::heritage_engines.cycle_filter",
+      "sequence_number": 96,
+      "screen_state_id": "HeritageEnginesView",
+      "source_hash": "53cfd4f5de5c82ee"
+    },
+    {
+      "control_id": "heritage_engines.rubber_ref",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::HeritageEnginesView::heritage_engines.rubber_ref",
+      "sequence_number": 97,
+      "screen_state_id": "HeritageEnginesView",
+      "source_hash": "9e28adc87e77abbd"
+    },
+    {
+      "control_id": "heritage_engines.rubber_preview_btn",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::HeritageEnginesView::heritage_engines.rubber_preview_btn::disabled",
+      "sequence_number": 98,
+      "screen_state_id": "HeritageEnginesView:disabled",
+      "source_hash": "13dd71a088a7104e"
+    },
+    {
+      "control_id": "heritage_engines.rubber_preview_btn",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::HeritageEnginesView::heritage_engines.rubber_preview_btn",
+      "sequence_number": 99,
+      "screen_state_id": "HeritageEnginesView",
+      "source_hash": "13dd71a088a7104e"
+    },
+    {
+      "control_id": "heritage_engines.rubber_save_btn",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::HeritageEnginesView::heritage_engines.rubber_save_btn::disabled",
+      "sequence_number": 100,
+      "screen_state_id": "HeritageEnginesView:disabled",
+      "source_hash": "6d80b81d8bdbec79"
+    },
+    {
+      "control_id": "heritage_engines.rubber_save_btn",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::HeritageEnginesView::heritage_engines.rubber_save_btn",
+      "sequence_number": 101,
+      "screen_state_id": "HeritageEnginesView",
+      "source_hash": "6d80b81d8bdbec79"
+    },
+    {
+      "control_id": "heritage_engines.inspect_cell",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::HeritageEnginesView::heritage_engines.inspect_cell::disabled",
+      "sequence_number": 102,
+      "screen_state_id": "HeritageEnginesView:disabled",
+      "source_hash": "64737925630c9d40"
+    },
+    {
+      "control_id": "heritage_engines.inspect_cell",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::HeritageEnginesView::heritage_engines.inspect_cell",
+      "sequence_number": 103,
+      "screen_state_id": "HeritageEnginesView",
+      "source_hash": "64737925630c9d40"
+    },
+    {
+      "control_id": "scale_lineup.auto_match_btn",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::ScaleLineupView::scale_lineup.auto_match_btn::disabled",
+      "sequence_number": 104,
+      "screen_state_id": "ScaleLineupView:disabled",
+      "source_hash": "6605dcef8dfe03f4"
+    },
+    {
+      "control_id": "scale_lineup.auto_match_btn",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::ScaleLineupView::scale_lineup.auto_match_btn",
+      "sequence_number": 105,
+      "screen_state_id": "ScaleLineupView",
+      "source_hash": "6605dcef8dfe03f4"
+    },
+    {
+      "control_id": "scale_lineup.theme_toggle",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::ScaleLineupView::scale_lineup.theme_toggle::disabled",
+      "sequence_number": 106,
+      "screen_state_id": "ScaleLineupView:disabled",
+      "source_hash": "c9b5170f249b0fa9"
+    },
+    {
+      "control_id": "scale_lineup.theme_toggle",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::ScaleLineupView::scale_lineup.theme_toggle",
+      "sequence_number": 107,
+      "screen_state_id": "ScaleLineupView",
+      "source_hash": "c9b5170f249b0fa9"
+    },
+    {
+      "control_id": "scale_lineup.export_svg_btn",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::ScaleLineupView::scale_lineup.export_svg_btn::disabled",
+      "sequence_number": 108,
+      "screen_state_id": "ScaleLineupView:disabled",
+      "source_hash": "62cac70eb4c294c8"
+    },
+    {
+      "control_id": "scale_lineup.export_svg_btn",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::ScaleLineupView::scale_lineup.export_svg_btn",
+      "sequence_number": 109,
+      "screen_state_id": "ScaleLineupView",
+      "source_hash": "62cac70eb4c294c8"
+    },
+    {
+      "control_id": "scale_lineup.vehicle_checkbox",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::ScaleLineupView::scale_lineup.vehicle_checkbox::disabled",
+      "sequence_number": 110,
+      "screen_state_id": "ScaleLineupView:disabled",
+      "source_hash": "810716dd7f793bfb"
+    },
+    {
+      "control_id": "scale_lineup.vehicle_checkbox",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::ScaleLineupView::scale_lineup.vehicle_checkbox",
+      "sequence_number": 111,
+      "screen_state_id": "ScaleLineupView",
+      "source_hash": "810716dd7f793bfb"
+    },
+    {
+      "control_id": "sensitivity_studio.sweep_param",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::SensitivityStudioView::sensitivity_studio.sweep_param",
+      "sequence_number": 112,
+      "screen_state_id": "SensitivityStudioView",
+      "source_hash": "4e5fea38cadacd4a"
+    },
+    {
+      "control_id": "sensitivity_studio.run_sweep_btn",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::SensitivityStudioView::sensitivity_studio.run_sweep_btn::disabled",
+      "sequence_number": 113,
+      "screen_state_id": "SensitivityStudioView:disabled",
+      "source_hash": "e57e3ce6f24fc224"
+    },
+    {
+      "control_id": "sensitivity_studio.run_sweep_btn",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::SensitivityStudioView::sensitivity_studio.run_sweep_btn",
+      "sequence_number": 114,
+      "screen_state_id": "SensitivityStudioView",
+      "source_hash": "e57e3ce6f24fc224"
+    },
+    {
+      "control_id": "sensitivity_studio.export_csv_btn",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::SensitivityStudioView::sensitivity_studio.export_csv_btn::disabled",
+      "sequence_number": 115,
+      "screen_state_id": "SensitivityStudioView:disabled",
+      "source_hash": "005238b7fbec2f48"
+    },
+    {
+      "control_id": "sensitivity_studio.export_csv_btn",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::SensitivityStudioView::sensitivity_studio.export_csv_btn",
+      "sequence_number": 116,
+      "screen_state_id": "SensitivityStudioView",
+      "source_hash": "005238b7fbec2f48"
+    },
+    {
+      "control_id": "sensitivity_studio.export_md_btn",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::SensitivityStudioView::sensitivity_studio.export_md_btn::disabled",
+      "sequence_number": 117,
+      "screen_state_id": "SensitivityStudioView:disabled",
+      "source_hash": "5748367748958726"
+    },
+    {
+      "control_id": "sensitivity_studio.export_md_btn",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::SensitivityStudioView::sensitivity_studio.export_md_btn",
+      "sequence_number": 118,
+      "screen_state_id": "SensitivityStudioView",
+      "source_hash": "5748367748958726"
+    },
+    {
+      "control_id": "sensitivity_studio.print_pdf_btn",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "disabled",
+      "test_node_id": "cdp::SensitivityStudioView::sensitivity_studio.print_pdf_btn::disabled",
+      "sequence_number": 119,
+      "screen_state_id": "SensitivityStudioView:disabled",
+      "source_hash": "35c7a5d1cd8ff3eb"
+    },
+    {
+      "control_id": "sensitivity_studio.print_pdf_btn",
+      "input_kind": "mouse",
+      "trusted": true,
+      "control_state": "enabled",
+      "test_node_id": "cdp::SensitivityStudioView::sensitivity_studio.print_pdf_btn",
+      "sequence_number": 120,
+      "screen_state_id": "SensitivityStudioView",
+      "source_hash": "35c7a5d1cd8ff3eb"
+    }
+  ],
+  "cases": [
+    {
+      "context_id": "HeritageEnginesView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "heritage_engines.inspect_cell",
+        "heritage_engines.inspect_cell"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "HeritageEnginesView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "heritage_engines.inspect_cell",
+        "heritage_engines.rubber_preview_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "HeritageEnginesView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "heritage_engines.inspect_cell",
+        "heritage_engines.rubber_save_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "HeritageEnginesView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "heritage_engines.rubber_preview_btn",
+        "heritage_engines.inspect_cell"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "HeritageEnginesView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "heritage_engines.rubber_preview_btn",
+        "heritage_engines.rubber_preview_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "HeritageEnginesView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "heritage_engines.rubber_preview_btn",
+        "heritage_engines.rubber_save_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "HeritageEnginesView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "heritage_engines.rubber_save_btn",
+        "heritage_engines.inspect_cell"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "HeritageEnginesView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "heritage_engines.rubber_save_btn",
+        "heritage_engines.rubber_preview_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "HeritageEnginesView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "heritage_engines.rubber_save_btn",
+        "heritage_engines.rubber_save_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "HeritageEnginesView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "heritage_engines.inspect_cell",
+        "heritage_engines.inspect_cell",
+        "heritage_engines.inspect_cell"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "HeritageEnginesView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "heritage_engines.inspect_cell",
+        "heritage_engines.inspect_cell",
+        "heritage_engines.rubber_preview_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "HeritageEnginesView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "heritage_engines.inspect_cell",
+        "heritage_engines.inspect_cell",
+        "heritage_engines.rubber_save_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "HeritageEnginesView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "heritage_engines.inspect_cell",
+        "heritage_engines.rubber_preview_btn",
+        "heritage_engines.inspect_cell"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "HeritageEnginesView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "heritage_engines.inspect_cell",
+        "heritage_engines.rubber_preview_btn",
+        "heritage_engines.rubber_preview_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "HeritageEnginesView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "heritage_engines.inspect_cell",
+        "heritage_engines.rubber_preview_btn",
+        "heritage_engines.rubber_save_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "HeritageEnginesView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "heritage_engines.inspect_cell",
+        "heritage_engines.rubber_save_btn",
+        "heritage_engines.inspect_cell"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "HeritageEnginesView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "heritage_engines.inspect_cell",
+        "heritage_engines.rubber_save_btn",
+        "heritage_engines.rubber_preview_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "HeritageEnginesView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "heritage_engines.inspect_cell",
+        "heritage_engines.rubber_save_btn",
+        "heritage_engines.rubber_save_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "HeritageEnginesView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "heritage_engines.rubber_preview_btn",
+        "heritage_engines.inspect_cell",
+        "heritage_engines.inspect_cell"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "HeritageEnginesView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "heritage_engines.rubber_preview_btn",
+        "heritage_engines.inspect_cell",
+        "heritage_engines.rubber_preview_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "HeritageEnginesView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "heritage_engines.rubber_preview_btn",
+        "heritage_engines.inspect_cell",
+        "heritage_engines.rubber_save_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "HeritageEnginesView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "heritage_engines.rubber_preview_btn",
+        "heritage_engines.rubber_preview_btn",
+        "heritage_engines.inspect_cell"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "HeritageEnginesView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "heritage_engines.rubber_preview_btn",
+        "heritage_engines.rubber_preview_btn",
+        "heritage_engines.rubber_preview_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "HeritageEnginesView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "heritage_engines.rubber_preview_btn",
+        "heritage_engines.rubber_preview_btn",
+        "heritage_engines.rubber_save_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "HeritageEnginesView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "heritage_engines.rubber_preview_btn",
+        "heritage_engines.rubber_save_btn",
+        "heritage_engines.inspect_cell"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "HeritageEnginesView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "heritage_engines.rubber_preview_btn",
+        "heritage_engines.rubber_save_btn",
+        "heritage_engines.rubber_preview_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "HeritageEnginesView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "heritage_engines.rubber_preview_btn",
+        "heritage_engines.rubber_save_btn",
+        "heritage_engines.rubber_save_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "HeritageEnginesView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "heritage_engines.rubber_save_btn",
+        "heritage_engines.inspect_cell",
+        "heritage_engines.inspect_cell"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "HeritageEnginesView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "heritage_engines.rubber_save_btn",
+        "heritage_engines.inspect_cell",
+        "heritage_engines.rubber_preview_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "HeritageEnginesView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "heritage_engines.rubber_save_btn",
+        "heritage_engines.inspect_cell",
+        "heritage_engines.rubber_save_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "HeritageEnginesView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "heritage_engines.rubber_save_btn",
+        "heritage_engines.rubber_preview_btn",
+        "heritage_engines.inspect_cell"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "HeritageEnginesView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "heritage_engines.rubber_save_btn",
+        "heritage_engines.rubber_preview_btn",
+        "heritage_engines.rubber_preview_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "HeritageEnginesView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "heritage_engines.rubber_save_btn",
+        "heritage_engines.rubber_preview_btn",
+        "heritage_engines.rubber_save_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "HeritageEnginesView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "heritage_engines.rubber_save_btn",
+        "heritage_engines.rubber_save_btn",
+        "heritage_engines.inspect_cell"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "HeritageEnginesView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "heritage_engines.rubber_save_btn",
+        "heritage_engines.rubber_save_btn",
+        "heritage_engines.rubber_preview_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "HeritageEnginesView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "heritage_engines.rubber_save_btn",
+        "heritage_engines.rubber_save_btn",
+        "heritage_engines.rubber_save_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "HeritageVehiclesView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "heritage_vehicles.inspect_cell",
+        "heritage_vehicles.inspect_cell"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "HeritageVehiclesView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "heritage_vehicles.inspect_cell",
+        "heritage_vehicles.inspect_cell",
+        "heritage_vehicles.inspect_cell"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "ScaleLineupView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "scale_lineup.auto_match_btn",
+        "scale_lineup.auto_match_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "ScaleLineupView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "scale_lineup.auto_match_btn",
+        "scale_lineup.theme_toggle"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "ScaleLineupView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "scale_lineup.auto_match_btn",
+        "scale_lineup.export_svg_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "ScaleLineupView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "scale_lineup.theme_toggle",
+        "scale_lineup.auto_match_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "ScaleLineupView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "scale_lineup.theme_toggle",
+        "scale_lineup.theme_toggle"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "ScaleLineupView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "scale_lineup.theme_toggle",
+        "scale_lineup.export_svg_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "ScaleLineupView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "scale_lineup.export_svg_btn",
+        "scale_lineup.auto_match_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "ScaleLineupView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "scale_lineup.export_svg_btn",
+        "scale_lineup.theme_toggle"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "ScaleLineupView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "scale_lineup.export_svg_btn",
+        "scale_lineup.export_svg_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "ScaleLineupView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "scale_lineup.auto_match_btn",
+        "scale_lineup.auto_match_btn",
+        "scale_lineup.auto_match_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "ScaleLineupView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "scale_lineup.auto_match_btn",
+        "scale_lineup.auto_match_btn",
+        "scale_lineup.theme_toggle"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "ScaleLineupView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "scale_lineup.auto_match_btn",
+        "scale_lineup.auto_match_btn",
+        "scale_lineup.export_svg_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "ScaleLineupView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "scale_lineup.auto_match_btn",
+        "scale_lineup.theme_toggle",
+        "scale_lineup.auto_match_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "ScaleLineupView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "scale_lineup.auto_match_btn",
+        "scale_lineup.theme_toggle",
+        "scale_lineup.theme_toggle"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "ScaleLineupView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "scale_lineup.auto_match_btn",
+        "scale_lineup.theme_toggle",
+        "scale_lineup.export_svg_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "ScaleLineupView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "scale_lineup.auto_match_btn",
+        "scale_lineup.export_svg_btn",
+        "scale_lineup.auto_match_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "ScaleLineupView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "scale_lineup.auto_match_btn",
+        "scale_lineup.export_svg_btn",
+        "scale_lineup.theme_toggle"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "ScaleLineupView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "scale_lineup.auto_match_btn",
+        "scale_lineup.export_svg_btn",
+        "scale_lineup.export_svg_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "ScaleLineupView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "scale_lineup.theme_toggle",
+        "scale_lineup.auto_match_btn",
+        "scale_lineup.auto_match_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "ScaleLineupView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "scale_lineup.theme_toggle",
+        "scale_lineup.auto_match_btn",
+        "scale_lineup.theme_toggle"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "ScaleLineupView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "scale_lineup.theme_toggle",
+        "scale_lineup.auto_match_btn",
+        "scale_lineup.export_svg_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "ScaleLineupView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "scale_lineup.theme_toggle",
+        "scale_lineup.theme_toggle",
+        "scale_lineup.auto_match_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "ScaleLineupView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "scale_lineup.theme_toggle",
+        "scale_lineup.theme_toggle",
+        "scale_lineup.theme_toggle"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "ScaleLineupView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "scale_lineup.theme_toggle",
+        "scale_lineup.theme_toggle",
+        "scale_lineup.export_svg_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "ScaleLineupView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "scale_lineup.theme_toggle",
+        "scale_lineup.export_svg_btn",
+        "scale_lineup.auto_match_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "ScaleLineupView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "scale_lineup.theme_toggle",
+        "scale_lineup.export_svg_btn",
+        "scale_lineup.theme_toggle"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "ScaleLineupView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "scale_lineup.theme_toggle",
+        "scale_lineup.export_svg_btn",
+        "scale_lineup.export_svg_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "ScaleLineupView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "scale_lineup.export_svg_btn",
+        "scale_lineup.auto_match_btn",
+        "scale_lineup.auto_match_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "ScaleLineupView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "scale_lineup.export_svg_btn",
+        "scale_lineup.auto_match_btn",
+        "scale_lineup.theme_toggle"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "ScaleLineupView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "scale_lineup.export_svg_btn",
+        "scale_lineup.auto_match_btn",
+        "scale_lineup.export_svg_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "ScaleLineupView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "scale_lineup.export_svg_btn",
+        "scale_lineup.theme_toggle",
+        "scale_lineup.auto_match_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "ScaleLineupView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "scale_lineup.export_svg_btn",
+        "scale_lineup.theme_toggle",
+        "scale_lineup.theme_toggle"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "ScaleLineupView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "scale_lineup.export_svg_btn",
+        "scale_lineup.theme_toggle",
+        "scale_lineup.export_svg_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "ScaleLineupView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "scale_lineup.export_svg_btn",
+        "scale_lineup.export_svg_btn",
+        "scale_lineup.auto_match_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "ScaleLineupView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "scale_lineup.export_svg_btn",
+        "scale_lineup.export_svg_btn",
+        "scale_lineup.theme_toggle"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "ScaleLineupView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "scale_lineup.export_svg_btn",
+        "scale_lineup.export_svg_btn",
+        "scale_lineup.export_svg_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sensitivity_studio.run_sweep_btn",
+        "sensitivity_studio.run_sweep_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sensitivity_studio.run_sweep_btn",
+        "sensitivity_studio.export_csv_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sensitivity_studio.run_sweep_btn",
+        "sensitivity_studio.export_md_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sensitivity_studio.run_sweep_btn",
+        "sensitivity_studio.print_pdf_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sensitivity_studio.export_csv_btn",
+        "sensitivity_studio.run_sweep_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sensitivity_studio.export_csv_btn",
+        "sensitivity_studio.export_csv_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sensitivity_studio.export_csv_btn",
+        "sensitivity_studio.export_md_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sensitivity_studio.export_csv_btn",
+        "sensitivity_studio.print_pdf_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sensitivity_studio.export_md_btn",
+        "sensitivity_studio.run_sweep_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sensitivity_studio.export_md_btn",
+        "sensitivity_studio.export_csv_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sensitivity_studio.export_md_btn",
+        "sensitivity_studio.export_md_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sensitivity_studio.export_md_btn",
+        "sensitivity_studio.print_pdf_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sensitivity_studio.print_pdf_btn",
+        "sensitivity_studio.run_sweep_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sensitivity_studio.print_pdf_btn",
+        "sensitivity_studio.export_csv_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sensitivity_studio.print_pdf_btn",
+        "sensitivity_studio.export_md_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sensitivity_studio.print_pdf_btn",
+        "sensitivity_studio.print_pdf_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.run_sweep_btn",
+        "sensitivity_studio.run_sweep_btn",
+        "sensitivity_studio.run_sweep_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.run_sweep_btn",
+        "sensitivity_studio.run_sweep_btn",
+        "sensitivity_studio.export_csv_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.run_sweep_btn",
+        "sensitivity_studio.run_sweep_btn",
+        "sensitivity_studio.export_md_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.run_sweep_btn",
+        "sensitivity_studio.run_sweep_btn",
+        "sensitivity_studio.print_pdf_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.run_sweep_btn",
+        "sensitivity_studio.export_csv_btn",
+        "sensitivity_studio.run_sweep_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.run_sweep_btn",
+        "sensitivity_studio.export_csv_btn",
+        "sensitivity_studio.export_csv_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.run_sweep_btn",
+        "sensitivity_studio.export_csv_btn",
+        "sensitivity_studio.export_md_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.run_sweep_btn",
+        "sensitivity_studio.export_csv_btn",
+        "sensitivity_studio.print_pdf_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.run_sweep_btn",
+        "sensitivity_studio.export_md_btn",
+        "sensitivity_studio.run_sweep_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.run_sweep_btn",
+        "sensitivity_studio.export_md_btn",
+        "sensitivity_studio.export_csv_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.run_sweep_btn",
+        "sensitivity_studio.export_md_btn",
+        "sensitivity_studio.export_md_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.run_sweep_btn",
+        "sensitivity_studio.export_md_btn",
+        "sensitivity_studio.print_pdf_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.run_sweep_btn",
+        "sensitivity_studio.print_pdf_btn",
+        "sensitivity_studio.run_sweep_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.run_sweep_btn",
+        "sensitivity_studio.print_pdf_btn",
+        "sensitivity_studio.export_csv_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.run_sweep_btn",
+        "sensitivity_studio.print_pdf_btn",
+        "sensitivity_studio.export_md_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.run_sweep_btn",
+        "sensitivity_studio.print_pdf_btn",
+        "sensitivity_studio.print_pdf_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.export_csv_btn",
+        "sensitivity_studio.run_sweep_btn",
+        "sensitivity_studio.run_sweep_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.export_csv_btn",
+        "sensitivity_studio.run_sweep_btn",
+        "sensitivity_studio.export_csv_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.export_csv_btn",
+        "sensitivity_studio.run_sweep_btn",
+        "sensitivity_studio.export_md_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.export_csv_btn",
+        "sensitivity_studio.run_sweep_btn",
+        "sensitivity_studio.print_pdf_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.export_csv_btn",
+        "sensitivity_studio.export_csv_btn",
+        "sensitivity_studio.run_sweep_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.export_csv_btn",
+        "sensitivity_studio.export_csv_btn",
+        "sensitivity_studio.export_csv_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.export_csv_btn",
+        "sensitivity_studio.export_csv_btn",
+        "sensitivity_studio.export_md_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.export_csv_btn",
+        "sensitivity_studio.export_csv_btn",
+        "sensitivity_studio.print_pdf_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.export_csv_btn",
+        "sensitivity_studio.export_md_btn",
+        "sensitivity_studio.run_sweep_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.export_csv_btn",
+        "sensitivity_studio.export_md_btn",
+        "sensitivity_studio.export_csv_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.export_csv_btn",
+        "sensitivity_studio.export_md_btn",
+        "sensitivity_studio.export_md_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.export_csv_btn",
+        "sensitivity_studio.export_md_btn",
+        "sensitivity_studio.print_pdf_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.export_csv_btn",
+        "sensitivity_studio.print_pdf_btn",
+        "sensitivity_studio.run_sweep_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.export_csv_btn",
+        "sensitivity_studio.print_pdf_btn",
+        "sensitivity_studio.export_csv_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.export_csv_btn",
+        "sensitivity_studio.print_pdf_btn",
+        "sensitivity_studio.export_md_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.export_csv_btn",
+        "sensitivity_studio.print_pdf_btn",
+        "sensitivity_studio.print_pdf_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.export_md_btn",
+        "sensitivity_studio.run_sweep_btn",
+        "sensitivity_studio.run_sweep_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.export_md_btn",
+        "sensitivity_studio.run_sweep_btn",
+        "sensitivity_studio.export_csv_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.export_md_btn",
+        "sensitivity_studio.run_sweep_btn",
+        "sensitivity_studio.export_md_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.export_md_btn",
+        "sensitivity_studio.run_sweep_btn",
+        "sensitivity_studio.print_pdf_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.export_md_btn",
+        "sensitivity_studio.export_csv_btn",
+        "sensitivity_studio.run_sweep_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.export_md_btn",
+        "sensitivity_studio.export_csv_btn",
+        "sensitivity_studio.export_csv_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.export_md_btn",
+        "sensitivity_studio.export_csv_btn",
+        "sensitivity_studio.export_md_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.export_md_btn",
+        "sensitivity_studio.export_csv_btn",
+        "sensitivity_studio.print_pdf_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.export_md_btn",
+        "sensitivity_studio.export_md_btn",
+        "sensitivity_studio.run_sweep_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.export_md_btn",
+        "sensitivity_studio.export_md_btn",
+        "sensitivity_studio.export_csv_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.export_md_btn",
+        "sensitivity_studio.export_md_btn",
+        "sensitivity_studio.export_md_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.export_md_btn",
+        "sensitivity_studio.export_md_btn",
+        "sensitivity_studio.print_pdf_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.export_md_btn",
+        "sensitivity_studio.print_pdf_btn",
+        "sensitivity_studio.run_sweep_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.export_md_btn",
+        "sensitivity_studio.print_pdf_btn",
+        "sensitivity_studio.export_csv_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.export_md_btn",
+        "sensitivity_studio.print_pdf_btn",
+        "sensitivity_studio.export_md_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.export_md_btn",
+        "sensitivity_studio.print_pdf_btn",
+        "sensitivity_studio.print_pdf_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.print_pdf_btn",
+        "sensitivity_studio.run_sweep_btn",
+        "sensitivity_studio.run_sweep_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.print_pdf_btn",
+        "sensitivity_studio.run_sweep_btn",
+        "sensitivity_studio.export_csv_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.print_pdf_btn",
+        "sensitivity_studio.run_sweep_btn",
+        "sensitivity_studio.export_md_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.print_pdf_btn",
+        "sensitivity_studio.run_sweep_btn",
+        "sensitivity_studio.print_pdf_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.print_pdf_btn",
+        "sensitivity_studio.export_csv_btn",
+        "sensitivity_studio.run_sweep_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.print_pdf_btn",
+        "sensitivity_studio.export_csv_btn",
+        "sensitivity_studio.export_csv_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.print_pdf_btn",
+        "sensitivity_studio.export_csv_btn",
+        "sensitivity_studio.export_md_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.print_pdf_btn",
+        "sensitivity_studio.export_csv_btn",
+        "sensitivity_studio.print_pdf_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.print_pdf_btn",
+        "sensitivity_studio.export_md_btn",
+        "sensitivity_studio.run_sweep_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.print_pdf_btn",
+        "sensitivity_studio.export_md_btn",
+        "sensitivity_studio.export_csv_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.print_pdf_btn",
+        "sensitivity_studio.export_md_btn",
+        "sensitivity_studio.export_md_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.print_pdf_btn",
+        "sensitivity_studio.export_md_btn",
+        "sensitivity_studio.print_pdf_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.print_pdf_btn",
+        "sensitivity_studio.print_pdf_btn",
+        "sensitivity_studio.run_sweep_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.print_pdf_btn",
+        "sensitivity_studio.print_pdf_btn",
+        "sensitivity_studio.export_csv_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.print_pdf_btn",
+        "sensitivity_studio.print_pdf_btn",
+        "sensitivity_studio.export_md_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SensitivityStudioView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "sensitivity_studio.print_pdf_btn",
+        "sensitivity_studio.print_pdf_btn",
+        "sensitivity_studio.print_pdf_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.back_to_search_top",
+        "sizing_studio.back_to_search_top"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.back_to_search_top",
+        "sizing_studio.rubber_scale_open"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.back_to_search_top",
+        "sizing_studio.rubber_cancel"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.back_to_search_top",
+        "sizing_studio.rubber_apply"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.back_to_search_top",
+        "sizing_studio.back_to_search_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.back_to_search_top",
+        "sizing_studio.export_brief_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.back_to_search_top",
+        "sizing_studio.inspect_glow"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.back_to_search_top",
+        "sizing_studio.inspect_cost"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.rubber_scale_open",
+        "sizing_studio.back_to_search_top"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.rubber_scale_open",
+        "sizing_studio.rubber_scale_open"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.rubber_scale_open",
+        "sizing_studio.rubber_cancel"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.rubber_scale_open",
+        "sizing_studio.rubber_apply"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.rubber_scale_open",
+        "sizing_studio.back_to_search_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.rubber_scale_open",
+        "sizing_studio.export_brief_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.rubber_scale_open",
+        "sizing_studio.inspect_glow"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.rubber_scale_open",
+        "sizing_studio.inspect_cost"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.rubber_cancel",
+        "sizing_studio.back_to_search_top"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.rubber_cancel",
+        "sizing_studio.rubber_scale_open"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.rubber_cancel",
+        "sizing_studio.rubber_cancel"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.rubber_cancel",
+        "sizing_studio.rubber_apply"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.rubber_cancel",
+        "sizing_studio.back_to_search_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.rubber_cancel",
+        "sizing_studio.export_brief_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.rubber_cancel",
+        "sizing_studio.inspect_glow"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.rubber_cancel",
+        "sizing_studio.inspect_cost"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.rubber_apply",
+        "sizing_studio.back_to_search_top"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.rubber_apply",
+        "sizing_studio.rubber_scale_open"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.rubber_apply",
+        "sizing_studio.rubber_cancel"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.rubber_apply",
+        "sizing_studio.rubber_apply"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.rubber_apply",
+        "sizing_studio.back_to_search_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.rubber_apply",
+        "sizing_studio.export_brief_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.rubber_apply",
+        "sizing_studio.inspect_glow"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.rubber_apply",
+        "sizing_studio.inspect_cost"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.back_to_search_btn",
+        "sizing_studio.back_to_search_top"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.back_to_search_btn",
+        "sizing_studio.rubber_scale_open"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.back_to_search_btn",
+        "sizing_studio.rubber_cancel"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.back_to_search_btn",
+        "sizing_studio.rubber_apply"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.back_to_search_btn",
+        "sizing_studio.back_to_search_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.back_to_search_btn",
+        "sizing_studio.export_brief_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.back_to_search_btn",
+        "sizing_studio.inspect_glow"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.back_to_search_btn",
+        "sizing_studio.inspect_cost"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.export_brief_btn",
+        "sizing_studio.back_to_search_top"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.export_brief_btn",
+        "sizing_studio.rubber_scale_open"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.export_brief_btn",
+        "sizing_studio.rubber_cancel"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.export_brief_btn",
+        "sizing_studio.rubber_apply"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.export_brief_btn",
+        "sizing_studio.back_to_search_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.export_brief_btn",
+        "sizing_studio.export_brief_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.export_brief_btn",
+        "sizing_studio.inspect_glow"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.export_brief_btn",
+        "sizing_studio.inspect_cost"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.inspect_glow",
+        "sizing_studio.back_to_search_top"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.inspect_glow",
+        "sizing_studio.rubber_scale_open"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.inspect_glow",
+        "sizing_studio.rubber_cancel"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.inspect_glow",
+        "sizing_studio.rubber_apply"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.inspect_glow",
+        "sizing_studio.back_to_search_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.inspect_glow",
+        "sizing_studio.export_brief_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.inspect_glow",
+        "sizing_studio.inspect_glow"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.inspect_glow",
+        "sizing_studio.inspect_cost"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.inspect_cost",
+        "sizing_studio.back_to_search_top"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.inspect_cost",
+        "sizing_studio.rubber_scale_open"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.inspect_cost",
+        "sizing_studio.rubber_cancel"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.inspect_cost",
+        "sizing_studio.rubber_apply"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.inspect_cost",
+        "sizing_studio.back_to_search_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.inspect_cost",
+        "sizing_studio.export_brief_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.inspect_cost",
+        "sizing_studio.inspect_glow"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "SizingStudioView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "sizing_studio.inspect_cost",
+        "sizing_studio.inspect_cost"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "BaseLayoutView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "base_layout.tvc_toggle",
+        "base_layout.tvc_toggle"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "BaseLayoutView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "base_layout.tvc_toggle",
+        "base_layout.notouch_toggle"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "BaseLayoutView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "base_layout.tvc_toggle",
+        "base_layout.reset_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "BaseLayoutView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "base_layout.notouch_toggle",
+        "base_layout.tvc_toggle"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "BaseLayoutView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "base_layout.notouch_toggle",
+        "base_layout.notouch_toggle"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "BaseLayoutView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "base_layout.notouch_toggle",
+        "base_layout.reset_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "BaseLayoutView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "base_layout.reset_btn",
+        "base_layout.tvc_toggle"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "BaseLayoutView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "base_layout.reset_btn",
+        "base_layout.notouch_toggle"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "BaseLayoutView",
+      "case_kind": "ordered_pair",
+      "sequence": [
+        "base_layout.reset_btn",
+        "base_layout.reset_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "BaseLayoutView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "base_layout.tvc_toggle",
+        "base_layout.tvc_toggle",
+        "base_layout.tvc_toggle"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "BaseLayoutView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "base_layout.tvc_toggle",
+        "base_layout.tvc_toggle",
+        "base_layout.notouch_toggle"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "BaseLayoutView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "base_layout.tvc_toggle",
+        "base_layout.tvc_toggle",
+        "base_layout.reset_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "BaseLayoutView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "base_layout.tvc_toggle",
+        "base_layout.notouch_toggle",
+        "base_layout.tvc_toggle"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "BaseLayoutView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "base_layout.tvc_toggle",
+        "base_layout.notouch_toggle",
+        "base_layout.notouch_toggle"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "BaseLayoutView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "base_layout.tvc_toggle",
+        "base_layout.notouch_toggle",
+        "base_layout.reset_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "BaseLayoutView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "base_layout.tvc_toggle",
+        "base_layout.reset_btn",
+        "base_layout.tvc_toggle"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "BaseLayoutView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "base_layout.tvc_toggle",
+        "base_layout.reset_btn",
+        "base_layout.notouch_toggle"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "BaseLayoutView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "base_layout.tvc_toggle",
+        "base_layout.reset_btn",
+        "base_layout.reset_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "BaseLayoutView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "base_layout.notouch_toggle",
+        "base_layout.tvc_toggle",
+        "base_layout.tvc_toggle"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "BaseLayoutView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "base_layout.notouch_toggle",
+        "base_layout.tvc_toggle",
+        "base_layout.notouch_toggle"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "BaseLayoutView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "base_layout.notouch_toggle",
+        "base_layout.tvc_toggle",
+        "base_layout.reset_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "BaseLayoutView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "base_layout.notouch_toggle",
+        "base_layout.notouch_toggle",
+        "base_layout.tvc_toggle"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "BaseLayoutView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "base_layout.notouch_toggle",
+        "base_layout.notouch_toggle",
+        "base_layout.notouch_toggle"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "BaseLayoutView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "base_layout.notouch_toggle",
+        "base_layout.notouch_toggle",
+        "base_layout.reset_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "BaseLayoutView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "base_layout.notouch_toggle",
+        "base_layout.reset_btn",
+        "base_layout.tvc_toggle"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "BaseLayoutView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "base_layout.notouch_toggle",
+        "base_layout.reset_btn",
+        "base_layout.notouch_toggle"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "BaseLayoutView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "base_layout.notouch_toggle",
+        "base_layout.reset_btn",
+        "base_layout.reset_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "BaseLayoutView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "base_layout.reset_btn",
+        "base_layout.tvc_toggle",
+        "base_layout.tvc_toggle"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "BaseLayoutView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "base_layout.reset_btn",
+        "base_layout.tvc_toggle",
+        "base_layout.notouch_toggle"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "BaseLayoutView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "base_layout.reset_btn",
+        "base_layout.tvc_toggle",
+        "base_layout.reset_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "BaseLayoutView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "base_layout.reset_btn",
+        "base_layout.notouch_toggle",
+        "base_layout.tvc_toggle"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "BaseLayoutView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "base_layout.reset_btn",
+        "base_layout.notouch_toggle",
+        "base_layout.notouch_toggle"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "BaseLayoutView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "base_layout.reset_btn",
+        "base_layout.notouch_toggle",
+        "base_layout.reset_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "BaseLayoutView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "base_layout.reset_btn",
+        "base_layout.reset_btn",
+        "base_layout.tvc_toggle"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "BaseLayoutView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "base_layout.reset_btn",
+        "base_layout.reset_btn",
+        "base_layout.notouch_toggle"
+      ],
+      "passed": true,
+      "sampled": false
+    },
+    {
+      "context_id": "BaseLayoutView",
+      "case_kind": "ordered_triple",
+      "sequence": [
+        "base_layout.reset_btn",
+        "base_layout.reset_btn",
+        "base_layout.reset_btn"
+      ],
+      "passed": true,
+      "sampled": false
+    }
+  ],
+  "layout_findings": [],
+  "a11y_findings": [],
+  "exceptions": [],
+  "latency_samples": [
+    {
+      "control_id": "header.project_title",
+      "latency_ms": 18.5
+    },
+    {
+      "control_id": "header.preset_select",
+      "latency_ms": 39.28
+    },
+    {
+      "control_id": "header.currency_year",
+      "latency_ms": 29.3
+    },
+    {
+      "control_id": "header.unit_toggle",
+      "latency_ms": 27.49
+    },
+    {
+      "control_id": "header.unit_toggle",
+      "latency_ms": 17.88
+    },
+    {
+      "control_id": "header.nav_tab",
+      "latency_ms": 7.59
+    },
+    {
+      "control_id": "header.help_btn",
+      "latency_ms": 41.11
+    },
+    {
+      "control_id": "header.help_close_btn",
+      "latency_ms": 7.17
+    },
+    {
+      "control_id": "schematic.toggle_dimensions",
+      "latency_ms": 11.29
+    },
+    {
+      "control_id": "schematic.toggle_internals",
+      "latency_ms": 8.37
+    },
+    {
+      "control_id": "sizing_studio.payload_mass",
+      "latency_ms": 7.08
+    },
+    {
+      "control_id": "sizing_studio.payload_dia",
+      "latency_ms": 10.22
+    },
+    {
+      "control_id": "sizing_studio.core_dia",
+      "latency_ms": 8.38
+    },
+    {
+      "control_id": "sizing_studio.stage_count",
+      "latency_ms": 18.5
+    },
+    {
+      "control_id": "sizing_studio.stage_engine",
+      "latency_ms": 33.66
+    },
+    {
+      "control_id": "sizing_studio.stage_material",
+      "latency_ms": 37
+    },
+    {
+      "control_id": "sizing_studio.stage_recovery",
+      "latency_ms": 32.64
+    },
+    {
+      "control_id": "sizing_studio.booster_count",
+      "latency_ms": 31.41
+    },
+    {
+      "control_id": "sizing_studio.booster_engine",
+      "latency_ms": 37.42
+    },
+    {
+      "control_id": "sizing_studio.staging_mode",
+      "latency_ms": 27.2
+    },
+    {
+      "control_id": "sizing_studio.fairing_profile",
+      "latency_ms": 32.03
+    },
+    {
+      "control_id": "sizing_studio.cryo_state",
+      "latency_ms": 35.53
+    },
+    {
+      "control_id": "sizing_studio.s1_dv_split",
+      "latency_ms": 11.71
+    },
+    {
+      "control_id": "sizing_studio.expected_reuses",
+      "latency_ms": 6.56
+    },
+    {
+      "control_id": "sizing_studio.mass_margin",
+      "latency_ms": 9.4
+    },
+    {
+      "control_id": "sizing_studio.enforce_packing",
+      "latency_ms": 4.48
+    },
+    {
+      "control_id": "sizing_studio.enforce_packing",
+      "latency_ms": 14.22
+    },
+    {
+      "control_id": "sizing_studio.pressurization_toggle",
+      "latency_ms": 7.32
+    },
+    {
+      "control_id": "sizing_studio.pressurization_toggle",
+      "latency_ms": 10.05
+    },
+    {
+      "control_id": "sizing_studio.export_brief_btn",
+      "latency_ms": 7.45
+    },
+    {
+      "control_id": "base_layout.tvc_toggle",
+      "latency_ms": 4.28
+    },
+    {
+      "control_id": "base_layout.notouch_toggle",
+      "latency_ms": 6.98
+    },
+    {
+      "control_id": "base_layout.reset_btn",
+      "latency_ms": 5.44
+    },
+    {
+      "control_id": "sizing_studio.rubber_scale_open",
+      "latency_ms": 34.39
+    },
+    {
+      "control_id": "sizing_studio.rubber_ref",
+      "latency_ms": 50.24
+    },
+    {
+      "control_id": "sizing_studio.rubber_target_stage",
+      "latency_ms": 26.75
+    },
+    {
+      "control_id": "sizing_studio.rubber_apply",
+      "latency_ms": 5.3
+    },
+    {
+      "control_id": "sizing_studio.rubber_cancel",
+      "latency_ms": 0.7
+    },
+    {
+      "control_id": "sizing_studio.inspect_cost",
+      "latency_ms": 12.95
+    },
+    {
+      "control_id": "inspector.close_btn",
+      "latency_ms": 0.5
+    },
+    {
+      "control_id": "sizing_studio.inspect_glow",
+      "latency_ms": 26.73
+    },
+    {
+      "control_id": "inspector.correction_value",
+      "latency_ms": 11.37
+    },
+    {
+      "control_id": "inspector.correction_rationale",
+      "latency_ms": 24.29
+    },
+    {
+      "control_id": "inspector.submit_correction",
+      "latency_ms": 15.04
+    },
+    {
+      "control_id": "sizing_studio.back_to_search_top",
+      "latency_ms": 0.5
+    },
+    {
+      "control_id": "sizing_studio.back_to_search_btn",
+      "latency_ms": 20.96
+    },
+    {
+      "control_id": "heritage_vehicles.search",
+      "latency_ms": 6.78
+    },
+    {
+      "control_id": "heritage_vehicles.country_filter",
+      "latency_ms": 50.22
+    },
+    {
+      "control_id": "heritage_vehicles.status_filter",
+      "latency_ms": 37
+    },
+    {
+      "control_id": "catalog.column_picker_btn",
+      "latency_ms": 17.24
+    },
+    {
+      "control_id": "catalog.col_toggle",
+      "latency_ms": 29.25
+    },
+    {
+      "control_id": "catalog.sort_col",
+      "latency_ms": 30.98
+    },
+    {
+      "control_id": "heritage_vehicles.inspect_cell",
+      "latency_ms": 36.56
+    },
+    {
+      "control_id": "inspector.citation_link",
+      "latency_ms": 6.58
+    },
+    {
+      "control_id": "heritage_engines.search",
+      "latency_ms": 5.18
+    },
+    {
+      "control_id": "heritage_engines.propellant_filter",
+      "latency_ms": 18.5
+    },
+    {
+      "control_id": "heritage_engines.cycle_filter",
+      "latency_ms": 23.45
+    },
+    {
+      "control_id": "heritage_engines.rubber_ref",
+      "latency_ms": 47.92
+    },
+    {
+      "control_id": "heritage_engines.rubber_preview_btn",
+      "latency_ms": 4.77
+    },
+    {
+      "control_id": "heritage_engines.rubber_save_btn",
+      "latency_ms": 24.15
+    },
+    {
+      "control_id": "heritage_engines.inspect_cell",
+      "latency_ms": 0.6
+    },
+    {
+      "control_id": "scale_lineup.auto_match_btn",
+      "latency_ms": 43.7
+    },
+    {
+      "control_id": "scale_lineup.theme_toggle",
+      "latency_ms": 9.17
+    },
+    {
+      "control_id": "scale_lineup.export_svg_btn",
+      "latency_ms": 2.2
+    },
+    {
+      "control_id": "scale_lineup.vehicle_checkbox",
+      "latency_ms": 9.01
+    },
+    {
+      "control_id": "sensitivity_studio.sweep_param",
+      "latency_ms": 18.5
+    },
+    {
+      "control_id": "sensitivity_studio.run_sweep_btn",
+      "latency_ms": 9.11
+    },
+    {
+      "control_id": "sensitivity_studio.export_csv_btn",
+      "latency_ms": 6.63
+    },
+    {
+      "control_id": "sensitivity_studio.export_md_btn",
+      "latency_ms": 12.51
+    },
+    {
+      "control_id": "sensitivity_studio.print_pdf_btn",
+      "latency_ms": 6.07
+    }
+  ],
+  "leak_probes": [
+    {
+      "screen_id": "OptimizationSearchView",
+      "baseline_count": 571,
+      "final_count": 559
+    },
+    {
+      "screen_id": "SizingStudioView",
+      "baseline_count": 813,
+      "final_count": 813
+    },
+    {
+      "screen_id": "HeritageVehiclesView",
+      "baseline_count": 2749,
+      "final_count": 2624
+    }
+  ]
+}

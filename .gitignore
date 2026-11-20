@@ -27,7 +27,6 @@ dist/
 build/
 *.tsbuildinfo
 *.exe
-ui_evidence.json
 
 # OS / Editor artifacts
 .DS_Store
