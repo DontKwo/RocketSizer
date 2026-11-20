@@ -1,0 +1,980 @@
+{
+  "id": {
+    "value": "lm_2d",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "name": {
+    "value": "Long March 2D",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "variant": {
+    "value": "CZ-2D",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "manufacturer": {
+    "value": "SAST",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "country": {
+    "value": "China",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "operational_status": {
+    "value": "active",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "maiden_flight_year": {
+    "value": 1992,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "retirement_year": {
+    "value": null,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_leo_kg": {
+    "value": 3500.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_sso_kg": {
+    "value": 1300.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_gto_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_geo_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_tli_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_tmi_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "total_height_m": {
+    "value": 41.0,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "core_diameter_m": {
+    "value": 3.35,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "max_width_m": {
+    "value": 3.35,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "fairing_diameter_m": {
+    "value": 3.35,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "fairing_length_m": {
+    "value": 8.5,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "usable_fairing_vol_m3": {
+    "value": 45.5,
+    "canonical_unit": "m^3",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "V_fairing = 0.75 * pi * (0.45 * D_fairing)^2 * L_fairing",
+      "input_parameters": {
+        "fairing_dia_m": "3.35",
+        "fairing_len_m": "8.5"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Ogive/cylindrical dynamic envelope integration",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "glow_kg": {
+    "value": 232250.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "total_dry_mass_kg": {
+    "value": 16800.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_fraction_leo": {
+    "value": 0.01507,
+    "canonical_unit": "fraction",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "f_pl = m_payload_LEO / GLOW",
+      "input_parameters": {
+        "leo_kg": "3500.0",
+        "glow_kg": "232250.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct ratio",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "liftoff_thrust_sl_n": {
+    "value": 2962000.0,
+    "canonical_unit": "N",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "liftoff_tw0": {
+    "value": 1.3,
+    "canonical_unit": "ratio",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "T/W0 = F_sl / (GLOW * g0)",
+      "input_parameters": {
+        "thrust_sl_n": "2962000.0",
+        "glow_kg": "232250.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct analytical relation",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "stage_count": {
+    "value": 2,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_count": {
+    "value": 0,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_type": {
+    "value": "none",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_propellant": {
+    "value": "NTO/UDMH",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_engine_id": {
+    "value": "yf_21c",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_engine_count": {
+    "value": 1,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_prop_mass_kg": {
+    "value": 182000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_dry_mass_kg": {
+    "value": 9500.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_burn_time_s": {
+    "value": 170.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_propellant": {
+    "value": "NTO/UDMH",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_engine_id": {
+    "value": "yf_24e",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_engine_count": {
+    "value": 1,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_prop_mass_kg": {
+    "value": 52700.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_dry_mass_kg": {
+    "value": 4000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_burn_time_s": {
+    "value": 125.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_propellant": {
+    "value": "none",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_engine_id": {
+    "value": "none",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_engine_count": {
+    "value": 0,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_prop_mass_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_dry_mass_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_burn_time_s": {
+    "value": 0.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_original_usd": {
+    "value": 30000000.0,
+    "canonical_unit": "USD",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_year": {
+    "value": 2022,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_adj_usd": {
+    "value": 32950000.0,
+    "canonical_unit": "USD",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "CPI aerospace inflation adjustment to FY2026",
+      "input_parameters": {
+        "cost_orig": "30000000.0",
+        "year": "2022"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "BLS CPI-U index",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "cost_per_kg_leo_usd": {
+    "value": 9414.3,
+    "canonical_unit": "USD/kg",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "C_kg = C_adj / m_payload_LEO",
+      "input_parameters": {
+        "cost_adj_usd": "32950000.0",
+        "leo_kg": "3500.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct analytical relation",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "development_cost_usd": {
+    "value": 450000000.0,
+    "canonical_unit": "USD",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "total_launches": {
+    "value": 95,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "successful_launches": {
+    "value": 94,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Long March 2D CZ-2D Vehicle Data",
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/",
+      "document_id": "cgwic_lm2_3_4_um",
+      "excerpt": "High-reliability SAST storable LEO/SSO launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_success_rate": {
+    "value": 0.9895,
+    "canonical_unit": "fraction",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "R_succ = N_success / N_total",
+      "input_parameters": {
+        "successful": "94",
+        "total": "95"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct analytical relation",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  }
+}

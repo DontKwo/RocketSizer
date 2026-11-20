@@ -1,0 +1,980 @@
+{
+  "id": {
+    "value": "sls_block_1b",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "name": {
+    "value": "SLS",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "variant": {
+    "value": "Block 1B Crew",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "manufacturer": {
+    "value": "NASA / Boeing",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "country": {
+    "value": "USA",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "operational_status": {
+    "value": "in_development",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "maiden_flight_year": {
+    "value": 2028,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "retirement_year": {
+    "value": null,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_leo_kg": {
+    "value": 105000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_sso_kg": {
+    "value": 80000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_gto_kg": {
+    "value": 52000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_geo_kg": {
+    "value": 28000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_tli_kg": {
+    "value": 38000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_tmi_kg": {
+    "value": 30000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "total_height_m": {
+    "value": 111.3,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "core_diameter_m": {
+    "value": 8.4,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "max_width_m": {
+    "value": 16.0,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "fairing_diameter_m": {
+    "value": 8.4,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "fairing_length_m": {
+    "value": 27.4,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "usable_fairing_vol_m3": {
+    "value": 922.5,
+    "canonical_unit": "m^3",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "V_fairing = 0.75 * pi * (0.45 * D_fairing)^2 * L_fairing",
+      "input_parameters": {
+        "fairing_dia_m": "8.4",
+        "fairing_len_m": "27.4"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Ogive/cylindrical dynamic envelope integration",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "glow_kg": {
+    "value": 2903000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "total_dry_mass_kg": {
+    "value": 265000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_fraction_leo": {
+    "value": 0.03617,
+    "canonical_unit": "fraction",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "f_pl = m_payload_LEO / GLOW",
+      "input_parameters": {
+        "leo_kg": "105000.0",
+        "glow_kg": "2903000.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct ratio",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "liftoff_thrust_sl_n": {
+    "value": 39140000.0,
+    "canonical_unit": "N",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "liftoff_tw0": {
+    "value": 1.375,
+    "canonical_unit": "ratio",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "T/W0 = F_sl / (GLOW * g0)",
+      "input_parameters": {
+        "thrust_sl_n": "39140000.0",
+        "glow_kg": "2903000.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct analytical relation",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "stage_count": {
+    "value": 2,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_count": {
+    "value": 2,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_type": {
+    "value": "solid",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_propellant": {
+    "value": "LOX/LH2",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_engine_id": {
+    "value": "rs_25e",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_engine_count": {
+    "value": 4,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_prop_mass_kg": {
+    "value": 987000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_dry_mass_kg": {
+    "value": 85300.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_burn_time_s": {
+    "value": 480.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_propellant": {
+    "value": "LOX/LH2",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_engine_id": {
+    "value": "rl_10c_1",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_engine_count": {
+    "value": 4,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_prop_mass_kg": {
+    "value": 129000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_dry_mass_kg": {
+    "value": 14500.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_burn_time_s": {
+    "value": 900.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_propellant": {
+    "value": "Solid HTPB",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_engine_id": {
+    "value": "sls_fsrb",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_engine_count": {
+    "value": 2,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_prop_mass_kg": {
+    "value": 626000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_dry_mass_kg": {
+    "value": 99000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_burn_time_s": {
+    "value": 126.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_original_usd": {
+    "value": 2200000000.0,
+    "canonical_unit": "USD",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_year": {
+    "value": 2024,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_adj_usd": {
+    "value": 2254700000.0,
+    "canonical_unit": "USD",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "CPI aerospace inflation adjustment to FY2026",
+      "input_parameters": {
+        "cost_orig": "2200000000.0",
+        "year": "2024"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "BLS CPI-U index",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "cost_per_kg_leo_usd": {
+    "value": 21473.3,
+    "canonical_unit": "USD/kg",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "C_kg = C_adj / m_payload_LEO",
+      "input_parameters": {
+        "cost_adj_usd": "2254700000.0",
+        "leo_kg": "105000.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct analytical relation",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "development_cost_usd": {
+    "value": 28000000000.0,
+    "canonical_unit": "USD",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "total_launches": {
+    "value": 0,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "successful_launches": {
+    "value": 0,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "SLS Block 1B Crew Vehicle Data",
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf",
+      "document_id": "sls_ref_guide_2022",
+      "excerpt": "SLS Exploration Upper Stage 4x RL10 lunar heavy configuration."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_success_rate": {
+    "value": 0.0,
+    "canonical_unit": "fraction",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "R_succ = N_success / N_total",
+      "input_parameters": {
+        "successful": "0",
+        "total": "0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct analytical relation",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  }
+}

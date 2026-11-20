@@ -1,0 +1,980 @@
+{
+  "id": {
+    "value": "delta_iii",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "name": {
+    "value": "Delta III",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "variant": {
+    "value": "8930",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "manufacturer": {
+    "value": "Boeing",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "country": {
+    "value": "USA",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "operational_status": {
+    "value": "retired",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "maiden_flight_year": {
+    "value": 1998,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "retirement_year": {
+    "value": 2000,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_leo_kg": {
+    "value": 8290.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_sso_kg": {
+    "value": 6700.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_gto_kg": {
+    "value": 3810.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_geo_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_tli_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_tmi_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "total_height_m": {
+    "value": 39.1,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "core_diameter_m": {
+    "value": 2.44,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "max_width_m": {
+    "value": 6.2,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "fairing_diameter_m": {
+    "value": 4.0,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "fairing_length_m": {
+    "value": 9.3,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "usable_fairing_vol_m3": {
+    "value": 71.0,
+    "canonical_unit": "m^3",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "V_fairing = 0.75 * pi * (0.45 * D_fairing)^2 * L_fairing",
+      "input_parameters": {
+        "fairing_dia_m": "4.0",
+        "fairing_len_m": "9.3"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Ogive/cylindrical dynamic envelope integration",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "glow_kg": {
+    "value": 301450.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "total_dry_mass_kg": {
+    "value": 22000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_fraction_leo": {
+    "value": 0.0275,
+    "canonical_unit": "fraction",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "f_pl = m_payload_LEO / GLOW",
+      "input_parameters": {
+        "leo_kg": "8290.0",
+        "glow_kg": "301450.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct ratio",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "liftoff_thrust_sl_n": {
+    "value": 5600000.0,
+    "canonical_unit": "N",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "liftoff_tw0": {
+    "value": 1.894,
+    "canonical_unit": "ratio",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "T/W0 = F_sl / (GLOW * g0)",
+      "input_parameters": {
+        "thrust_sl_n": "5600000.0",
+        "glow_kg": "301450.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct analytical relation",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "stage_count": {
+    "value": 2,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_count": {
+    "value": 9,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_type": {
+    "value": "solid",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_propellant": {
+    "value": "LOX/RP-1",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_engine_id": {
+    "value": "rs_27a",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_engine_count": {
+    "value": 1,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_prop_mass_kg": {
+    "value": 95500.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_dry_mass_kg": {
+    "value": 5680.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_burn_time_s": {
+    "value": 261.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_propellant": {
+    "value": "LOX/LH2",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_engine_id": {
+    "value": "rl_10b_2",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_engine_count": {
+    "value": 1,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_prop_mass_kg": {
+    "value": 16820.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_dry_mass_kg": {
+    "value": 2400.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_burn_time_s": {
+    "value": 700.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_propellant": {
+    "value": "Solid HTPB",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_engine_id": {
+    "value": "gem_46",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_engine_count": {
+    "value": 9,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_prop_mass_kg": {
+    "value": 16860.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_dry_mass_kg": {
+    "value": 2270.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_burn_time_s": {
+    "value": 75.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_original_usd": {
+    "value": 85000000.0,
+    "canonical_unit": "USD",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_year": {
+    "value": 1999,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_adj_usd": {
+    "value": 164030000.0,
+    "canonical_unit": "USD",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "CPI aerospace inflation adjustment to FY2026",
+      "input_parameters": {
+        "cost_orig": "85000000.0",
+        "year": "1999"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "BLS CPI-U index",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "cost_per_kg_leo_usd": {
+    "value": 19786.5,
+    "canonical_unit": "USD/kg",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "C_kg = C_adj / m_payload_LEO",
+      "input_parameters": {
+        "cost_adj_usd": "164030000.0",
+        "leo_kg": "8290.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct analytical relation",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "development_cost_usd": {
+    "value": 750000000.0,
+    "canonical_unit": "USD",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "total_launches": {
+    "value": 3,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "successful_launches": {
+    "value": 1,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "Delta III 8930 Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Introduced RL10B-2 DCSS cryogenic upper stage and GEM-46 boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_success_rate": {
+    "value": 0.3333,
+    "canonical_unit": "fraction",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "R_succ = N_success / N_total",
+      "input_parameters": {
+        "successful": "1",
+        "total": "3"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct analytical relation",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  }
+}

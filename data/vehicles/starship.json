@@ -1,0 +1,979 @@
+{
+  "id": {
+    "value": "starship",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "name": {
+    "value": "Starship / Super Heavy",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "variant": {
+    "value": "Block 1 Reusable",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "manufacturer": {
+    "value": "SpaceX",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "country": {
+    "value": "USA",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "operational_status": {
+    "value": "in_development",
+    "canonical_unit": "enum",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "maiden_flight_year": {
+    "value": 2023,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "retirement_year": {
+    "value": null,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_leo_kg": {
+    "value": 150000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_sso_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_gto_kg": {
+    "value": 21000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_geo_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_tli_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_tmi_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "total_height_m": {
+    "value": 121.0,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "core_diameter_m": {
+    "value": 9.0,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "max_width_m": {
+    "value": 9.0,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "fairing_diameter_m": {
+    "value": 9.0,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "fairing_length_m": {
+    "value": 18.0,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "usable_fairing_vol_m3": {
+    "value": 1000.0,
+    "canonical_unit": "m^3",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "glow_kg": {
+    "value": 5000000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "total_dry_mass_kg": {
+    "value": 300000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_fraction_leo": {
+    "value": 0.03,
+    "canonical_unit": "fraction",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "f_pl = m_payload_LEO / GLOW",
+      "input_parameters": {
+        "leo_kg": "150000.0",
+        "glow_kg": "5000000.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct ratio",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "liftoff_thrust_sl_n": {
+    "value": 74400000.0,
+    "canonical_unit": "N",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "liftoff_tw0": {
+    "value": 1.517,
+    "canonical_unit": "ratio",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "TW0 = T_sl / (GLOW * g0)",
+      "input_parameters": {
+        "thrust_sl_n": "74400000.0",
+        "glow_kg": "5000000.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct ratio",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "stage_count": {
+    "value": 2,
+    "canonical_unit": "integer",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_count": {
+    "value": 0,
+    "canonical_unit": "integer",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_type": {
+    "value": "none",
+    "canonical_unit": "enum",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_propellant": {
+    "value": "LOX/CH4",
+    "canonical_unit": "enum",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_engine_id": {
+    "value": "raptor_2",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_engine_count": {
+    "value": 33,
+    "canonical_unit": "integer",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_prop_mass_kg": {
+    "value": 3400000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_dry_mass_kg": {
+    "value": 200000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_burn_time_s": {
+    "value": 165.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_propellant": {
+    "value": "LOX/CH4",
+    "canonical_unit": "enum",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_engine_id": {
+    "value": "raptor_vac",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_engine_count": {
+    "value": 6,
+    "canonical_unit": "integer",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_prop_mass_kg": {
+    "value": 1200000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_dry_mass_kg": {
+    "value": 100000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_burn_time_s": {
+    "value": 380.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_propellant": {
+    "value": "none",
+    "canonical_unit": "enum",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_engine_id": {
+    "value": "none",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_engine_count": {
+    "value": 0,
+    "canonical_unit": "integer",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_prop_mass_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_dry_mass_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_burn_time_s": {
+    "value": 0.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_original_usd": {
+    "value": 90000000.0,
+    "canonical_unit": "USD",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_year": {
+    "value": 2024,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_adj_usd": {
+    "value": 94000000.0,
+    "canonical_unit": "USD",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "CPI aerospace inflation adjustment to FY2026",
+      "input_parameters": {
+        "cost_orig": "90000000.0",
+        "year": "2024"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "BLS CPI-U index",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "cost_per_kg_leo_usd": {
+    "value": 626.7,
+    "canonical_unit": "USD/kg",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "Cost_per_kg = Cost_FY2026 / Payload_LEO",
+      "input_parameters": {
+        "cost_adj": "94000000.0",
+        "leo_kg": "150000.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct ratio",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "development_cost_usd": {
+    "value": 5000000000.0,
+    "canonical_unit": "USD",
+    "status": "estimated",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "Historical program DDT&E allocation",
+      "input_parameters": {
+        "vehicle": "Starship / Super Heavy"
+      },
+      "assumptions": [
+        "Historical public budget and TRANSCOST 8.2 scaling"
+      ],
+      "solver_method": "Parametric regression",
+      "confidence_rating": "medium"
+    },
+    "notes": null
+  },
+  "total_launches": {
+    "value": 6,
+    "canonical_unit": "integer",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "successful_launches": {
+    "value": 3,
+    "canonical_unit": "integer",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Starship Users Guide Rev 1.0",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "page_number": 3,
+      "table_or_figure": "Starship Architecture",
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf",
+      "document_id": "starship_users_guide",
+      "excerpt": "9 m diameter stainless steel reusable super heavy launch vehicle."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_success_rate": {
+    "value": 0.5,
+    "canonical_unit": "percent",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "Success_pct = 100 * successful / total",
+      "input_parameters": {
+        "total": "6",
+        "successful": "3"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct ratio",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  }
+}

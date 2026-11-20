@@ -1,0 +1,444 @@
+{
+  "citations": [
+    {
+      "document_id": "nasa_sp_4012_vol2",
+      "document_title": "NASA Historical Data Book, Volume II: Programs and Projects 1958-1968 (NASA SP-4012)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA Scientific and Technical Information Division",
+      "publication_year": 1988,
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871"
+    },
+    {
+      "document_id": "saturn_v_sa507",
+      "document_title": "Saturn V Flight Manual SA-507",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA MSFC",
+      "publication_year": 1969,
+      "direct_url": "https://ntrs.nasa.gov/citations/19700018099"
+    },
+    {
+      "document_id": "falcon_users_guide_2021",
+      "document_title": "Falcon User's Guide",
+      "author": "Space Exploration Technologies Corp.",
+      "publisher": "SpaceX",
+      "publication_year": 2021,
+      "direct_url": "https://www.spacex.com/media/falcon-users-guide-2021-09.pdf"
+    },
+    {
+      "document_id": "electron_pug_7",
+      "document_title": "Electron Payload User's Guide, Revision 7.0",
+      "author": "Rocket Lab USA",
+      "publisher": "Rocket Lab",
+      "publication_year": 2022,
+      "direct_url": "https://www.rocketlabusa.com/assets/Uploads/Electron-Payload-Users-Guide-7.0.pdf"
+    },
+    {
+      "document_id": "atlas_v_lug",
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf"
+    },
+    {
+      "document_id": "ariane_5_um",
+      "document_title": "Ariane 5 User's Manual, Issue 5 Revision 3",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2020,
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2011/07/Ariane5_Users-Manual_October2016.pdf"
+    },
+    {
+      "document_id": "sls_ref_guide_2022",
+      "document_title": "Space Launch System Reference Guide",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "NASA",
+      "publication_year": 2022,
+      "direct_url": "https://www.nasa.gov/wp-content/uploads/2022/08/sls_reference_guide_2022_v2_508_0.pdf"
+    },
+    {
+      "document_id": "sutton_rpe_9",
+      "document_title": "Rocket Propulsion Elements, 9th Edition",
+      "author": "George P. Sutton and Oscar Biblarz",
+      "publisher": "John Wiley & Sons",
+      "publication_year": 2016,
+      "direct_url": "https://www.wiley.com/en-us/Rocket+Propulsion+Elements%2C+9th+Edition-p-9781118753651"
+    },
+    {
+      "document_id": "transcost_8_2",
+      "document_title": "Handbook of Cost Engineering for Space Transportation Systems (TRANSCOST 8.2)",
+      "author": "Dietrich E. Koelle",
+      "publisher": "TCS - TransCostSystems",
+      "publication_year": 2013,
+      "direct_url": "https://www.transcostsystems.com/"
+    },
+    {
+      "document_id": "shuttle_press_ref",
+      "document_title": "Space Shuttle Technical Conference / National Space Transportation System Reference",
+      "author": "NASA Johnson Space Center",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005166"
+    },
+    {
+      "document_id": "starship_users_guide",
+      "document_title": "Starship Users Guide, Revision 1.0",
+      "author": "Space Exploration Technologies Corp.",
+      "publisher": "SpaceX",
+      "publication_year": 2020,
+      "direct_url": "https://www.spacex.com/media/starship_users_guide_v1.pdf"
+    },
+    {
+      "document_id": "ils_proton_mg",
+      "document_title": "Proton Launch System Mission Planner's Guide",
+      "author": "International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2009,
+      "direct_url": "https://www.ilslaunch.com/wp-content/uploads/2017/02/Proton_Mission_Planners_Guide.pdf"
+    },
+    {
+      "document_id": "delta_iv_lug",
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf"
+    },
+    {
+      "document_id": "arianespace_vega_um",
+      "document_title": "Vega User's Manual, Issue 4 Revision 0",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2014,
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Vega-Users-Manual_Issue-04_April-2014.pdf"
+    },
+    {
+      "document_id": "arianespace_soyuz_um",
+      "document_title": "Soyuz User's Manual, Issue 2 Revision 0",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf"
+    },
+    {
+      "document_id": "nasa_ig_sls_2022",
+      "document_title": "NASA's Management of the Space Launch System Booster and Engine Contracts (IG-22-010)",
+      "author": "NASA Office of Inspector General",
+      "publisher": "NASA OIG",
+      "publication_year": 2022,
+      "direct_url": "https://oig.nasa.gov/docs/IG-22-010.pdf"
+    },
+    {
+      "document_id": "nasa_sp_4206_saturn",
+      "document_title": "Stages to Saturn: A Technological History of the Apollo/Saturn Launch Vehicles",
+      "author": "Roger E. Bilstein",
+      "publisher": "NASA History Office",
+      "publication_year": 1996,
+      "direct_url": "https://ntrs.nasa.gov/citations/19970009949"
+    },
+    {
+      "document_id": "ula_vulcan_ug_2023",
+      "document_title": "Vulcan Centaur Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2023,
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/vulcancentaurusersguide.pdf"
+    },
+    {
+      "document_id": "ula_atlas_iias_guide",
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012"
+    },
+    {
+      "document_id": "ula_delta_ii_pug",
+      "document_title": "Delta II Payload Planners Guide",
+      "author": "Boeing / United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2006,
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-ii-payload-planners-guide.pdf"
+    },
+    {
+      "document_id": "boeing_delta_iii_guide",
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632"
+    },
+    {
+      "document_id": "bo_new_glenn_pug",
+      "document_title": "New Glenn Payload User's Guide Rev C",
+      "author": "Blue Origin",
+      "publisher": "Blue Origin LLC",
+      "publication_year": 2022,
+      "direct_url": "https://www.blueorigin.com/new-glenn"
+    },
+    {
+      "document_id": "firefly_alpha_pug",
+      "document_title": "Firefly Alpha Payload User's Guide",
+      "author": "Firefly Aerospace",
+      "publisher": "Firefly Aerospace",
+      "publication_year": 2023,
+      "direct_url": "https://fireflyspace.com/alpha/"
+    },
+    {
+      "document_id": "rl_neutron_brief",
+      "document_title": "Neutron Medium-Lift Launch Vehicle Technical Overview",
+      "author": "Rocket Lab USA",
+      "publisher": "Rocket Lab",
+      "publication_year": 2024,
+      "direct_url": "https://www.rocketlabusa.com/launch/neutron/"
+    },
+    {
+      "document_id": "relativity_terran_pug",
+      "document_title": "Terran 1 and Terran R Technical Specifications",
+      "author": "Relativity Space",
+      "publisher": "Relativity Space",
+      "publication_year": 2023,
+      "direct_url": "https://www.relativityspace.com/terran-r"
+    },
+    {
+      "document_id": "ng_antares_pug",
+      "document_title": "Antares Medium-Class Launch Vehicle User's Guide",
+      "author": "Northrop Grumman Space Systems",
+      "publisher": "Northrop Grumman",
+      "publication_year": 2020,
+      "direct_url": "https://www.northropgrumman.com/space/antares-rocket"
+    },
+    {
+      "document_id": "ng_pegasus_ug",
+      "document_title": "Pegasus User's Guide Release 8.0",
+      "author": "Northrop Grumman Innovation Systems",
+      "publisher": "Northrop Grumman",
+      "publication_year": 2019,
+      "direct_url": "https://www.northropgrumman.com/space/pegasus-rocket"
+    },
+    {
+      "document_id": "ng_minotaur_ug",
+      "document_title": "Minotaur IV & C Launch System User's Guide",
+      "author": "Northrop Grumman Innovation Systems",
+      "publisher": "Northrop Grumman",
+      "publication_year": 2020,
+      "direct_url": "https://www.northropgrumman.com/space/minotaur-rocket"
+    },
+    {
+      "document_id": "atk_propulsion_cat",
+      "document_title": "ATK Space Propulsion Products Catalog",
+      "author": "Alliant Techsystems (Northrop Grumman)",
+      "publisher": "ATK Launch Systems",
+      "publication_year": 2016,
+      "direct_url": "https://www.northropgrumman.com/space/propulsion-systems"
+    },
+    {
+      "document_id": "nasa_titan_historical",
+      "document_title": "Titan Family Engineering & Launch Vehicle Handbook (Titan II / IIIE / IVB)",
+      "author": "Lockheed Martin Astronautics / USAF SMC",
+      "publisher": "U.S. Air Force / NASA",
+      "publication_year": 2001,
+      "direct_url": "https://ntrs.nasa.gov/citations/19990046284"
+    },
+    {
+      "document_id": "nasa_vanguard_scout",
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167"
+    },
+    {
+      "document_id": "aerojet_rl10_ds",
+      "document_title": "Aerojet Rocketdyne RL10 Propulsion System Product Data Sheet",
+      "author": "Aerojet Rocketdyne",
+      "publisher": "L3Harris Aerojet Rocketdyne",
+      "publication_year": 2021,
+      "direct_url": "https://www.rocket.com/space/rl10"
+    },
+    {
+      "document_id": "nasa_j2x_ares",
+      "document_title": "Constellation Program Ares I & J-2X Upper Stage Engine Development Status",
+      "author": "NASA Marshall Space Flight Center",
+      "publisher": "AIAA / NASA NTRS",
+      "publication_year": 2011,
+      "direct_url": "https://ntrs.nasa.gov/citations/20110015772"
+    },
+    {
+      "document_id": "energomash_cat",
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "direct_url": "https://engine.space/"
+    },
+    {
+      "document_id": "kbkha_catalog",
+      "document_title": "KBKhA Chemical Automatics Design Bureau Engine Compendium (RD-0110, RD-0120, RD-0124, RD-0210)",
+      "author": "KBKhA",
+      "publisher": "Roscosmos / KBKhA",
+      "publication_year": 2019,
+      "direct_url": "https://kbkha.ru/"
+    },
+    {
+      "document_id": "samara_nk33_aiaa",
+      "document_title": "NK-33 and NK-43 Closed-Cycle Kerolox Engine Flight Heritage and AJ26 Adaptation",
+      "author": "J. D. Haidn / Kuznetsov Samara",
+      "publisher": "AIAA Propulsion",
+      "publication_year": 2004,
+      "direct_url": "https://ntrs.nasa.gov/citations/20050182001"
+    },
+    {
+      "document_id": "sealaunch_zenit_ug",
+      "document_title": "Zenit-3SL Sea Launch User's Guide",
+      "author": "Yuzhnoye SDO / Sea Launch",
+      "publisher": "Sea Launch LLC",
+      "publication_year": 2008,
+      "direct_url": "https://www.yuzhnoye.com/en/technique/launch-vehicles/zenit/"
+    },
+    {
+      "document_id": "khrunichev_angara_ug",
+      "document_title": "Angara Launch System Mission Planner's Guide",
+      "author": "Khrunichev State Research and Production Space Center",
+      "publisher": "Khrunichev / ILS",
+      "publication_year": 2018,
+      "direct_url": "https://www.khrunichev.ru/main.php?id=44"
+    },
+    {
+      "document_id": "energia_n1_mono",
+      "document_title": "Energia-Buran and N1-L3 Heavy Launch Vehicle Technical Monograph",
+      "author": "B. I. Gubanov / RKK Energia",
+      "publisher": "RKK Energia",
+      "publication_year": 1998,
+      "direct_url": "https://www.energia.ru/en/history/system_energia.html"
+    },
+    {
+      "document_id": "arianespace_a6_um",
+      "document_title": "Ariane 6 User's Manual Issue 2 Revision 0",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2021,
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2021/03/Mua-6_Issue-2_Revision-0_March-2021.pdf"
+    },
+    {
+      "document_id": "arianespace_vegac_um",
+      "document_title": "Vega-C User's Manual Issue 0 Revision 0",
+      "author": "Arianespace / Avio",
+      "publisher": "Arianespace",
+      "publication_year": 2018,
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2018/07/Vega-C-user-manual_Issue-0_Rev-0_20180705.pdf"
+    },
+    {
+      "document_id": "esa_ariane14_hist",
+      "document_title": "Thirty Years of Ariane Propulsion (Ariane 1-4, Viking, HM7B, Diamant)",
+      "author": "European Space Agency / CNES",
+      "publisher": "ESA Publications Division",
+      "publication_year": 2009,
+      "direct_url": "https://www.esa.int/Enabling_Support/Space_Transportation/Launch_vehicles"
+    },
+    {
+      "document_id": "safran_ar_prop",
+      "document_title": "ArianeGroup / Safran Liquid Rocket Propulsion Technical Portfolio (Vulcain 2.1, Vinci, Prometheus)",
+      "author": "ArianeGroup",
+      "publisher": "ArianeGroup SAS",
+      "publication_year": 2022,
+      "direct_url": "https://www.ariane.group/en/equipment-and-services/propulsion/"
+    },
+    {
+      "document_id": "cgwic_lm2_3_4_um",
+      "document_title": "Long March Launch Vehicle Family User's Manual (LM-2C, LM-2D, LM-2F, LM-3A, LM-3B/E, LM-4B/C)",
+      "author": "China Great Wall Industry Corporation / CALT / SAST",
+      "publisher": "CGWIC",
+      "publication_year": 2018,
+      "direct_url": "http://www.cgwic.com/LaunchServices/LaunchVehicle/"
+    },
+    {
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "direct_url": "https://english.spacechina.com/"
+    },
+    {
+      "document_id": "landspace_zq2_tq12",
+      "document_title": "Zhuque-2 Methalox Launch Vehicle and TQ-12 / TQ-15A Propulsion System Performance",
+      "author": "LandSpace Technology Corporation",
+      "publisher": "AIAA / Chinese Journal of Aeronautics",
+      "publication_year": 2023,
+      "direct_url": "https://www.landspace.com/en/rocket.html"
+    },
+    {
+      "document_id": "cnsa_commercial_solids",
+      "document_title": "Kuaizhou-1A and Ceres-1 Small Solid Launch Vehicle User's Guides",
+      "author": "ExPace / Galactic Energy",
+      "publisher": "CASIC / Galactic Energy",
+      "publication_year": 2023,
+      "direct_url": "https://www.galactic-energy.cn/index.php/En/"
+    },
+    {
+      "document_id": "jaxa_h2_um",
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/"
+    },
+    {
+      "document_id": "jaxa_h3_um",
+      "document_title": "H3 Launch Vehicle User's Manual & LE-9 / SRB-3 Propulsion Report",
+      "author": "JAXA / Mitsubishi Heavy Industries",
+      "publisher": "JAXA",
+      "publication_year": 2023,
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h3/"
+    },
+    {
+      "document_id": "jaxa_mv_epsilon_um",
+      "document_title": "M-V and Epsilon Solid Launch Vehicle Technical Summary",
+      "author": "ISAS / JAXA / IHI Aerospace",
+      "publisher": "JAXA",
+      "publication_year": 2020,
+      "direct_url": "https://global.jaxa.jp/projects/rockets/epsilon/"
+    },
+    {
+      "document_id": "isro_pslv_gslv_um",
+      "document_title": "ISRO Polar Satellite Launch Vehicle (PSLV) & GSLV Mk II Mission Brochure",
+      "author": "Indian Space Research Organisation",
+      "publisher": "ISRO / NSIL",
+      "publication_year": 2022,
+      "direct_url": "https://www.isro.gov.in/PSLV_CON.html"
+    },
+    {
+      "document_id": "isro_lvm3_sslv_um",
+      "document_title": "ISRO LVM3 (GSLV Mk III) and SSLV Payload User's Guides & CE-20 Cryogenic Data",
+      "author": "ISRO / VSSC / LPSC",
+      "publisher": "Indian Space Research Organisation",
+      "publication_year": 2023,
+      "direct_url": "https://www.isro.gov.in/GSLVMkIII_CON.html"
+    },
+    {
+      "document_id": "kari_nuri_specs",
+      "document_title": "KSLV-II (Nuri) Three-Stage Launch Vehicle & KRE-075 Engine Development Overview",
+      "author": "Korea Aerospace Research Institute",
+      "publisher": "KARI",
+      "publication_year": 2023,
+      "direct_url": "https://www.kari.re.kr/eng/sub03_04_02.do"
+    },
+    {
+      "document_id": "iai_shavit_specs",
+      "document_title": "Shavit-2 Small-Lift All-Solid Launch Vehicle Reference",
+      "author": "Israel Aerospace Industries",
+      "publisher": "IAI / ISA",
+      "publication_year": 2016,
+      "direct_url": "https://www.iai.co.il/p/shavit-space-launch-vehicle"
+    },
+    {
+      "document_id": "astronautix_arch",
+      "document_title": "Encyclopedia Astronautica Launch Vehicle & Propulsion Archive (Historical Synthesis)",
+      "author": "Mark Wade",
+      "publisher": "Encyclopedia Astronautica",
+      "publication_year": 2019,
+      "direct_url": "http://www.astronautix.com/"
+    }
+  ]
+}

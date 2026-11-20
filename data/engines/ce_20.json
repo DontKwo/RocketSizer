@@ -1,0 +1,513 @@
+{
+  "id": {
+    "value": "ce_20",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "ISRO LVM3 (GSLV Mk III) and SSLV Payload User's Guides & CE-20 Cryogenic Data",
+      "author": "ISRO / VSSC / LPSC",
+      "publisher": "Indian Space Research Organisation",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "CE-20 Propulsion Data",
+      "direct_url": "https://www.isro.gov.in/GSLVMkIII_CON.html",
+      "document_id": "isro_lvm3_sslv_um",
+      "excerpt": "LVM3 C25/C32 high-thrust indigenous gas-generator hydrolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "name": {
+    "value": "CE-20",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "ISRO LVM3 (GSLV Mk III) and SSLV Payload User's Guides & CE-20 Cryogenic Data",
+      "author": "ISRO / VSSC / LPSC",
+      "publisher": "Indian Space Research Organisation",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "CE-20 Propulsion Data",
+      "direct_url": "https://www.isro.gov.in/GSLVMkIII_CON.html",
+      "document_id": "isro_lvm3_sslv_um",
+      "excerpt": "LVM3 C25/C32 high-thrust indigenous gas-generator hydrolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "manufacturer": {
+    "value": "ISRO / LPSC",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "ISRO LVM3 (GSLV Mk III) and SSLV Payload User's Guides & CE-20 Cryogenic Data",
+      "author": "ISRO / VSSC / LPSC",
+      "publisher": "Indian Space Research Organisation",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "CE-20 Propulsion Data",
+      "direct_url": "https://www.isro.gov.in/GSLVMkIII_CON.html",
+      "document_id": "isro_lvm3_sslv_um",
+      "excerpt": "LVM3 C25/C32 high-thrust indigenous gas-generator hydrolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "country": {
+    "value": "India",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "ISRO LVM3 (GSLV Mk III) and SSLV Payload User's Guides & CE-20 Cryogenic Data",
+      "author": "ISRO / VSSC / LPSC",
+      "publisher": "Indian Space Research Organisation",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "CE-20 Propulsion Data",
+      "direct_url": "https://www.isro.gov.in/GSLVMkIII_CON.html",
+      "document_id": "isro_lvm3_sslv_um",
+      "excerpt": "LVM3 C25/C32 high-thrust indigenous gas-generator hydrolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "status": {
+    "value": "active",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "ISRO LVM3 (GSLV Mk III) and SSLV Payload User's Guides & CE-20 Cryogenic Data",
+      "author": "ISRO / VSSC / LPSC",
+      "publisher": "Indian Space Research Organisation",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "CE-20 Propulsion Data",
+      "direct_url": "https://www.isro.gov.in/GSLVMkIII_CON.html",
+      "document_id": "isro_lvm3_sslv_um",
+      "excerpt": "LVM3 C25/C32 high-thrust indigenous gas-generator hydrolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "propulsion_type": {
+    "value": "liquid",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "ISRO LVM3 (GSLV Mk III) and SSLV Payload User's Guides & CE-20 Cryogenic Data",
+      "author": "ISRO / VSSC / LPSC",
+      "publisher": "Indian Space Research Organisation",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "CE-20 Propulsion Data",
+      "direct_url": "https://www.isro.gov.in/GSLVMkIII_CON.html",
+      "document_id": "isro_lvm3_sslv_um",
+      "excerpt": "LVM3 C25/C32 high-thrust indigenous gas-generator hydrolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "propellant": {
+    "value": "lox_lh2",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "ISRO LVM3 (GSLV Mk III) and SSLV Payload User's Guides & CE-20 Cryogenic Data",
+      "author": "ISRO / VSSC / LPSC",
+      "publisher": "Indian Space Research Organisation",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "CE-20 Propulsion Data",
+      "direct_url": "https://www.isro.gov.in/GSLVMkIII_CON.html",
+      "document_id": "isro_lvm3_sslv_um",
+      "excerpt": "LVM3 C25/C32 high-thrust indigenous gas-generator hydrolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "cycle": {
+    "value": "gas_generator",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "ISRO LVM3 (GSLV Mk III) and SSLV Payload User's Guides & CE-20 Cryogenic Data",
+      "author": "ISRO / VSSC / LPSC",
+      "publisher": "Indian Space Research Organisation",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "CE-20 Propulsion Data",
+      "direct_url": "https://www.isro.gov.in/GSLVMkIII_CON.html",
+      "document_id": "isro_lvm3_sslv_um",
+      "excerpt": "LVM3 C25/C32 high-thrust indigenous gas-generator hydrolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "oxidizer_fuel_ratio": {
+    "value": 5.05,
+    "canonical_unit": "ratio",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "ISRO LVM3 (GSLV Mk III) and SSLV Payload User's Guides & CE-20 Cryogenic Data",
+      "author": "ISRO / VSSC / LPSC",
+      "publisher": "Indian Space Research Organisation",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "CE-20 Propulsion Data",
+      "direct_url": "https://www.isro.gov.in/GSLVMkIII_CON.html",
+      "document_id": "isro_lvm3_sslv_um",
+      "excerpt": "LVM3 C25/C32 high-thrust indigenous gas-generator hydrolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "thrust_sl_n": {
+    "value": 120000.0,
+    "canonical_unit": "N",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "ISRO LVM3 (GSLV Mk III) and SSLV Payload User's Guides & CE-20 Cryogenic Data",
+      "author": "ISRO / VSSC / LPSC",
+      "publisher": "Indian Space Research Organisation",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "CE-20 Propulsion Data",
+      "direct_url": "https://www.isro.gov.in/GSLVMkIII_CON.html",
+      "document_id": "isro_lvm3_sslv_um",
+      "excerpt": "LVM3 C25/C32 high-thrust indigenous gas-generator hydrolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "thrust_vac_n": {
+    "value": 215700.0,
+    "canonical_unit": "N",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "ISRO LVM3 (GSLV Mk III) and SSLV Payload User's Guides & CE-20 Cryogenic Data",
+      "author": "ISRO / VSSC / LPSC",
+      "publisher": "Indian Space Research Organisation",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "CE-20 Propulsion Data",
+      "direct_url": "https://www.isro.gov.in/GSLVMkIII_CON.html",
+      "document_id": "isro_lvm3_sslv_um",
+      "excerpt": "LVM3 C25/C32 high-thrust indigenous gas-generator hydrolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "isp_sl_s": {
+    "value": 280.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "ISRO LVM3 (GSLV Mk III) and SSLV Payload User's Guides & CE-20 Cryogenic Data",
+      "author": "ISRO / VSSC / LPSC",
+      "publisher": "Indian Space Research Organisation",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "CE-20 Propulsion Data",
+      "direct_url": "https://www.isro.gov.in/GSLVMkIII_CON.html",
+      "document_id": "isro_lvm3_sslv_um",
+      "excerpt": "LVM3 C25/C32 high-thrust indigenous gas-generator hydrolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "isp_vac_s": {
+    "value": 443.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "ISRO LVM3 (GSLV Mk III) and SSLV Payload User's Guides & CE-20 Cryogenic Data",
+      "author": "ISRO / VSSC / LPSC",
+      "publisher": "Indian Space Research Organisation",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "CE-20 Propulsion Data",
+      "direct_url": "https://www.isro.gov.in/GSLVMkIII_CON.html",
+      "document_id": "isro_lvm3_sslv_um",
+      "excerpt": "LVM3 C25/C32 high-thrust indigenous gas-generator hydrolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "isp_avg_s": {
+    "value": 361.5,
+    "canonical_unit": "s",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "Isp_avg = 0.5 * (Isp_sl + Isp_vac)",
+      "input_parameters": {
+        "isp_sl_s": "280.0",
+        "isp_vac_s": "443.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Arithmetic mean",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "mass_flow_rate_kg_s": {
+    "value": 49.65,
+    "canonical_unit": "kg/s",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "mdot = F_vac / (Isp_vac * g0)",
+      "input_parameters": {
+        "F_vac_n": "215700",
+        "Isp_vac_s": "443.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct analytical relation",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "chamber_pressure_bar": {
+    "value": 60.0,
+    "canonical_unit": "bar",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "ISRO LVM3 (GSLV Mk III) and SSLV Payload User's Guides & CE-20 Cryogenic Data",
+      "author": "ISRO / VSSC / LPSC",
+      "publisher": "Indian Space Research Organisation",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "CE-20 Propulsion Data",
+      "direct_url": "https://www.isro.gov.in/GSLVMkIII_CON.html",
+      "document_id": "isro_lvm3_sslv_um",
+      "excerpt": "LVM3 C25/C32 high-thrust indigenous gas-generator hydrolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "expansion_ratio": {
+    "value": 100.0,
+    "canonical_unit": "ratio",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "ISRO LVM3 (GSLV Mk III) and SSLV Payload User's Guides & CE-20 Cryogenic Data",
+      "author": "ISRO / VSSC / LPSC",
+      "publisher": "Indian Space Research Organisation",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "CE-20 Propulsion Data",
+      "direct_url": "https://www.isro.gov.in/GSLVMkIII_CON.html",
+      "document_id": "isro_lvm3_sslv_um",
+      "excerpt": "LVM3 C25/C32 high-thrust indigenous gas-generator hydrolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "min_throttle_pct": {
+    "value": 90.0,
+    "canonical_unit": "percent",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "ISRO LVM3 (GSLV Mk III) and SSLV Payload User's Guides & CE-20 Cryogenic Data",
+      "author": "ISRO / VSSC / LPSC",
+      "publisher": "Indian Space Research Organisation",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "CE-20 Propulsion Data",
+      "direct_url": "https://www.isro.gov.in/GSLVMkIII_CON.html",
+      "document_id": "isro_lvm3_sslv_um",
+      "excerpt": "LVM3 C25/C32 high-thrust indigenous gas-generator hydrolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "max_throttle_pct": {
+    "value": 110.0,
+    "canonical_unit": "percent",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "ISRO LVM3 (GSLV Mk III) and SSLV Payload User's Guides & CE-20 Cryogenic Data",
+      "author": "ISRO / VSSC / LPSC",
+      "publisher": "Indian Space Research Organisation",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "CE-20 Propulsion Data",
+      "direct_url": "https://www.isro.gov.in/GSLVMkIII_CON.html",
+      "document_id": "isro_lvm3_sslv_um",
+      "excerpt": "LVM3 C25/C32 high-thrust indigenous gas-generator hydrolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "restarts_rated": {
+    "value": 2,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "ISRO LVM3 (GSLV Mk III) and SSLV Payload User's Guides & CE-20 Cryogenic Data",
+      "author": "ISRO / VSSC / LPSC",
+      "publisher": "Indian Space Research Organisation",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "CE-20 Propulsion Data",
+      "direct_url": "https://www.isro.gov.in/GSLVMkIII_CON.html",
+      "document_id": "isro_lvm3_sslv_um",
+      "excerpt": "LVM3 C25/C32 high-thrust indigenous gas-generator hydrolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "dry_mass_kg": {
+    "value": 588.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "ISRO LVM3 (GSLV Mk III) and SSLV Payload User's Guides & CE-20 Cryogenic Data",
+      "author": "ISRO / VSSC / LPSC",
+      "publisher": "Indian Space Research Organisation",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "CE-20 Propulsion Data",
+      "direct_url": "https://www.isro.gov.in/GSLVMkIII_CON.html",
+      "document_id": "isro_lvm3_sslv_um",
+      "excerpt": "LVM3 C25/C32 high-thrust indigenous gas-generator hydrolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "height_m": {
+    "value": 2.75,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "ISRO LVM3 (GSLV Mk III) and SSLV Payload User's Guides & CE-20 Cryogenic Data",
+      "author": "ISRO / VSSC / LPSC",
+      "publisher": "Indian Space Research Organisation",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "CE-20 Propulsion Data",
+      "direct_url": "https://www.isro.gov.in/GSLVMkIII_CON.html",
+      "document_id": "isro_lvm3_sslv_um",
+      "excerpt": "LVM3 C25/C32 high-thrust indigenous gas-generator hydrolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "nozzle_diameter_m": {
+    "value": 1.48,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "ISRO LVM3 (GSLV Mk III) and SSLV Payload User's Guides & CE-20 Cryogenic Data",
+      "author": "ISRO / VSSC / LPSC",
+      "publisher": "Indian Space Research Organisation",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "CE-20 Propulsion Data",
+      "direct_url": "https://www.isro.gov.in/GSLVMkIII_CON.html",
+      "document_id": "isro_lvm3_sslv_um",
+      "excerpt": "LVM3 C25/C32 high-thrust indigenous gas-generator hydrolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "gimbal_envelope_dia_m": {
+    "value": 1.86,
+    "canonical_unit": "m",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "D_env = D_noz + 2 * L_noz * sin(theta_gimbal)",
+      "input_parameters": {
+        "nozzle_dia_m": "1.48",
+        "gimbal_deg": "4.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Small-angle TVC sweep geometry",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "tvc_gimbal_range_deg": {
+    "value": 4.0,
+    "canonical_unit": "deg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "ISRO LVM3 (GSLV Mk III) and SSLV Payload User's Guides & CE-20 Cryogenic Data",
+      "author": "ISRO / VSSC / LPSC",
+      "publisher": "Indian Space Research Organisation",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "CE-20 Propulsion Data",
+      "direct_url": "https://www.isro.gov.in/GSLVMkIII_CON.html",
+      "document_id": "isro_lvm3_sslv_um",
+      "excerpt": "LVM3 C25/C32 high-thrust indigenous gas-generator hydrolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "thrust_to_weight_vac": {
+    "value": 37.41,
+    "canonical_unit": "ratio",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "T/W_vac = F_vac / (m_dry * g0)",
+      "input_parameters": {
+        "F_vac_n": "215700",
+        "m_dry_kg": "588"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct analytical relation",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "unit_cost_usd": {
+    "value": 6500000.0,
+    "canonical_unit": "USD",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "ISRO LVM3 (GSLV Mk III) and SSLV Payload User's Guides & CE-20 Cryogenic Data",
+      "author": "ISRO / VSSC / LPSC",
+      "publisher": "Indian Space Research Organisation",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "CE-20 Propulsion Data",
+      "direct_url": "https://www.isro.gov.in/GSLVMkIII_CON.html",
+      "document_id": "isro_lvm3_sslv_um",
+      "excerpt": "LVM3 C25/C32 high-thrust indigenous gas-generator hydrolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "development_cost_usd": {
+    "value": 420000000.0,
+    "canonical_unit": "USD",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "ISRO LVM3 (GSLV Mk III) and SSLV Payload User's Guides & CE-20 Cryogenic Data",
+      "author": "ISRO / VSSC / LPSC",
+      "publisher": "Indian Space Research Organisation",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "CE-20 Propulsion Data",
+      "direct_url": "https://www.isro.gov.in/GSLVMkIII_CON.html",
+      "document_id": "isro_lvm3_sslv_um",
+      "excerpt": "LVM3 C25/C32 high-thrust indigenous gas-generator hydrolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "propellant_mass_kg": null,
+  "total_mass_kg": null,
+  "burn_time_s": null
+}

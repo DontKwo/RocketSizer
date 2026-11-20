@@ -1,0 +1,980 @@
+{
+  "id": {
+    "value": "h_iia_202",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "name": {
+    "value": "H-IIA",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "variant": {
+    "value": "202",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "manufacturer": {
+    "value": "JAXA / MHI",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "country": {
+    "value": "Japan",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "operational_status": {
+    "value": "active",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "maiden_flight_year": {
+    "value": 2001,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "retirement_year": {
+    "value": null,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_leo_kg": {
+    "value": 10000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_sso_kg": {
+    "value": 7500.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_gto_kg": {
+    "value": 4100.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_geo_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_tli_kg": {
+    "value": 2800.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_tmi_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "total_height_m": {
+    "value": 53.0,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "core_diameter_m": {
+    "value": 4.0,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "max_width_m": {
+    "value": 9.0,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "fairing_diameter_m": {
+    "value": 4.07,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "fairing_length_m": {
+    "value": 12.0,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "usable_fairing_vol_m3": {
+    "value": 94.8,
+    "canonical_unit": "m^3",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "V_fairing = 0.75 * pi * (0.45 * D_fairing)^2 * L_fairing",
+      "input_parameters": {
+        "fairing_dia_m": "4.07",
+        "fairing_len_m": "12.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Ogive/cylindrical dynamic envelope integration",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "glow_kg": {
+    "value": 289000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "total_dry_mass_kg": {
+    "value": 31000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_fraction_leo": {
+    "value": 0.0346,
+    "canonical_unit": "fraction",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "f_pl = m_payload_LEO / GLOW",
+      "input_parameters": {
+        "leo_kg": "10000.0",
+        "glow_kg": "289000.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct ratio",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "liftoff_thrust_sl_n": {
+    "value": 5170000.0,
+    "canonical_unit": "N",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "liftoff_tw0": {
+    "value": 1.824,
+    "canonical_unit": "ratio",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "T/W0 = F_sl / (GLOW * g0)",
+      "input_parameters": {
+        "thrust_sl_n": "5170000.0",
+        "glow_kg": "289000.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct analytical relation",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "stage_count": {
+    "value": 2,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_count": {
+    "value": 2,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_type": {
+    "value": "solid",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_propellant": {
+    "value": "LOX/LH2",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_engine_id": {
+    "value": "le_7a",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_engine_count": {
+    "value": 1,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_prop_mass_kg": {
+    "value": 101100.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_dry_mass_kg": {
+    "value": 12500.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_burn_time_s": {
+    "value": 390.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_propellant": {
+    "value": "LOX/LH2",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_engine_id": {
+    "value": "le_5b",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_engine_count": {
+    "value": 1,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_prop_mass_kg": {
+    "value": 16900.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_dry_mass_kg": {
+    "value": 3100.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_burn_time_s": {
+    "value": 530.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_propellant": {
+    "value": "Solid HTPB",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_engine_id": {
+    "value": "srb_a3",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_engine_count": {
+    "value": 2,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_prop_mass_kg": {
+    "value": 65900.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_dry_mass_kg": {
+    "value": 10500.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_burn_time_s": {
+    "value": 100.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_original_usd": {
+    "value": 90000000.0,
+    "canonical_unit": "USD",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_year": {
+    "value": 2020,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_adj_usd": {
+    "value": 111800000.0,
+    "canonical_unit": "USD",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "CPI aerospace inflation adjustment to FY2026",
+      "input_parameters": {
+        "cost_orig": "90000000.0",
+        "year": "2020"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "BLS CPI-U index",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "cost_per_kg_leo_usd": {
+    "value": 11180.0,
+    "canonical_unit": "USD/kg",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "C_kg = C_adj / m_payload_LEO",
+      "input_parameters": {
+        "cost_adj_usd": "111800000.0",
+        "leo_kg": "10000.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct analytical relation",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "development_cost_usd": {
+    "value": 1500000000.0,
+    "canonical_unit": "USD",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "total_launches": {
+    "value": 35,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "successful_launches": {
+    "value": 34,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "H-IIA and H-IIB Launch Vehicle User's Manual (Rev. 4.1)",
+      "author": "Mitsubishi Heavy Industries / JAXA",
+      "publisher": "MHI Launch Services",
+      "publication_year": 2015,
+      "page_number": 1,
+      "table_or_figure": "H-IIA 202 Vehicle Data",
+      "direct_url": "https://global.jaxa.jp/projects/rockets/h2a/",
+      "document_id": "jaxa_h2_um",
+      "excerpt": "Japan workhorse hydrolox + 2 SRB-A3 launcher (Hayabusa2, SLIM, Akatsuki)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_success_rate": {
+    "value": 0.9714,
+    "canonical_unit": "fraction",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "R_succ = N_success / N_total",
+      "input_parameters": {
+        "successful": "34",
+        "total": "35"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct analytical relation",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  }
+}

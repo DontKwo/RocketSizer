@@ -1,0 +1,980 @@
+{
+  "id": {
+    "value": "atlas_iiib",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "name": {
+    "value": "Atlas IIIB",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "variant": {
+    "value": "Centaur",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "manufacturer": {
+    "value": "Lockheed Martin",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "country": {
+    "value": "USA",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "operational_status": {
+    "value": "retired",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "maiden_flight_year": {
+    "value": 2002,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "retirement_year": {
+    "value": 2005,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_leo_kg": {
+    "value": 10718.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_sso_kg": {
+    "value": 8400.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_gto_kg": {
+    "value": 4500.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_geo_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_tli_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_tmi_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "total_height_m": {
+    "value": 52.8,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "core_diameter_m": {
+    "value": 3.05,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "max_width_m": {
+    "value": 4.2,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "fairing_diameter_m": {
+    "value": 4.2,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "fairing_length_m": {
+    "value": 12.2,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "usable_fairing_vol_m3": {
+    "value": 102.7,
+    "canonical_unit": "m^3",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "V_fairing = 0.75 * pi * (0.45 * D_fairing)^2 * L_fairing",
+      "input_parameters": {
+        "fairing_dia_m": "4.2",
+        "fairing_len_m": "12.2"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Ogive/cylindrical dynamic envelope integration",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "glow_kg": {
+    "value": 225340.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "total_dry_mass_kg": {
+    "value": 14800.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_fraction_leo": {
+    "value": 0.04756,
+    "canonical_unit": "fraction",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "f_pl = m_payload_LEO / GLOW",
+      "input_parameters": {
+        "leo_kg": "10718.0",
+        "glow_kg": "225340.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct ratio",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "liftoff_thrust_sl_n": {
+    "value": 3827000.0,
+    "canonical_unit": "N",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "liftoff_tw0": {
+    "value": 1.732,
+    "canonical_unit": "ratio",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "T/W0 = F_sl / (GLOW * g0)",
+      "input_parameters": {
+        "thrust_sl_n": "3827000.0",
+        "glow_kg": "225340.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct analytical relation",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "stage_count": {
+    "value": 2,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_count": {
+    "value": 0,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_type": {
+    "value": "none",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_propellant": {
+    "value": "LOX/RP-1",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_engine_id": {
+    "value": "rd_180",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_engine_count": {
+    "value": 1,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_prop_mass_kg": {
+    "value": 181000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_dry_mass_kg": {
+    "value": 10500.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_burn_time_s": {
+    "value": 185.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_propellant": {
+    "value": "LOX/LH2",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_engine_id": {
+    "value": "rl_10a",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_engine_count": {
+    "value": 2,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_prop_mass_kg": {
+    "value": 20800.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_dry_mass_kg": {
+    "value": 2100.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_burn_time_s": {
+    "value": 470.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_propellant": {
+    "value": "none",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_engine_id": {
+    "value": "none",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_engine_count": {
+    "value": 0,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_prop_mass_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_dry_mass_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_burn_time_s": {
+    "value": 0.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_original_usd": {
+    "value": 110000000.0,
+    "canonical_unit": "USD",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_year": {
+    "value": 2003,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_adj_usd": {
+    "value": 192200000.0,
+    "canonical_unit": "USD",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "CPI aerospace inflation adjustment to FY2026",
+      "input_parameters": {
+        "cost_orig": "110000000.0",
+        "year": "2003"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "BLS CPI-U index",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "cost_per_kg_leo_usd": {
+    "value": 17932.5,
+    "canonical_unit": "USD/kg",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "C_kg = C_adj / m_payload_LEO",
+      "input_parameters": {
+        "cost_adj_usd": "192200000.0",
+        "leo_kg": "10718.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct analytical relation",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "development_cost_usd": {
+    "value": 550000000.0,
+    "canonical_unit": "USD",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "total_launches": {
+    "value": 4,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "successful_launches": {
+    "value": 4,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas Launch System Mission Planner's Guide (Atlas IIAS / III)",
+      "author": "Lockheed Martin / International Launch Services",
+      "publisher": "ILS",
+      "publication_year": 2002,
+      "page_number": 1,
+      "table_or_figure": "Atlas IIIB Centaur Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20030001012",
+      "document_id": "ula_atlas_iias_guide",
+      "excerpt": "First US launch vehicle powered by Russian RD-180 engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_success_rate": {
+    "value": 1.0,
+    "canonical_unit": "fraction",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "R_succ = N_success / N_total",
+      "input_parameters": {
+        "successful": "4",
+        "total": "4"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct analytical relation",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  }
+}

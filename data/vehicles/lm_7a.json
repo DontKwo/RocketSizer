@@ -1,0 +1,980 @@
+{
+  "id": {
+    "value": "lm_7a",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "name": {
+    "value": "Long March 7A",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "variant": {
+    "value": "CZ-7A",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "manufacturer": {
+    "value": "CALT",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "country": {
+    "value": "China",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "operational_status": {
+    "value": "active",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "maiden_flight_year": {
+    "value": 2020,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "retirement_year": {
+    "value": null,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_leo_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_sso_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_gto_kg": {
+    "value": 7000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_geo_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_tli_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_tmi_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "total_height_m": {
+    "value": 60.1,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "core_diameter_m": {
+    "value": 3.35,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "max_width_m": {
+    "value": 7.85,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "fairing_diameter_m": {
+    "value": 4.2,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "fairing_length_m": {
+    "value": 11.7,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "usable_fairing_vol_m3": {
+    "value": 98.5,
+    "canonical_unit": "m^3",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "V_fairing = 0.75 * pi * (0.45 * D_fairing)^2 * L_fairing",
+      "input_parameters": {
+        "fairing_dia_m": "4.2",
+        "fairing_len_m": "11.7"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Ogive/cylindrical dynamic envelope integration",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "glow_kg": {
+    "value": 573000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "total_dry_mass_kg": {
+    "value": 53000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_fraction_leo": {
+    "value": 0.0,
+    "canonical_unit": "fraction",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "f_pl = m_payload_LEO / GLOW",
+      "input_parameters": {
+        "leo_kg": "0.0",
+        "glow_kg": "573000.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct ratio",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "liftoff_thrust_sl_n": {
+    "value": 7200000.0,
+    "canonical_unit": "N",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "liftoff_tw0": {
+    "value": 1.281,
+    "canonical_unit": "ratio",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "T/W0 = F_sl / (GLOW * g0)",
+      "input_parameters": {
+        "thrust_sl_n": "7200000.0",
+        "glow_kg": "573000.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct analytical relation",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "stage_count": {
+    "value": 3,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_count": {
+    "value": 4,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_type": {
+    "value": "liquid",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_propellant": {
+    "value": "LOX/RP-1",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_engine_id": {
+    "value": "yf_100",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_engine_count": {
+    "value": 2,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_prop_mass_kg": {
+    "value": 174000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_dry_mass_kg": {
+    "value": 13500.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_burn_time_s": {
+    "value": 172.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_propellant": {
+    "value": "LOX/LH2",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_engine_id": {
+    "value": "yf_75",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_engine_count": {
+    "value": 2,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_prop_mass_kg": {
+    "value": 22000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_dry_mass_kg": {
+    "value": 3200.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_burn_time_s": {
+    "value": 480.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_propellant": {
+    "value": "LOX/RP-1",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_engine_id": {
+    "value": "yf_100",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_engine_count": {
+    "value": 4,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_prop_mass_kg": {
+    "value": 75000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_dry_mass_kg": {
+    "value": 6800.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_burn_time_s": {
+    "value": 151.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_original_usd": {
+    "value": 75000000.0,
+    "canonical_unit": "USD",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_year": {
+    "value": 2023,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_adj_usd": {
+    "value": 79140000.0,
+    "canonical_unit": "USD",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "CPI aerospace inflation adjustment to FY2026",
+      "input_parameters": {
+        "cost_orig": "75000000.0",
+        "year": "2023"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "BLS CPI-U index",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "cost_per_kg_leo_usd": {
+    "value": 79140000.0,
+    "canonical_unit": "USD/kg",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "C_kg = C_adj / m_payload_LEO",
+      "input_parameters": {
+        "cost_adj_usd": "79140000.0",
+        "leo_kg": "0.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct analytical relation",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "development_cost_usd": {
+    "value": 1800000000.0,
+    "canonical_unit": "USD",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "total_launches": {
+    "value": 7,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "successful_launches": {
+    "value": 6,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "New Generation Long March Cryogenic & Kerolox Family Technical Compendium (CZ-5/6/7/8/11)",
+      "author": "CALT / CASC",
+      "publisher": "China Aerospace Science and Technology Corporation",
+      "publication_year": 2022,
+      "page_number": 1,
+      "table_or_figure": "Long March 7A CZ-7A Vehicle Data",
+      "direct_url": "https://english.spacechina.com/",
+      "document_id": "cgwic_lm5_6_7_8_um",
+      "excerpt": "High-energy 3-stage GTO variant of CZ-7 adding H-18 cryogenic third stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_success_rate": {
+    "value": 0.8571,
+    "canonical_unit": "fraction",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "R_succ = N_success / N_total",
+      "input_parameters": {
+        "successful": "6",
+        "total": "7"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct analytical relation",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  }
+}

@@ -10,6 +10,8 @@ __pycache__/
 .venv/
 venv/
 ENV/
+.ai-dev-tools/
+artifacts/
 
 # Rust / Tauri build artifacts
 src-tauri/target/
@@ -17,9 +19,14 @@ src-tauri/target/
 
 # Node / Web dependencies and builds
 node_modules/
+**/node_modules/
 dist/
+!src/dist/
+!src/dist/**
 build/
 *.tsbuildinfo
+*.exe
+ui_evidence.json
 
 # OS / Editor artifacts
 .DS_Store

@@ -1,0 +1,565 @@
+{
+  "id": {
+    "value": "gem_46",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "GEM-46 Propulsion Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Delta III / Delta II Heavy 46-inch HTPB composite strap-on booster."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "name": {
+    "value": "GEM-46",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "GEM-46 Propulsion Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Delta III / Delta II Heavy 46-inch HTPB composite strap-on booster."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "manufacturer": {
+    "value": "ATK / Northrop Grumman",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "GEM-46 Propulsion Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Delta III / Delta II Heavy 46-inch HTPB composite strap-on booster."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "country": {
+    "value": "USA",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "GEM-46 Propulsion Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Delta III / Delta II Heavy 46-inch HTPB composite strap-on booster."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "status": {
+    "value": "retired",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "GEM-46 Propulsion Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Delta III / Delta II Heavy 46-inch HTPB composite strap-on booster."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "propulsion_type": {
+    "value": "solid",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "GEM-46 Propulsion Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Delta III / Delta II Heavy 46-inch HTPB composite strap-on booster."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "propellant": {
+    "value": "solid_htpb",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "GEM-46 Propulsion Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Delta III / Delta II Heavy 46-inch HTPB composite strap-on booster."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "cycle": {
+    "value": "solid_motor",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "GEM-46 Propulsion Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Delta III / Delta II Heavy 46-inch HTPB composite strap-on booster."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "oxidizer_fuel_ratio": {
+    "value": 0.0,
+    "canonical_unit": "ratio",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "GEM-46 Propulsion Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Delta III / Delta II Heavy 46-inch HTPB composite strap-on booster."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "thrust_sl_n": {
+    "value": 540000.0,
+    "canonical_unit": "N",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "GEM-46 Propulsion Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Delta III / Delta II Heavy 46-inch HTPB composite strap-on booster."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "thrust_vac_n": {
+    "value": 608000.0,
+    "canonical_unit": "N",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "GEM-46 Propulsion Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Delta III / Delta II Heavy 46-inch HTPB composite strap-on booster."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "isp_sl_s": {
+    "value": 244.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "GEM-46 Propulsion Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Delta III / Delta II Heavy 46-inch HTPB composite strap-on booster."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "isp_vac_s": {
+    "value": 274.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "GEM-46 Propulsion Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Delta III / Delta II Heavy 46-inch HTPB composite strap-on booster."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "isp_avg_s": {
+    "value": 259.0,
+    "canonical_unit": "s",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "Isp_avg = 0.5 * (Isp_sl + Isp_vac)",
+      "input_parameters": {
+        "isp_sl_s": "244.0",
+        "isp_vac_s": "274.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Arithmetic mean",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "mass_flow_rate_kg_s": {
+    "value": 226.27,
+    "canonical_unit": "kg/s",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "mdot = F_vac / (Isp_vac * g0)",
+      "input_parameters": {
+        "F_vac_n": "608000",
+        "Isp_vac_s": "274.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct analytical relation",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "chamber_pressure_bar": {
+    "value": 62.0,
+    "canonical_unit": "bar",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "GEM-46 Propulsion Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Delta III / Delta II Heavy 46-inch HTPB composite strap-on booster."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "expansion_ratio": {
+    "value": 11.5,
+    "canonical_unit": "ratio",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "GEM-46 Propulsion Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Delta III / Delta II Heavy 46-inch HTPB composite strap-on booster."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "min_throttle_pct": {
+    "value": 100.0,
+    "canonical_unit": "percent",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "GEM-46 Propulsion Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Delta III / Delta II Heavy 46-inch HTPB composite strap-on booster."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "max_throttle_pct": {
+    "value": 100.0,
+    "canonical_unit": "percent",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "GEM-46 Propulsion Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Delta III / Delta II Heavy 46-inch HTPB composite strap-on booster."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "restarts_rated": {
+    "value": 0,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "GEM-46 Propulsion Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Delta III / Delta II Heavy 46-inch HTPB composite strap-on booster."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "dry_mass_kg": {
+    "value": 2270.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "GEM-46 Propulsion Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Delta III / Delta II Heavy 46-inch HTPB composite strap-on booster."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "height_m": {
+    "value": 14.7,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "GEM-46 Propulsion Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Delta III / Delta II Heavy 46-inch HTPB composite strap-on booster."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "nozzle_diameter_m": {
+    "value": 1.17,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "GEM-46 Propulsion Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Delta III / Delta II Heavy 46-inch HTPB composite strap-on booster."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "gimbal_envelope_dia_m": {
+    "value": 3.74,
+    "canonical_unit": "m",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "D_env = D_noz + 2 * L_noz * sin(theta_gimbal)",
+      "input_parameters": {
+        "nozzle_dia_m": "1.17",
+        "gimbal_deg": "5.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Small-angle TVC sweep geometry",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "tvc_gimbal_range_deg": {
+    "value": 5.0,
+    "canonical_unit": "deg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "GEM-46 Propulsion Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Delta III / Delta II Heavy 46-inch HTPB composite strap-on booster."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "thrust_to_weight_vac": {
+    "value": 27.31,
+    "canonical_unit": "ratio",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "T/W_vac = F_vac / (m_dry * g0)",
+      "input_parameters": {
+        "F_vac_n": "608000",
+        "m_dry_kg": "2270"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct analytical relation",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "unit_cost_usd": {
+    "value": 2400000.0,
+    "canonical_unit": "USD",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "GEM-46 Propulsion Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Delta III / Delta II Heavy 46-inch HTPB composite strap-on booster."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "development_cost_usd": {
+    "value": 160000000.0,
+    "canonical_unit": "USD",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "GEM-46 Propulsion Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Delta III / Delta II Heavy 46-inch HTPB composite strap-on booster."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "propellant_mass_kg": {
+    "value": 16860.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "GEM-46 Propulsion Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Delta III / Delta II Heavy 46-inch HTPB composite strap-on booster."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "total_mass_kg": {
+    "value": 19130.0,
+    "canonical_unit": "kg",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "m_total = m_dry + m_propellant",
+      "input_parameters": {
+        "m_dry_kg": "2270",
+        "m_prop_kg": "16860.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct analytical relation",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "burn_time_s": {
+    "value": 75.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta III Payload Planners Guide",
+      "author": "Boeing Launch Services",
+      "publisher": "Boeing",
+      "publication_year": 2000,
+      "page_number": 1,
+      "table_or_figure": "GEM-46 Propulsion Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/20000116632",
+      "document_id": "boeing_delta_iii_guide",
+      "excerpt": "Delta III / Delta II Heavy 46-inch HTPB composite strap-on booster."
+    },
+    "derivation": null,
+    "notes": null
+  }
+}

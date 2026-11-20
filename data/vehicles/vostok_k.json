@@ -1,0 +1,980 @@
+{
+  "id": {
+    "value": "vostok_k",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "name": {
+    "value": "Vostok-K",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "variant": {
+    "value": "8K72K",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "manufacturer": {
+    "value": "OKB-1",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "country": {
+    "value": "USSR",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "operational_status": {
+    "value": "retired",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "maiden_flight_year": {
+    "value": 1960,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "retirement_year": {
+    "value": 1964,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_leo_kg": {
+    "value": 4730.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_sso_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_gto_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_geo_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_tli_kg": {
+    "value": 1500.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_tmi_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "total_height_m": {
+    "value": 30.8,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "core_diameter_m": {
+    "value": 2.95,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "max_width_m": {
+    "value": 10.3,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "fairing_diameter_m": {
+    "value": 2.6,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "fairing_length_m": {
+    "value": 5.2,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "usable_fairing_vol_m3": {
+    "value": 16.8,
+    "canonical_unit": "m^3",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "V_fairing = 0.75 * pi * (0.45 * D_fairing)^2 * L_fairing",
+      "input_parameters": {
+        "fairing_dia_m": "2.6",
+        "fairing_len_m": "5.2"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Ogive/cylindrical dynamic envelope integration",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "glow_kg": {
+    "value": 287000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "total_dry_mass_kg": {
+    "value": 26000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_fraction_leo": {
+    "value": 0.01648,
+    "canonical_unit": "fraction",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "f_pl = m_payload_LEO / GLOW",
+      "input_parameters": {
+        "leo_kg": "4730.0",
+        "glow_kg": "287000.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct ratio",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "liftoff_thrust_sl_n": {
+    "value": 3904000.0,
+    "canonical_unit": "N",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "liftoff_tw0": {
+    "value": 1.387,
+    "canonical_unit": "ratio",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "T/W0 = F_sl / (GLOW * g0)",
+      "input_parameters": {
+        "thrust_sl_n": "3904000.0",
+        "glow_kg": "287000.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct analytical relation",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "stage_count": {
+    "value": 2,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_count": {
+    "value": 4,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_type": {
+    "value": "liquid",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_propellant": {
+    "value": "LOX/RP-1",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_engine_id": {
+    "value": "rd_108a",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_engine_count": {
+    "value": 1,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_prop_mass_kg": {
+    "value": 95000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_dry_mass_kg": {
+    "value": 6800.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_burn_time_s": {
+    "value": 300.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_propellant": {
+    "value": "LOX/RP-1",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_engine_id": {
+    "value": "rd_0110",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_engine_count": {
+    "value": 1,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_prop_mass_kg": {
+    "value": 6100.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_dry_mass_kg": {
+    "value": 1400.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_burn_time_s": {
+    "value": 440.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_propellant": {
+    "value": "LOX/RP-1",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_engine_id": {
+    "value": "rd_107a",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_engine_count": {
+    "value": 4,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_prop_mass_kg": {
+    "value": 39600.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_dry_mass_kg": {
+    "value": 3780.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_burn_time_s": {
+    "value": 118.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_original_usd": {
+    "value": 20000000.0,
+    "canonical_unit": "USD",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_year": {
+    "value": 1961,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_adj_usd": {
+    "value": 215050000.0,
+    "canonical_unit": "USD",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "CPI aerospace inflation adjustment to FY2026",
+      "input_parameters": {
+        "cost_orig": "20000000.0",
+        "year": "1961"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "BLS CPI-U index",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "cost_per_kg_leo_usd": {
+    "value": 45465.1,
+    "canonical_unit": "USD/kg",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "C_kg = C_adj / m_payload_LEO",
+      "input_parameters": {
+        "cost_adj_usd": "215050000.0",
+        "leo_kg": "4730.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct analytical relation",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "development_cost_usd": {
+    "value": 800000000.0,
+    "canonical_unit": "USD",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "total_launches": {
+    "value": 16,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "successful_launches": {
+    "value": 13,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NPO Energomash Liquid Rocket Engine Technical Catalog (RD-107 to RD-191, RD-253)",
+      "author": "NPO Energomash",
+      "publisher": "NPO Energomash",
+      "publication_year": 2020,
+      "page_number": 1,
+      "table_or_figure": "Vostok-K 8K72K Vehicle Data",
+      "direct_url": "https://engine.space/",
+      "document_id": "energomash_cat",
+      "excerpt": "Orbital launcher of Yuri Gagarin (Vostok 1, 1961)."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_success_rate": {
+    "value": 0.8125,
+    "canonical_unit": "fraction",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "R_succ = N_success / N_total",
+      "input_parameters": {
+        "successful": "13",
+        "total": "16"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct analytical relation",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  }
+}

@@ -1,0 +1,565 @@
+{
+  "id": {
+    "value": "zefiro_40",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vega-C User's Manual Issue 0 Revision 0",
+      "author": "Arianespace / Avio",
+      "publisher": "Arianespace",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Zefiro 40 Propulsion Data",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2018/07/Vega-C-user-manual_Issue-0_Rev-0_20180705.pdf",
+      "document_id": "arianespace_vegac_um",
+      "excerpt": "Vega-C second-stage high-pressure HTPB composite solid motor."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "name": {
+    "value": "Zefiro 40",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vega-C User's Manual Issue 0 Revision 0",
+      "author": "Arianespace / Avio",
+      "publisher": "Arianespace",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Zefiro 40 Propulsion Data",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2018/07/Vega-C-user-manual_Issue-0_Rev-0_20180705.pdf",
+      "document_id": "arianespace_vegac_um",
+      "excerpt": "Vega-C second-stage high-pressure HTPB composite solid motor."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "manufacturer": {
+    "value": "Avio",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vega-C User's Manual Issue 0 Revision 0",
+      "author": "Arianespace / Avio",
+      "publisher": "Arianespace",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Zefiro 40 Propulsion Data",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2018/07/Vega-C-user-manual_Issue-0_Rev-0_20180705.pdf",
+      "document_id": "arianespace_vegac_um",
+      "excerpt": "Vega-C second-stage high-pressure HTPB composite solid motor."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "country": {
+    "value": "Italy",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vega-C User's Manual Issue 0 Revision 0",
+      "author": "Arianespace / Avio",
+      "publisher": "Arianespace",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Zefiro 40 Propulsion Data",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2018/07/Vega-C-user-manual_Issue-0_Rev-0_20180705.pdf",
+      "document_id": "arianespace_vegac_um",
+      "excerpt": "Vega-C second-stage high-pressure HTPB composite solid motor."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "status": {
+    "value": "active",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vega-C User's Manual Issue 0 Revision 0",
+      "author": "Arianespace / Avio",
+      "publisher": "Arianespace",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Zefiro 40 Propulsion Data",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2018/07/Vega-C-user-manual_Issue-0_Rev-0_20180705.pdf",
+      "document_id": "arianespace_vegac_um",
+      "excerpt": "Vega-C second-stage high-pressure HTPB composite solid motor."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "propulsion_type": {
+    "value": "solid",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vega-C User's Manual Issue 0 Revision 0",
+      "author": "Arianespace / Avio",
+      "publisher": "Arianespace",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Zefiro 40 Propulsion Data",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2018/07/Vega-C-user-manual_Issue-0_Rev-0_20180705.pdf",
+      "document_id": "arianespace_vegac_um",
+      "excerpt": "Vega-C second-stage high-pressure HTPB composite solid motor."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "propellant": {
+    "value": "solid_htpb",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vega-C User's Manual Issue 0 Revision 0",
+      "author": "Arianespace / Avio",
+      "publisher": "Arianespace",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Zefiro 40 Propulsion Data",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2018/07/Vega-C-user-manual_Issue-0_Rev-0_20180705.pdf",
+      "document_id": "arianespace_vegac_um",
+      "excerpt": "Vega-C second-stage high-pressure HTPB composite solid motor."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "cycle": {
+    "value": "solid_motor",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vega-C User's Manual Issue 0 Revision 0",
+      "author": "Arianespace / Avio",
+      "publisher": "Arianespace",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Zefiro 40 Propulsion Data",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2018/07/Vega-C-user-manual_Issue-0_Rev-0_20180705.pdf",
+      "document_id": "arianespace_vegac_um",
+      "excerpt": "Vega-C second-stage high-pressure HTPB composite solid motor."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "oxidizer_fuel_ratio": {
+    "value": 0.0,
+    "canonical_unit": "ratio",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vega-C User's Manual Issue 0 Revision 0",
+      "author": "Arianespace / Avio",
+      "publisher": "Arianespace",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Zefiro 40 Propulsion Data",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2018/07/Vega-C-user-manual_Issue-0_Rev-0_20180705.pdf",
+      "document_id": "arianespace_vegac_um",
+      "excerpt": "Vega-C second-stage high-pressure HTPB composite solid motor."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "thrust_sl_n": {
+    "value": 980000.0,
+    "canonical_unit": "N",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vega-C User's Manual Issue 0 Revision 0",
+      "author": "Arianespace / Avio",
+      "publisher": "Arianespace",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Zefiro 40 Propulsion Data",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2018/07/Vega-C-user-manual_Issue-0_Rev-0_20180705.pdf",
+      "document_id": "arianespace_vegac_um",
+      "excerpt": "Vega-C second-stage high-pressure HTPB composite solid motor."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "thrust_vac_n": {
+    "value": 1304000.0,
+    "canonical_unit": "N",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vega-C User's Manual Issue 0 Revision 0",
+      "author": "Arianespace / Avio",
+      "publisher": "Arianespace",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Zefiro 40 Propulsion Data",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2018/07/Vega-C-user-manual_Issue-0_Rev-0_20180705.pdf",
+      "document_id": "arianespace_vegac_um",
+      "excerpt": "Vega-C second-stage high-pressure HTPB composite solid motor."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "isp_sl_s": {
+    "value": 245.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vega-C User's Manual Issue 0 Revision 0",
+      "author": "Arianespace / Avio",
+      "publisher": "Arianespace",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Zefiro 40 Propulsion Data",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2018/07/Vega-C-user-manual_Issue-0_Rev-0_20180705.pdf",
+      "document_id": "arianespace_vegac_um",
+      "excerpt": "Vega-C second-stage high-pressure HTPB composite solid motor."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "isp_vac_s": {
+    "value": 293.5,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vega-C User's Manual Issue 0 Revision 0",
+      "author": "Arianespace / Avio",
+      "publisher": "Arianespace",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Zefiro 40 Propulsion Data",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2018/07/Vega-C-user-manual_Issue-0_Rev-0_20180705.pdf",
+      "document_id": "arianespace_vegac_um",
+      "excerpt": "Vega-C second-stage high-pressure HTPB composite solid motor."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "isp_avg_s": {
+    "value": 269.2,
+    "canonical_unit": "s",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "Isp_avg = 0.5 * (Isp_sl + Isp_vac)",
+      "input_parameters": {
+        "isp_sl_s": "245.0",
+        "isp_vac_s": "293.5"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Arithmetic mean",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "mass_flow_rate_kg_s": {
+    "value": 453.05,
+    "canonical_unit": "kg/s",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "mdot = F_vac / (Isp_vac * g0)",
+      "input_parameters": {
+        "F_vac_n": "1304000",
+        "Isp_vac_s": "293.5"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct analytical relation",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "chamber_pressure_bar": {
+    "value": 115.0,
+    "canonical_unit": "bar",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vega-C User's Manual Issue 0 Revision 0",
+      "author": "Arianespace / Avio",
+      "publisher": "Arianespace",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Zefiro 40 Propulsion Data",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2018/07/Vega-C-user-manual_Issue-0_Rev-0_20180705.pdf",
+      "document_id": "arianespace_vegac_um",
+      "excerpt": "Vega-C second-stage high-pressure HTPB composite solid motor."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "expansion_ratio": {
+    "value": 37.0,
+    "canonical_unit": "ratio",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vega-C User's Manual Issue 0 Revision 0",
+      "author": "Arianespace / Avio",
+      "publisher": "Arianespace",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Zefiro 40 Propulsion Data",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2018/07/Vega-C-user-manual_Issue-0_Rev-0_20180705.pdf",
+      "document_id": "arianespace_vegac_um",
+      "excerpt": "Vega-C second-stage high-pressure HTPB composite solid motor."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "min_throttle_pct": {
+    "value": 100.0,
+    "canonical_unit": "percent",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vega-C User's Manual Issue 0 Revision 0",
+      "author": "Arianespace / Avio",
+      "publisher": "Arianespace",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Zefiro 40 Propulsion Data",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2018/07/Vega-C-user-manual_Issue-0_Rev-0_20180705.pdf",
+      "document_id": "arianespace_vegac_um",
+      "excerpt": "Vega-C second-stage high-pressure HTPB composite solid motor."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "max_throttle_pct": {
+    "value": 100.0,
+    "canonical_unit": "percent",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vega-C User's Manual Issue 0 Revision 0",
+      "author": "Arianespace / Avio",
+      "publisher": "Arianespace",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Zefiro 40 Propulsion Data",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2018/07/Vega-C-user-manual_Issue-0_Rev-0_20180705.pdf",
+      "document_id": "arianespace_vegac_um",
+      "excerpt": "Vega-C second-stage high-pressure HTPB composite solid motor."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "restarts_rated": {
+    "value": 0,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vega-C User's Manual Issue 0 Revision 0",
+      "author": "Arianespace / Avio",
+      "publisher": "Arianespace",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Zefiro 40 Propulsion Data",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2018/07/Vega-C-user-manual_Issue-0_Rev-0_20180705.pdf",
+      "document_id": "arianespace_vegac_um",
+      "excerpt": "Vega-C second-stage high-pressure HTPB composite solid motor."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "dry_mass_kg": {
+    "value": 3000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vega-C User's Manual Issue 0 Revision 0",
+      "author": "Arianespace / Avio",
+      "publisher": "Arianespace",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Zefiro 40 Propulsion Data",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2018/07/Vega-C-user-manual_Issue-0_Rev-0_20180705.pdf",
+      "document_id": "arianespace_vegac_um",
+      "excerpt": "Vega-C second-stage high-pressure HTPB composite solid motor."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "height_m": {
+    "value": 7.6,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vega-C User's Manual Issue 0 Revision 0",
+      "author": "Arianespace / Avio",
+      "publisher": "Arianespace",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Zefiro 40 Propulsion Data",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2018/07/Vega-C-user-manual_Issue-0_Rev-0_20180705.pdf",
+      "document_id": "arianespace_vegac_um",
+      "excerpt": "Vega-C second-stage high-pressure HTPB composite solid motor."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "nozzle_diameter_m": {
+    "value": 2.4,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vega-C User's Manual Issue 0 Revision 0",
+      "author": "Arianespace / Avio",
+      "publisher": "Arianespace",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Zefiro 40 Propulsion Data",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2018/07/Vega-C-user-manual_Issue-0_Rev-0_20180705.pdf",
+      "document_id": "arianespace_vegac_um",
+      "excerpt": "Vega-C second-stage high-pressure HTPB composite solid motor."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "gimbal_envelope_dia_m": {
+    "value": 4.26,
+    "canonical_unit": "m",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "D_env = D_noz + 2 * L_noz * sin(theta_gimbal)",
+      "input_parameters": {
+        "nozzle_dia_m": "2.4",
+        "gimbal_deg": "7.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Small-angle TVC sweep geometry",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "tvc_gimbal_range_deg": {
+    "value": 7.0,
+    "canonical_unit": "deg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vega-C User's Manual Issue 0 Revision 0",
+      "author": "Arianespace / Avio",
+      "publisher": "Arianespace",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Zefiro 40 Propulsion Data",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2018/07/Vega-C-user-manual_Issue-0_Rev-0_20180705.pdf",
+      "document_id": "arianespace_vegac_um",
+      "excerpt": "Vega-C second-stage high-pressure HTPB composite solid motor."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "thrust_to_weight_vac": {
+    "value": 44.32,
+    "canonical_unit": "ratio",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "T/W_vac = F_vac / (m_dry * g0)",
+      "input_parameters": {
+        "F_vac_n": "1304000",
+        "m_dry_kg": "3000"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct analytical relation",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "unit_cost_usd": {
+    "value": 6500000.0,
+    "canonical_unit": "USD",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vega-C User's Manual Issue 0 Revision 0",
+      "author": "Arianespace / Avio",
+      "publisher": "Arianespace",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Zefiro 40 Propulsion Data",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2018/07/Vega-C-user-manual_Issue-0_Rev-0_20180705.pdf",
+      "document_id": "arianespace_vegac_um",
+      "excerpt": "Vega-C second-stage high-pressure HTPB composite solid motor."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "development_cost_usd": {
+    "value": 290000000.0,
+    "canonical_unit": "USD",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vega-C User's Manual Issue 0 Revision 0",
+      "author": "Arianespace / Avio",
+      "publisher": "Arianespace",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Zefiro 40 Propulsion Data",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2018/07/Vega-C-user-manual_Issue-0_Rev-0_20180705.pdf",
+      "document_id": "arianespace_vegac_um",
+      "excerpt": "Vega-C second-stage high-pressure HTPB composite solid motor."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "propellant_mass_kg": {
+    "value": 36200.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vega-C User's Manual Issue 0 Revision 0",
+      "author": "Arianespace / Avio",
+      "publisher": "Arianespace",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Zefiro 40 Propulsion Data",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2018/07/Vega-C-user-manual_Issue-0_Rev-0_20180705.pdf",
+      "document_id": "arianespace_vegac_um",
+      "excerpt": "Vega-C second-stage high-pressure HTPB composite solid motor."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "total_mass_kg": {
+    "value": 39200.0,
+    "canonical_unit": "kg",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "m_total = m_dry + m_propellant",
+      "input_parameters": {
+        "m_dry_kg": "3000",
+        "m_prop_kg": "36200.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct analytical relation",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "burn_time_s": {
+    "value": 92.9,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vega-C User's Manual Issue 0 Revision 0",
+      "author": "Arianespace / Avio",
+      "publisher": "Arianespace",
+      "publication_year": 2018,
+      "page_number": 1,
+      "table_or_figure": "Zefiro 40 Propulsion Data",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2018/07/Vega-C-user-manual_Issue-0_Rev-0_20180705.pdf",
+      "document_id": "arianespace_vegac_um",
+      "excerpt": "Vega-C second-stage high-pressure HTPB composite solid motor."
+    },
+    "derivation": null,
+    "notes": null
+  }
+}

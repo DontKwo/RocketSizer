@@ -1,0 +1,515 @@
+{
+  "id": {
+    "value": "merlin_1d",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Falcon User's Guide",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2021,
+      "page_number": 12,
+      "table_or_figure": "Section 2 Vehicle Overview",
+      "direct_url": "https://www.spacex.com/media/falcon-users-guide-2021-09.pdf",
+      "document_id": "falcon_users_guide_2021",
+      "excerpt": "Falcon 9 and Falcon Heavy performance and propulsion specifications."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "name": {
+    "value": "Merlin 1D",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Falcon User's Guide",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2021,
+      "page_number": 12,
+      "table_or_figure": "Section 2 Vehicle Overview",
+      "direct_url": "https://www.spacex.com/media/falcon-users-guide-2021-09.pdf",
+      "document_id": "falcon_users_guide_2021",
+      "excerpt": "Falcon 9 and Falcon Heavy performance and propulsion specifications."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "manufacturer": {
+    "value": "SpaceX",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Falcon User's Guide",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2021,
+      "page_number": 12,
+      "table_or_figure": "Section 2 Vehicle Overview",
+      "direct_url": "https://www.spacex.com/media/falcon-users-guide-2021-09.pdf",
+      "document_id": "falcon_users_guide_2021",
+      "excerpt": "Falcon 9 and Falcon Heavy performance and propulsion specifications."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "country": {
+    "value": "USA",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Falcon User's Guide",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2021,
+      "page_number": 12,
+      "table_or_figure": "Section 2 Vehicle Overview",
+      "direct_url": "https://www.spacex.com/media/falcon-users-guide-2021-09.pdf",
+      "document_id": "falcon_users_guide_2021",
+      "excerpt": "Falcon 9 and Falcon Heavy performance and propulsion specifications."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "status": {
+    "value": "active",
+    "canonical_unit": "enum",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Falcon User's Guide",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2021,
+      "page_number": 12,
+      "table_or_figure": "Section 2 Vehicle Overview",
+      "direct_url": "https://www.spacex.com/media/falcon-users-guide-2021-09.pdf",
+      "document_id": "falcon_users_guide_2021",
+      "excerpt": "Falcon 9 and Falcon Heavy performance and propulsion specifications."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "propulsion_type": {
+    "value": "liquid",
+    "canonical_unit": "enum",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Falcon User's Guide",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2021,
+      "page_number": 12,
+      "table_or_figure": "Section 2 Vehicle Overview",
+      "direct_url": "https://www.spacex.com/media/falcon-users-guide-2021-09.pdf",
+      "document_id": "falcon_users_guide_2021",
+      "excerpt": "Falcon 9 and Falcon Heavy performance and propulsion specifications."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "propellant": {
+    "value": "lox_rp1",
+    "canonical_unit": "enum",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Falcon User's Guide",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2021,
+      "page_number": 12,
+      "table_or_figure": "Section 2 Vehicle Overview",
+      "direct_url": "https://www.spacex.com/media/falcon-users-guide-2021-09.pdf",
+      "document_id": "falcon_users_guide_2021",
+      "excerpt": "Falcon 9 and Falcon Heavy performance and propulsion specifications."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "cycle": {
+    "value": "gas_generator",
+    "canonical_unit": "enum",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Falcon User's Guide",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2021,
+      "page_number": 12,
+      "table_or_figure": "Section 2 Vehicle Overview",
+      "direct_url": "https://www.spacex.com/media/falcon-users-guide-2021-09.pdf",
+      "document_id": "falcon_users_guide_2021",
+      "excerpt": "Falcon 9 and Falcon Heavy performance and propulsion specifications."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "oxidizer_fuel_ratio": {
+    "value": 2.34,
+    "canonical_unit": "ratio",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Falcon User's Guide",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2021,
+      "page_number": 12,
+      "table_or_figure": "Section 2 Vehicle Overview",
+      "direct_url": "https://www.spacex.com/media/falcon-users-guide-2021-09.pdf",
+      "document_id": "falcon_users_guide_2021",
+      "excerpt": "Falcon 9 and Falcon Heavy performance and propulsion specifications."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "thrust_sl_n": {
+    "value": 845000.0,
+    "canonical_unit": "N",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Falcon User's Guide",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2021,
+      "page_number": 12,
+      "table_or_figure": "Section 2 Vehicle Overview",
+      "direct_url": "https://www.spacex.com/media/falcon-users-guide-2021-09.pdf",
+      "document_id": "falcon_users_guide_2021",
+      "excerpt": "Falcon 9 and Falcon Heavy performance and propulsion specifications."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "thrust_vac_n": {
+    "value": 914000.0,
+    "canonical_unit": "N",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Falcon User's Guide",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2021,
+      "page_number": 12,
+      "table_or_figure": "Section 2 Vehicle Overview",
+      "direct_url": "https://www.spacex.com/media/falcon-users-guide-2021-09.pdf",
+      "document_id": "falcon_users_guide_2021",
+      "excerpt": "Falcon 9 and Falcon Heavy performance and propulsion specifications."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "isp_sl_s": {
+    "value": 282.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Falcon User's Guide",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2021,
+      "page_number": 12,
+      "table_or_figure": "Section 2 Vehicle Overview",
+      "direct_url": "https://www.spacex.com/media/falcon-users-guide-2021-09.pdf",
+      "document_id": "falcon_users_guide_2021",
+      "excerpt": "Falcon 9 and Falcon Heavy performance and propulsion specifications."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "isp_vac_s": {
+    "value": 311.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Falcon User's Guide",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2021,
+      "page_number": 12,
+      "table_or_figure": "Section 2 Vehicle Overview",
+      "direct_url": "https://www.spacex.com/media/falcon-users-guide-2021-09.pdf",
+      "document_id": "falcon_users_guide_2021",
+      "excerpt": "Falcon 9 and Falcon Heavy performance and propulsion specifications."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "isp_avg_s": {
+    "value": 296.5,
+    "canonical_unit": "s",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "Isp_avg = 0.5 * (Isp_sl + Isp_vac)",
+      "input_parameters": {
+        "isp_sl": "282.0",
+        "isp_vac": "311.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Arithmetic mean",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "mass_flow_rate_kg_s": {
+    "value": 299.69,
+    "canonical_unit": "kg/s",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "mdot = T_vac / (Isp_vac * g0)",
+      "input_parameters": {
+        "T_vac": "914000.0",
+        "Isp_vac": "311.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Rocket thrust relation",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "chamber_pressure_bar": {
+    "value": 97.2,
+    "canonical_unit": "bar",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Falcon User's Guide",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2021,
+      "page_number": 12,
+      "table_or_figure": "Section 2 Vehicle Overview",
+      "direct_url": "https://www.spacex.com/media/falcon-users-guide-2021-09.pdf",
+      "document_id": "falcon_users_guide_2021",
+      "excerpt": "Falcon 9 and Falcon Heavy performance and propulsion specifications."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "expansion_ratio": {
+    "value": 16.0,
+    "canonical_unit": "ratio",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Falcon User's Guide",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2021,
+      "page_number": 12,
+      "table_or_figure": "Section 2 Vehicle Overview",
+      "direct_url": "https://www.spacex.com/media/falcon-users-guide-2021-09.pdf",
+      "document_id": "falcon_users_guide_2021",
+      "excerpt": "Falcon 9 and Falcon Heavy performance and propulsion specifications."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "min_throttle_pct": {
+    "value": 40.0,
+    "canonical_unit": "percent",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Falcon User's Guide",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2021,
+      "page_number": 12,
+      "table_or_figure": "Section 2 Vehicle Overview",
+      "direct_url": "https://www.spacex.com/media/falcon-users-guide-2021-09.pdf",
+      "document_id": "falcon_users_guide_2021",
+      "excerpt": "Falcon 9 and Falcon Heavy performance and propulsion specifications."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "max_throttle_pct": {
+    "value": 100.0,
+    "canonical_unit": "percent",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Falcon User's Guide",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2021,
+      "page_number": 12,
+      "table_or_figure": "Section 2 Vehicle Overview",
+      "direct_url": "https://www.spacex.com/media/falcon-users-guide-2021-09.pdf",
+      "document_id": "falcon_users_guide_2021",
+      "excerpt": "Falcon 9 and Falcon Heavy performance and propulsion specifications."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "restarts_rated": {
+    "value": 4,
+    "canonical_unit": "integer",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Falcon User's Guide",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2021,
+      "page_number": 12,
+      "table_or_figure": "Section 2 Vehicle Overview",
+      "direct_url": "https://www.spacex.com/media/falcon-users-guide-2021-09.pdf",
+      "document_id": "falcon_users_guide_2021",
+      "excerpt": "Falcon 9 and Falcon Heavy performance and propulsion specifications."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "dry_mass_kg": {
+    "value": 470.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Falcon User's Guide",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2021,
+      "page_number": 12,
+      "table_or_figure": "Section 2 Vehicle Overview",
+      "direct_url": "https://www.spacex.com/media/falcon-users-guide-2021-09.pdf",
+      "document_id": "falcon_users_guide_2021",
+      "excerpt": "Falcon 9 and Falcon Heavy performance and propulsion specifications."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "height_m": {
+    "value": 3.07,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Falcon User's Guide",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2021,
+      "page_number": 12,
+      "table_or_figure": "Section 2 Vehicle Overview",
+      "direct_url": "https://www.spacex.com/media/falcon-users-guide-2021-09.pdf",
+      "document_id": "falcon_users_guide_2021",
+      "excerpt": "Falcon 9 and Falcon Heavy performance and propulsion specifications."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "nozzle_diameter_m": {
+    "value": 0.92,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Falcon User's Guide",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2021,
+      "page_number": 12,
+      "table_or_figure": "Section 2 Vehicle Overview",
+      "direct_url": "https://www.spacex.com/media/falcon-users-guide-2021-09.pdf",
+      "document_id": "falcon_users_guide_2021",
+      "excerpt": "Falcon 9 and Falcon Heavy performance and propulsion specifications."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "gimbal_envelope_dia_m": {
+    "value": 1.15,
+    "canonical_unit": "m",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "D_env = D_nozzle + 2*L_gimbal*sin(theta_tvc)",
+      "input_parameters": {
+        "d_nozzle": "0.92",
+        "tvc_deg": "5.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Geometric sweep",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "tvc_gimbal_range_deg": {
+    "value": 5.0,
+    "canonical_unit": "deg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Falcon User's Guide",
+      "author": "SpaceX",
+      "publisher": "SpaceX",
+      "publication_year": 2021,
+      "page_number": 12,
+      "table_or_figure": "Section 2 Vehicle Overview",
+      "direct_url": "https://www.spacex.com/media/falcon-users-guide-2021-09.pdf",
+      "document_id": "falcon_users_guide_2021",
+      "excerpt": "Falcon 9 and Falcon Heavy performance and propulsion specifications."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "thrust_to_weight_vac": {
+    "value": 198.3,
+    "canonical_unit": "ratio",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "T/W_vac = T_vac / (m_dry * g0)",
+      "input_parameters": {
+        "T_vac": "914000.0",
+        "m_dry": "470.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct ratio",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "unit_cost_usd": {
+    "value": 1000000.0,
+    "canonical_unit": "USD",
+    "status": "estimated",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "TRANSCOST engine TFU model",
+      "input_parameters": {
+        "thrust_vac_n": "914000.0",
+        "cycle": "gas_generator"
+      },
+      "assumptions": [
+        "Historical public budget and TRANSCOST 8.2 scaling"
+      ],
+      "solver_method": "Parametric regression",
+      "confidence_rating": "medium"
+    },
+    "notes": null
+  },
+  "development_cost_usd": {
+    "value": 350000000.0,
+    "canonical_unit": "USD",
+    "status": "estimated",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "TRANSCOST engine DDT&E model",
+      "input_parameters": {
+        "thrust_vac_n": "914000.0",
+        "cycle": "gas_generator"
+      },
+      "assumptions": [
+        "Historical public budget and TRANSCOST 8.2 scaling"
+      ],
+      "solver_method": "Parametric regression",
+      "confidence_rating": "medium"
+    },
+    "notes": null
+  },
+  "propellant_mass_kg": null,
+  "total_mass_kg": null,
+  "burn_time_s": null
+}

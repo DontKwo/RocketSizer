@@ -1,0 +1,979 @@
+{
+  "id": {
+    "value": "delta_iv_heavy",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "name": {
+    "value": "Delta IV Heavy",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "variant": {
+    "value": "CBC Trio",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "manufacturer": {
+    "value": "ULA",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "country": {
+    "value": "USA",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "operational_status": {
+    "value": "retired",
+    "canonical_unit": "enum",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "maiden_flight_year": {
+    "value": 2004,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "retirement_year": {
+    "value": 2024,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_leo_kg": {
+    "value": 28790.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_sso_kg": {
+    "value": 23560.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_gto_kg": {
+    "value": 14220.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_geo_kg": {
+    "value": 6750.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_tli_kg": {
+    "value": 10000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_tmi_kg": {
+    "value": 8000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "total_height_m": {
+    "value": 72.0,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "core_diameter_m": {
+    "value": 5.1,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "max_width_m": {
+    "value": 15.3,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "fairing_diameter_m": {
+    "value": 5.1,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "fairing_length_m": {
+    "value": 19.8,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "usable_fairing_vol_m3": {
+    "value": 225.0,
+    "canonical_unit": "m^3",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "glow_kg": {
+    "value": 733000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "total_dry_mass_kg": {
+    "value": 88200.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_fraction_leo": {
+    "value": 0.03928,
+    "canonical_unit": "fraction",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "f_pl = m_payload_LEO / GLOW",
+      "input_parameters": {
+        "leo_kg": "28790.0",
+        "glow_kg": "733000.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct ratio",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "liftoff_thrust_sl_n": {
+    "value": 9411000.0,
+    "canonical_unit": "N",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "liftoff_tw0": {
+    "value": 1.309,
+    "canonical_unit": "ratio",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "TW0 = T_sl / (GLOW * g0)",
+      "input_parameters": {
+        "thrust_sl_n": "9411000.0",
+        "glow_kg": "733000.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct ratio",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "stage_count": {
+    "value": 2,
+    "canonical_unit": "integer",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_count": {
+    "value": 2,
+    "canonical_unit": "integer",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_type": {
+    "value": "liquid",
+    "canonical_unit": "enum",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_propellant": {
+    "value": "LOX/LH2",
+    "canonical_unit": "enum",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_engine_id": {
+    "value": "rs_68a",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_engine_count": {
+    "value": 1,
+    "canonical_unit": "integer",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_prop_mass_kg": {
+    "value": 202000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_dry_mass_kg": {
+    "value": 26400.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_burn_time_s": {
+    "value": 328.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_propellant": {
+    "value": "LOX/LH2",
+    "canonical_unit": "enum",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_engine_id": {
+    "value": "rl_10a",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_engine_count": {
+    "value": 1,
+    "canonical_unit": "integer",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_prop_mass_kg": {
+    "value": 27200.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_dry_mass_kg": {
+    "value": 3490.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_burn_time_s": {
+    "value": 1125.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_propellant": {
+    "value": "LOX/LH2",
+    "canonical_unit": "enum",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_engine_id": {
+    "value": "rs_68a",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_engine_count": {
+    "value": 1,
+    "canonical_unit": "integer",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_prop_mass_kg": {
+    "value": 202000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_dry_mass_kg": {
+    "value": 26400.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_burn_time_s": {
+    "value": 245.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_original_usd": {
+    "value": 350000000.0,
+    "canonical_unit": "USD",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_year": {
+    "value": 2020,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_adj_usd": {
+    "value": 420000000.0,
+    "canonical_unit": "USD",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "CPI aerospace inflation adjustment to FY2026",
+      "input_parameters": {
+        "cost_orig": "350000000.0",
+        "year": "2020"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "BLS CPI-U index",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "cost_per_kg_leo_usd": {
+    "value": 14588.4,
+    "canonical_unit": "USD/kg",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "Cost_per_kg = Cost_FY2026 / Payload_LEO",
+      "input_parameters": {
+        "cost_adj": "420000000.0",
+        "leo_kg": "28790.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct ratio",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "development_cost_usd": {
+    "value": 4500000000.0,
+    "canonical_unit": "USD",
+    "status": "estimated",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "Historical program DDT&E allocation",
+      "input_parameters": {
+        "vehicle": "Delta IV Heavy"
+      },
+      "assumptions": [
+        "Historical public budget and TRANSCOST 8.2 scaling"
+      ],
+      "solver_method": "Parametric regression",
+      "confidence_rating": "medium"
+    },
+    "notes": null
+  },
+  "total_launches": {
+    "value": 16,
+    "canonical_unit": "integer",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "successful_launches": {
+    "value": 15,
+    "canonical_unit": "integer",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Delta IV Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2013,
+      "page_number": 22,
+      "table_or_figure": "Delta IV Heavy Overview",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/delta-iv-users-guide.pdf",
+      "document_id": "delta_iv_lug",
+      "excerpt": "Three RS-68A Common Booster Cores with DCSS RL10B-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_success_rate": {
+    "value": 0.9375,
+    "canonical_unit": "percent",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "Success_pct = 100 * successful / total",
+      "input_parameters": {
+        "total": "16",
+        "successful": "15"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct ratio",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  }
+}

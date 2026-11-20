@@ -1,0 +1,83 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+
+jobs:
+  lint-and-typecheck:
+    name: ClaudeMD Linter & TypeScript Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Checkout ai-dev-tools for linter
+        uses: actions/checkout@v4
+        with:
+          repository: DontKwo/ai-dev-tools
+          path: .ai-dev-tools
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+
+      - name: Run ClaudeMD Strict Linter
+        run: uv run --no-project python .ai-dev-tools/scripts/claudemd_linter.py . --level strict --full
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Verify TypeScript compilation
+        run: |
+          cd src
+          npm ci || npm install
+          npx tsc --noEmit
+
+  test-matrix:
+    name: Test & Build (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Cache Rust dependencies
+        uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: src-tauri
+
+      - name: Run aerospace verification benchmark suite
+        run: cargo test --manifest-path src-tauri/Cargo.toml
+
+      - name: Build release desktop executable
+        run: cargo build --release --manifest-path src-tauri/Cargo.toml --bin rocket_sizer_desktop
+
+      - name: Run executable self-test (Windows)
+        if: runner.os == 'Windows'
+        run: .\src-tauri\target\release\rocket_sizer_desktop.exe --self-test
+
+      - name: Run executable self-test (Linux / macOS)
+        if: runner.os != 'Windows'
+        run: ./src-tauri/target/release/rocket_sizer_desktop --self-test

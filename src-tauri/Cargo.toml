@@ -1,0 +1,28 @@
+[workspace]
+members = ["tauri_macro", "."]
+resolver = "2"
+
+[package]
+name = "rocket_sizer_core"
+version = "0.1.0"
+edition = "2021"
+description = "RocketSizer Rust numerical aerospace core and Tauri command layer"
+
+[lib]
+name = "rocket_sizer_core"
+path = "src/lib.rs"
+
+[[bin]]
+name = "rocket_sizer_desktop"
+path = "src/main.rs"
+
+[dependencies]
+serde = { version = "=1.0.228", features = ["derive"] }
+serde_json = "=1.0.149"
+tauri = { package = "tauri_macro", path = "tauri_macro" }
+
+[profile.dev]
+opt-level = 2
+
+[profile.test]
+opt-level = 2

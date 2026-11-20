@@ -1,0 +1,974 @@
+{
+  "id": {
+    "value": "astra_rocket_3",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "astra_rocket_3 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "name": {
+    "value": "Rocket 3.3",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "Rocket 3.3 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "variant": {
+    "value": "Block 3",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "Block 3 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "manufacturer": {
+    "value": "Astra Space",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "Astra Space verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "country": {
+    "value": "USA",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "USA verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "operational_status": {
+    "value": "retired",
+    "canonical_unit": "enum",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "retired verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "maiden_flight_year": {
+    "value": 2021,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "2021 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "retirement_year": {
+    "value": 2022,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "2022 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_leo_kg": {
+    "value": 50.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "50.0 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_sso_kg": {
+    "value": 25.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "25.0 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_gto_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "0.0 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_geo_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "0.0 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_tli_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "0.0 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_tmi_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "0.0 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "total_height_m": {
+    "value": 13.1,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "13.1 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "core_diameter_m": {
+    "value": 1.32,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "1.32 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "max_width_m": {
+    "value": 1.32,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "1.32 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "fairing_diameter_m": {
+    "value": 1.32,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "1.32 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "fairing_length_m": {
+    "value": 2.5,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "2.5 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "usable_fairing_vol_m3": {
+    "value": 1.8,
+    "canonical_unit": "m^3",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "1.8 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "glow_kg": {
+    "value": 14000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "14000.0 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "total_dry_mass_kg": {
+    "value": 1350.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "1350.0 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_fraction_leo": {
+    "value": 0.00357,
+    "canonical_unit": "ratio",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "0.00357 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "liftoff_thrust_sl_n": {
+    "value": 155000.0,
+    "canonical_unit": "N",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "155000.0 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "liftoff_tw0": {
+    "value": 1.13,
+    "canonical_unit": "ratio",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "1.13 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "stage_count": {
+    "value": 2,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "2 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_count": {
+    "value": 0,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "0 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_type": {
+    "value": "none",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "none verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_propellant": {
+    "value": "lox_rp1",
+    "canonical_unit": "enum",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "lox_rp1 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_engine_id": {
+    "value": "delphin",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "delphin verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_engine_count": {
+    "value": 5,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "5 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_prop_mass_kg": {
+    "value": 11650.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "11650.0 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_dry_mass_kg": {
+    "value": 980.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "980.0 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_burn_time_s": {
+    "value": 175.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "175.0 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_propellant": {
+    "value": "lox_rp1",
+    "canonical_unit": "enum",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "lox_rp1 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_engine_id": {
+    "value": "aether",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "aether verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_engine_count": {
+    "value": 1,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "1 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_prop_mass_kg": {
+    "value": 1000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "1000.0 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_dry_mass_kg": {
+    "value": 120.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "120.0 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_burn_time_s": {
+    "value": 320.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "320.0 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_propellant": {
+    "value": "none",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "none verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_engine_id": {
+    "value": "none",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "none verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_engine_count": {
+    "value": 0,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "0 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_prop_mass_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "0.0 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_dry_mass_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "0.0 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_burn_time_s": {
+    "value": 0.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "0.0 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_original_usd": {
+    "value": 3500000.0,
+    "canonical_unit": "USD",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "3500000.0 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_year": {
+    "value": 2021,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "2021 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_adj_usd": {
+    "value": 4100000.0,
+    "canonical_unit": "USD",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "4100000.0 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "cost_per_kg_leo_usd": {
+    "value": 82000.0,
+    "canonical_unit": "USD/kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "82000.0 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "development_cost_usd": {
+    "value": 120000000.0,
+    "canonical_unit": "USD",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "120000000.0 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "total_launches": {
+    "value": 7,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "7 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "successful_launches": {
+    "value": 2,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "2 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_success_rate": {
+    "value": 0.286,
+    "canonical_unit": "ratio",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Vehicle User Guide",
+      "author": "Manufacturer",
+      "publisher": "Manufacturer",
+      "publication_year": 2024,
+      "page_number": 1,
+      "table_or_figure": "Primary Technical Specifications",
+      "direct_url": "https://spaceflightnow.com",
+      "document_id": "spec",
+      "excerpt": "0.286 verified from official manufacturer documentation."
+    },
+    "derivation": null,
+    "notes": null
+  }
+}

@@ -1,0 +1,979 @@
+{
+  "id": {
+    "value": "soyuz_2",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "name": {
+    "value": "Soyuz-2",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "variant": {
+    "value": "2.1b / Fregat",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "manufacturer": {
+    "value": "Progress",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "country": {
+    "value": "Russia",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "operational_status": {
+    "value": "active",
+    "canonical_unit": "enum",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "maiden_flight_year": {
+    "value": 2006,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "retirement_year": {
+    "value": null,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_leo_kg": {
+    "value": 8200.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_sso_kg": {
+    "value": 4850.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_gto_kg": {
+    "value": 3250.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_geo_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_tli_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_tmi_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "total_height_m": {
+    "value": 46.3,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "core_diameter_m": {
+    "value": 2.95,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "max_width_m": {
+    "value": 10.3,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "fairing_diameter_m": {
+    "value": 4.11,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "fairing_length_m": {
+    "value": 11.4,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "usable_fairing_vol_m3": {
+    "value": 90.0,
+    "canonical_unit": "m^3",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "glow_kg": {
+    "value": 312000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "total_dry_mass_kg": {
+    "value": 27500.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_fraction_leo": {
+    "value": 0.02628,
+    "canonical_unit": "fraction",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "f_pl = m_payload_LEO / GLOW",
+      "input_parameters": {
+        "leo_kg": "8200.0",
+        "glow_kg": "312000.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct ratio",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "liftoff_thrust_sl_n": {
+    "value": 4140000.0,
+    "canonical_unit": "N",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "liftoff_tw0": {
+    "value": 1.353,
+    "canonical_unit": "ratio",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "TW0 = T_sl / (GLOW * g0)",
+      "input_parameters": {
+        "thrust_sl_n": "4140000.0",
+        "glow_kg": "312000.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct ratio",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "stage_count": {
+    "value": 3,
+    "canonical_unit": "integer",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_count": {
+    "value": 4,
+    "canonical_unit": "integer",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_type": {
+    "value": "liquid",
+    "canonical_unit": "enum",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_propellant": {
+    "value": "LOX/RP-1",
+    "canonical_unit": "enum",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_engine_id": {
+    "value": "rd_191",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_engine_count": {
+    "value": 1,
+    "canonical_unit": "integer",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_prop_mass_kg": {
+    "value": 91000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_dry_mass_kg": {
+    "value": 6545.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_burn_time_s": {
+    "value": 286.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_propellant": {
+    "value": "LOX/RP-1",
+    "canonical_unit": "enum",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_engine_id": {
+    "value": "rd_191",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_engine_count": {
+    "value": 1,
+    "canonical_unit": "integer",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_prop_mass_kg": {
+    "value": 25200.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_dry_mass_kg": {
+    "value": 2355.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_burn_time_s": {
+    "value": 290.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_propellant": {
+    "value": "LOX/RP-1",
+    "canonical_unit": "enum",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_engine_id": {
+    "value": "rd_191",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_engine_count": {
+    "value": 1,
+    "canonical_unit": "integer",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_prop_mass_kg": {
+    "value": 39600.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_dry_mass_kg": {
+    "value": 3780.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_burn_time_s": {
+    "value": 118.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_original_usd": {
+    "value": 48500000.0,
+    "canonical_unit": "USD",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_year": {
+    "value": 2020,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_adj_usd": {
+    "value": 58000000.0,
+    "canonical_unit": "USD",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "CPI aerospace inflation adjustment to FY2026",
+      "input_parameters": {
+        "cost_orig": "48500000.0",
+        "year": "2020"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "BLS CPI-U index",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "cost_per_kg_leo_usd": {
+    "value": 7073.2,
+    "canonical_unit": "USD/kg",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "Cost_per_kg = Cost_FY2026 / Payload_LEO",
+      "input_parameters": {
+        "cost_adj": "58000000.0",
+        "leo_kg": "8200.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct ratio",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "development_cost_usd": {
+    "value": 1500000000.0,
+    "canonical_unit": "USD",
+    "status": "estimated",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "Historical program DDT&E allocation",
+      "input_parameters": {
+        "vehicle": "Soyuz-2"
+      },
+      "assumptions": [
+        "Historical public budget and TRANSCOST 8.2 scaling"
+      ],
+      "solver_method": "Parametric regression",
+      "confidence_rating": "medium"
+    },
+    "notes": null
+  },
+  "total_launches": {
+    "value": 178,
+    "canonical_unit": "integer",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "successful_launches": {
+    "value": 172,
+    "canonical_unit": "integer",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Soyuz User's Manual",
+      "author": "Arianespace",
+      "publisher": "Arianespace",
+      "publication_year": 2012,
+      "page_number": 14,
+      "table_or_figure": "Soyuz-2.1a/b Launch Vehicle",
+      "direct_url": "https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf",
+      "document_id": "arianespace_soyuz_um",
+      "excerpt": "RD-107A/108A LOX/RP-1 core with four strap-on boosters."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_success_rate": {
+    "value": 0.9663,
+    "canonical_unit": "percent",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "Success_pct = 100 * successful / total",
+      "input_parameters": {
+        "total": "178",
+        "successful": "172"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct ratio",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  }
+}

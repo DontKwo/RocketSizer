@@ -1,0 +1,980 @@
+{
+  "id": {
+    "value": "juno_i",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "name": {
+    "value": "Juno I",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "variant": {
+    "value": "Explorer",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "manufacturer": {
+    "value": "ABMA / Chrysler",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "country": {
+    "value": "USA",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "operational_status": {
+    "value": "retired",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "maiden_flight_year": {
+    "value": 1958,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "retirement_year": {
+    "value": 1958,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_leo_kg": {
+    "value": 11.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_sso_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_gto_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_geo_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_tli_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_tmi_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "total_height_m": {
+    "value": 21.2,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "core_diameter_m": {
+    "value": 1.78,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "max_width_m": {
+    "value": 1.78,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "fairing_diameter_m": {
+    "value": 0.8,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "fairing_length_m": {
+    "value": 2.0,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "usable_fairing_vol_m3": {
+    "value": 0.6,
+    "canonical_unit": "m^3",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "V_fairing = 0.75 * pi * (0.45 * D_fairing)^2 * L_fairing",
+      "input_parameters": {
+        "fairing_dia_m": "0.8",
+        "fairing_len_m": "2.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Ogive/cylindrical dynamic envelope integration",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "glow_kg": {
+    "value": 29061.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "total_dry_mass_kg": {
+    "value": 5100.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_fraction_leo": {
+    "value": 0.00038,
+    "canonical_unit": "fraction",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "f_pl = m_payload_LEO / GLOW",
+      "input_parameters": {
+        "leo_kg": "11.0",
+        "glow_kg": "29061.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct ratio",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "liftoff_thrust_sl_n": {
+    "value": 370000.0,
+    "canonical_unit": "N",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "liftoff_tw0": {
+    "value": 1.298,
+    "canonical_unit": "ratio",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "T/W0 = F_sl / (GLOW * g0)",
+      "input_parameters": {
+        "thrust_sl_n": "370000.0",
+        "glow_kg": "29061.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct analytical relation",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "stage_count": {
+    "value": 4,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_count": {
+    "value": 0,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_type": {
+    "value": "none",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_propellant": {
+    "value": "LOX/RP-1",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_engine_id": {
+    "value": "lr_79",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_engine_count": {
+    "value": 1,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_prop_mass_kg": {
+    "value": 24000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_dry_mass_kg": {
+    "value": 4200.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_burn_time_s": {
+    "value": 157.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_propellant": {
+    "value": "Solid HTPB",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_engine_id": {
+    "value": "orion_38",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_engine_count": {
+    "value": 11,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_prop_mass_kg": {
+    "value": 250.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_dry_mass_kg": {
+    "value": 100.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_burn_time_s": {
+    "value": 6.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_propellant": {
+    "value": "none",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_engine_id": {
+    "value": "none",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_engine_count": {
+    "value": 0,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_prop_mass_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_dry_mass_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_burn_time_s": {
+    "value": 0.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_original_usd": {
+    "value": 4000000.0,
+    "canonical_unit": "USD",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_year": {
+    "value": 1958,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_adj_usd": {
+    "value": 44500000.0,
+    "canonical_unit": "USD",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "CPI aerospace inflation adjustment to FY2026",
+      "input_parameters": {
+        "cost_orig": "4000000.0",
+        "year": "1958"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "BLS CPI-U index",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "cost_per_kg_leo_usd": {
+    "value": 4045454.5,
+    "canonical_unit": "USD/kg",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "C_kg = C_adj / m_payload_LEO",
+      "input_parameters": {
+        "cost_adj_usd": "44500000.0",
+        "leo_kg": "11.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct analytical relation",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "development_cost_usd": {
+    "value": 140000000.0,
+    "canonical_unit": "USD",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "total_launches": {
+    "value": 6,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "successful_launches": {
+    "value": 3,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II: Launch Systems (Vanguard, Juno, Redstone, Scout)",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA History Office",
+      "publication_year": 1988,
+      "page_number": 1,
+      "table_or_figure": "Juno I Explorer Vehicle Data",
+      "direct_url": "https://ntrs.nasa.gov/citations/19890005167",
+      "document_id": "nasa_vanguard_scout",
+      "excerpt": "Juno I placed Explorer 1, first US satellite, into orbit Jan 1958."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_success_rate": {
+    "value": 0.5,
+    "canonical_unit": "fraction",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "R_succ = N_success / N_total",
+      "input_parameters": {
+        "successful": "3",
+        "total": "6"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct analytical relation",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  }
+}

@@ -1,0 +1,979 @@
+{
+  "id": {
+    "value": "n1",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "name": {
+    "value": "N1",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "variant": {
+    "value": "N1-L3",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "manufacturer": {
+    "value": "OKB-1",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "country": {
+    "value": "USSR",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "operational_status": {
+    "value": "retired",
+    "canonical_unit": "enum",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "maiden_flight_year": {
+    "value": 1969,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "retirement_year": {
+    "value": 1972,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_leo_kg": {
+    "value": 95000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_sso_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_gto_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_geo_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_tli_kg": {
+    "value": 23500.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_tmi_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "total_height_m": {
+    "value": 105.3,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "core_diameter_m": {
+    "value": 17.0,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "max_width_m": {
+    "value": 17.0,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "fairing_diameter_m": {
+    "value": 6.2,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "fairing_length_m": {
+    "value": 22.0,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "usable_fairing_vol_m3": {
+    "value": 310.0,
+    "canonical_unit": "m^3",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "glow_kg": {
+    "value": 2735000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "total_dry_mass_kg": {
+    "value": 245000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_fraction_leo": {
+    "value": 0.03473,
+    "canonical_unit": "fraction",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "f_pl = m_payload_LEO / GLOW",
+      "input_parameters": {
+        "leo_kg": "95000.0",
+        "glow_kg": "2735000.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct ratio",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "liftoff_thrust_sl_n": {
+    "value": 45400000.0,
+    "canonical_unit": "N",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "liftoff_tw0": {
+    "value": 1.693,
+    "canonical_unit": "ratio",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "TW0 = T_sl / (GLOW * g0)",
+      "input_parameters": {
+        "thrust_sl_n": "45400000.0",
+        "glow_kg": "2735000.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct ratio",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "stage_count": {
+    "value": 3,
+    "canonical_unit": "integer",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_count": {
+    "value": 0,
+    "canonical_unit": "integer",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_type": {
+    "value": "none",
+    "canonical_unit": "enum",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_propellant": {
+    "value": "LOX/RP-1",
+    "canonical_unit": "enum",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_engine_id": {
+    "value": "rd_191",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_engine_count": {
+    "value": 30,
+    "canonical_unit": "integer",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_prop_mass_kg": {
+    "value": 1750000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_dry_mass_kg": {
+    "value": 138000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_burn_time_s": {
+    "value": 125.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_propellant": {
+    "value": "LOX/RP-1",
+    "canonical_unit": "enum",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_engine_id": {
+    "value": "rd_191",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_engine_count": {
+    "value": 8,
+    "canonical_unit": "integer",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_prop_mass_kg": {
+    "value": 480000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_dry_mass_kg": {
+    "value": 48000.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_burn_time_s": {
+    "value": 130.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_propellant": {
+    "value": "none",
+    "canonical_unit": "enum",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_engine_id": {
+    "value": "none",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_engine_count": {
+    "value": 0,
+    "canonical_unit": "integer",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_prop_mass_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_dry_mass_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_burn_time_s": {
+    "value": 0.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_original_usd": {
+    "value": 220000000.0,
+    "canonical_unit": "USD",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_year": {
+    "value": 1972,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_adj_usd": {
+    "value": 1600000000.0,
+    "canonical_unit": "USD",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "CPI aerospace inflation adjustment to FY2026",
+      "input_parameters": {
+        "cost_orig": "220000000.0",
+        "year": "1972"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "BLS CPI-U index",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "cost_per_kg_leo_usd": {
+    "value": 16842.1,
+    "canonical_unit": "USD/kg",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "Cost_per_kg = Cost_FY2026 / Payload_LEO",
+      "input_parameters": {
+        "cost_adj": "1600000000.0",
+        "leo_kg": "95000.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct ratio",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "development_cost_usd": {
+    "value": 9000000000.0,
+    "canonical_unit": "USD",
+    "status": "estimated",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "Historical program DDT&E allocation",
+      "input_parameters": {
+        "vehicle": "N1"
+      },
+      "assumptions": [
+        "Historical public budget and TRANSCOST 8.2 scaling"
+      ],
+      "solver_method": "Parametric regression",
+      "confidence_rating": "medium"
+    },
+    "notes": null
+  },
+  "total_launches": {
+    "value": 4,
+    "canonical_unit": "integer",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "successful_launches": {
+    "value": 0,
+    "canonical_unit": "integer",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "NASA Historical Data Book Vol. II",
+      "author": "Linda Neuman Ezell",
+      "publisher": "NASA",
+      "publication_year": 1988,
+      "page_number": 72,
+      "table_or_figure": "Table 2-18 Launch Vehicles",
+      "direct_url": "https://ntrs.nasa.gov/citations/19880015871",
+      "document_id": "nasa_sp_4012_vol2",
+      "excerpt": "Launch vehicle mass and propulsion summary data."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_success_rate": {
+    "value": 0.0,
+    "canonical_unit": "percent",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "Success_pct = 100 * successful / total",
+      "input_parameters": {
+        "total": "4",
+        "successful": "0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct ratio",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  }
+}

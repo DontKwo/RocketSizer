@@ -1,0 +1,979 @@
+{
+  "id": {
+    "value": "atlas_v_401",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "name": {
+    "value": "Atlas V",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "variant": {
+    "value": "401",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "manufacturer": {
+    "value": "ULA",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "country": {
+    "value": "USA",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "operational_status": {
+    "value": "active",
+    "canonical_unit": "enum",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "maiden_flight_year": {
+    "value": 2002,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "retirement_year": {
+    "value": null,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_leo_kg": {
+    "value": 9800.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_sso_kg": {
+    "value": 7600.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_gto_kg": {
+    "value": 4750.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_geo_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_tli_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_tmi_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "total_height_m": {
+    "value": 58.3,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "core_diameter_m": {
+    "value": 3.81,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "max_width_m": {
+    "value": 3.81,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "fairing_diameter_m": {
+    "value": 4.2,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "fairing_length_m": {
+    "value": 12.0,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "usable_fairing_vol_m3": {
+    "value": 86.0,
+    "canonical_unit": "m^3",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "glow_kg": {
+    "value": 334500.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "total_dry_mass_kg": {
+    "value": 23300.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "payload_fraction_leo": {
+    "value": 0.0293,
+    "canonical_unit": "fraction",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "f_pl = m_payload_LEO / GLOW",
+      "input_parameters": {
+        "leo_kg": "9800.0",
+        "glow_kg": "334500.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct ratio",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "liftoff_thrust_sl_n": {
+    "value": 3827000.0,
+    "canonical_unit": "N",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "liftoff_tw0": {
+    "value": 1.167,
+    "canonical_unit": "ratio",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "TW0 = T_sl / (GLOW * g0)",
+      "input_parameters": {
+        "thrust_sl_n": "3827000.0",
+        "glow_kg": "334500.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct ratio",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "stage_count": {
+    "value": 2,
+    "canonical_unit": "integer",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_count": {
+    "value": 0,
+    "canonical_unit": "integer",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_type": {
+    "value": "none",
+    "canonical_unit": "enum",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_propellant": {
+    "value": "LOX/RP-1",
+    "canonical_unit": "enum",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_engine_id": {
+    "value": "rd_180",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_engine_count": {
+    "value": 1,
+    "canonical_unit": "integer",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_prop_mass_kg": {
+    "value": 284089.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_dry_mass_kg": {
+    "value": 21054.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s1_burn_time_s": {
+    "value": 253.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_propellant": {
+    "value": "LOX/LH2",
+    "canonical_unit": "enum",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_engine_id": {
+    "value": "rl_10a",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_engine_count": {
+    "value": 1,
+    "canonical_unit": "integer",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_prop_mass_kg": {
+    "value": 20830.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_dry_mass_kg": {
+    "value": 2247.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "s2_burn_time_s": {
+    "value": 842.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_propellant": {
+    "value": "none",
+    "canonical_unit": "enum",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_engine_id": {
+    "value": "none",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_engine_count": {
+    "value": 0,
+    "canonical_unit": "integer",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_prop_mass_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_dry_mass_kg": {
+    "value": 0.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "booster_burn_time_s": {
+    "value": 0.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_original_usd": {
+    "value": 109000000.0,
+    "canonical_unit": "USD",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_year": {
+    "value": 2018,
+    "canonical_unit": "year",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_cost_adj_usd": {
+    "value": 137000000.0,
+    "canonical_unit": "USD",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "CPI aerospace inflation adjustment to FY2026",
+      "input_parameters": {
+        "cost_orig": "109000000.0",
+        "year": "2018"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "BLS CPI-U index",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "cost_per_kg_leo_usd": {
+    "value": 13979.6,
+    "canonical_unit": "USD/kg",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "Cost_per_kg = Cost_FY2026 / Payload_LEO",
+      "input_parameters": {
+        "cost_adj": "137000000.0",
+        "leo_kg": "9800.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct ratio",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "development_cost_usd": {
+    "value": 2200000000.0,
+    "canonical_unit": "USD",
+    "status": "estimated",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "Historical program DDT&E allocation",
+      "input_parameters": {
+        "vehicle": "Atlas V"
+      },
+      "assumptions": [
+        "Historical public budget and TRANSCOST 8.2 scaling"
+      ],
+      "solver_method": "Parametric regression",
+      "confidence_rating": "medium"
+    },
+    "notes": null
+  },
+  "total_launches": {
+    "value": 41,
+    "canonical_unit": "integer",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "successful_launches": {
+    "value": 41,
+    "canonical_unit": "integer",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Atlas V Launch Services User's Guide",
+      "author": "United Launch Alliance",
+      "publisher": "ULA",
+      "publication_year": 2010,
+      "page_number": 24,
+      "table_or_figure": "Section 2 Atlas V 400 Series",
+      "direct_url": "https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf",
+      "document_id": "atlas_v_lug",
+      "excerpt": "Atlas V 401 RD-180 booster and Centaur RL10A-4-2 upper stage."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "launch_success_rate": {
+    "value": 1.0,
+    "canonical_unit": "percent",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "Success_pct = 100 * successful / total",
+      "input_parameters": {
+        "total": "41",
+        "successful": "41"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct ratio",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  }
+}

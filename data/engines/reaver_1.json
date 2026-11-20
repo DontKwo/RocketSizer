@@ -1,0 +1,513 @@
+{
+  "id": {
+    "value": "reaver_1",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Firefly Alpha Payload User's Guide",
+      "author": "Firefly Aerospace",
+      "publisher": "Firefly Aerospace",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "Reaver 1 Propulsion Data",
+      "direct_url": "https://fireflyspace.com/alpha/",
+      "document_id": "firefly_alpha_pug",
+      "excerpt": "Firefly Alpha Stage 1 combustion tap-off kerolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "name": {
+    "value": "Reaver 1",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Firefly Alpha Payload User's Guide",
+      "author": "Firefly Aerospace",
+      "publisher": "Firefly Aerospace",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "Reaver 1 Propulsion Data",
+      "direct_url": "https://fireflyspace.com/alpha/",
+      "document_id": "firefly_alpha_pug",
+      "excerpt": "Firefly Alpha Stage 1 combustion tap-off kerolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "manufacturer": {
+    "value": "Firefly Aerospace",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Firefly Alpha Payload User's Guide",
+      "author": "Firefly Aerospace",
+      "publisher": "Firefly Aerospace",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "Reaver 1 Propulsion Data",
+      "direct_url": "https://fireflyspace.com/alpha/",
+      "document_id": "firefly_alpha_pug",
+      "excerpt": "Firefly Alpha Stage 1 combustion tap-off kerolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "country": {
+    "value": "USA",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Firefly Alpha Payload User's Guide",
+      "author": "Firefly Aerospace",
+      "publisher": "Firefly Aerospace",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "Reaver 1 Propulsion Data",
+      "direct_url": "https://fireflyspace.com/alpha/",
+      "document_id": "firefly_alpha_pug",
+      "excerpt": "Firefly Alpha Stage 1 combustion tap-off kerolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "status": {
+    "value": "active",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Firefly Alpha Payload User's Guide",
+      "author": "Firefly Aerospace",
+      "publisher": "Firefly Aerospace",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "Reaver 1 Propulsion Data",
+      "direct_url": "https://fireflyspace.com/alpha/",
+      "document_id": "firefly_alpha_pug",
+      "excerpt": "Firefly Alpha Stage 1 combustion tap-off kerolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "propulsion_type": {
+    "value": "liquid",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Firefly Alpha Payload User's Guide",
+      "author": "Firefly Aerospace",
+      "publisher": "Firefly Aerospace",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "Reaver 1 Propulsion Data",
+      "direct_url": "https://fireflyspace.com/alpha/",
+      "document_id": "firefly_alpha_pug",
+      "excerpt": "Firefly Alpha Stage 1 combustion tap-off kerolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "propellant": {
+    "value": "lox_rp1",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Firefly Alpha Payload User's Guide",
+      "author": "Firefly Aerospace",
+      "publisher": "Firefly Aerospace",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "Reaver 1 Propulsion Data",
+      "direct_url": "https://fireflyspace.com/alpha/",
+      "document_id": "firefly_alpha_pug",
+      "excerpt": "Firefly Alpha Stage 1 combustion tap-off kerolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "cycle": {
+    "value": "gas_generator",
+    "canonical_unit": "text",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Firefly Alpha Payload User's Guide",
+      "author": "Firefly Aerospace",
+      "publisher": "Firefly Aerospace",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "Reaver 1 Propulsion Data",
+      "direct_url": "https://fireflyspace.com/alpha/",
+      "document_id": "firefly_alpha_pug",
+      "excerpt": "Firefly Alpha Stage 1 combustion tap-off kerolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "oxidizer_fuel_ratio": {
+    "value": 2.4,
+    "canonical_unit": "ratio",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Firefly Alpha Payload User's Guide",
+      "author": "Firefly Aerospace",
+      "publisher": "Firefly Aerospace",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "Reaver 1 Propulsion Data",
+      "direct_url": "https://fireflyspace.com/alpha/",
+      "document_id": "firefly_alpha_pug",
+      "excerpt": "Firefly Alpha Stage 1 combustion tap-off kerolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "thrust_sl_n": {
+    "value": 200000.0,
+    "canonical_unit": "N",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Firefly Alpha Payload User's Guide",
+      "author": "Firefly Aerospace",
+      "publisher": "Firefly Aerospace",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "Reaver 1 Propulsion Data",
+      "direct_url": "https://fireflyspace.com/alpha/",
+      "document_id": "firefly_alpha_pug",
+      "excerpt": "Firefly Alpha Stage 1 combustion tap-off kerolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "thrust_vac_n": {
+    "value": 224000.0,
+    "canonical_unit": "N",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Firefly Alpha Payload User's Guide",
+      "author": "Firefly Aerospace",
+      "publisher": "Firefly Aerospace",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "Reaver 1 Propulsion Data",
+      "direct_url": "https://fireflyspace.com/alpha/",
+      "document_id": "firefly_alpha_pug",
+      "excerpt": "Firefly Alpha Stage 1 combustion tap-off kerolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "isp_sl_s": {
+    "value": 265.0,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Firefly Alpha Payload User's Guide",
+      "author": "Firefly Aerospace",
+      "publisher": "Firefly Aerospace",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "Reaver 1 Propulsion Data",
+      "direct_url": "https://fireflyspace.com/alpha/",
+      "document_id": "firefly_alpha_pug",
+      "excerpt": "Firefly Alpha Stage 1 combustion tap-off kerolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "isp_vac_s": {
+    "value": 295.6,
+    "canonical_unit": "s",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Firefly Alpha Payload User's Guide",
+      "author": "Firefly Aerospace",
+      "publisher": "Firefly Aerospace",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "Reaver 1 Propulsion Data",
+      "direct_url": "https://fireflyspace.com/alpha/",
+      "document_id": "firefly_alpha_pug",
+      "excerpt": "Firefly Alpha Stage 1 combustion tap-off kerolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "isp_avg_s": {
+    "value": 280.3,
+    "canonical_unit": "s",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "Isp_avg = 0.5 * (Isp_sl + Isp_vac)",
+      "input_parameters": {
+        "isp_sl_s": "265.0",
+        "isp_vac_s": "295.6"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Arithmetic mean",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "mass_flow_rate_kg_s": {
+    "value": 77.27,
+    "canonical_unit": "kg/s",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "mdot = F_vac / (Isp_vac * g0)",
+      "input_parameters": {
+        "F_vac_n": "224000",
+        "Isp_vac_s": "295.6"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct analytical relation",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "chamber_pressure_bar": {
+    "value": 80.0,
+    "canonical_unit": "bar",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Firefly Alpha Payload User's Guide",
+      "author": "Firefly Aerospace",
+      "publisher": "Firefly Aerospace",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "Reaver 1 Propulsion Data",
+      "direct_url": "https://fireflyspace.com/alpha/",
+      "document_id": "firefly_alpha_pug",
+      "excerpt": "Firefly Alpha Stage 1 combustion tap-off kerolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "expansion_ratio": {
+    "value": 12.0,
+    "canonical_unit": "ratio",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Firefly Alpha Payload User's Guide",
+      "author": "Firefly Aerospace",
+      "publisher": "Firefly Aerospace",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "Reaver 1 Propulsion Data",
+      "direct_url": "https://fireflyspace.com/alpha/",
+      "document_id": "firefly_alpha_pug",
+      "excerpt": "Firefly Alpha Stage 1 combustion tap-off kerolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "min_throttle_pct": {
+    "value": 70.0,
+    "canonical_unit": "percent",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Firefly Alpha Payload User's Guide",
+      "author": "Firefly Aerospace",
+      "publisher": "Firefly Aerospace",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "Reaver 1 Propulsion Data",
+      "direct_url": "https://fireflyspace.com/alpha/",
+      "document_id": "firefly_alpha_pug",
+      "excerpt": "Firefly Alpha Stage 1 combustion tap-off kerolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "max_throttle_pct": {
+    "value": 100.0,
+    "canonical_unit": "percent",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Firefly Alpha Payload User's Guide",
+      "author": "Firefly Aerospace",
+      "publisher": "Firefly Aerospace",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "Reaver 1 Propulsion Data",
+      "direct_url": "https://fireflyspace.com/alpha/",
+      "document_id": "firefly_alpha_pug",
+      "excerpt": "Firefly Alpha Stage 1 combustion tap-off kerolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "restarts_rated": {
+    "value": 0,
+    "canonical_unit": "count",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Firefly Alpha Payload User's Guide",
+      "author": "Firefly Aerospace",
+      "publisher": "Firefly Aerospace",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "Reaver 1 Propulsion Data",
+      "direct_url": "https://fireflyspace.com/alpha/",
+      "document_id": "firefly_alpha_pug",
+      "excerpt": "Firefly Alpha Stage 1 combustion tap-off kerolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "dry_mass_kg": {
+    "value": 215.0,
+    "canonical_unit": "kg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Firefly Alpha Payload User's Guide",
+      "author": "Firefly Aerospace",
+      "publisher": "Firefly Aerospace",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "Reaver 1 Propulsion Data",
+      "direct_url": "https://fireflyspace.com/alpha/",
+      "document_id": "firefly_alpha_pug",
+      "excerpt": "Firefly Alpha Stage 1 combustion tap-off kerolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "height_m": {
+    "value": 1.8,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Firefly Alpha Payload User's Guide",
+      "author": "Firefly Aerospace",
+      "publisher": "Firefly Aerospace",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "Reaver 1 Propulsion Data",
+      "direct_url": "https://fireflyspace.com/alpha/",
+      "document_id": "firefly_alpha_pug",
+      "excerpt": "Firefly Alpha Stage 1 combustion tap-off kerolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "nozzle_diameter_m": {
+    "value": 0.72,
+    "canonical_unit": "m",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Firefly Alpha Payload User's Guide",
+      "author": "Firefly Aerospace",
+      "publisher": "Firefly Aerospace",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "Reaver 1 Propulsion Data",
+      "direct_url": "https://fireflyspace.com/alpha/",
+      "document_id": "firefly_alpha_pug",
+      "excerpt": "Firefly Alpha Stage 1 combustion tap-off kerolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "gimbal_envelope_dia_m": {
+    "value": 1.1,
+    "canonical_unit": "m",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "D_env = D_noz + 2 * L_noz * sin(theta_gimbal)",
+      "input_parameters": {
+        "nozzle_dia_m": "0.72",
+        "gimbal_deg": "6.0"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Small-angle TVC sweep geometry",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "tvc_gimbal_range_deg": {
+    "value": 6.0,
+    "canonical_unit": "deg",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Firefly Alpha Payload User's Guide",
+      "author": "Firefly Aerospace",
+      "publisher": "Firefly Aerospace",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "Reaver 1 Propulsion Data",
+      "direct_url": "https://fireflyspace.com/alpha/",
+      "document_id": "firefly_alpha_pug",
+      "excerpt": "Firefly Alpha Stage 1 combustion tap-off kerolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "thrust_to_weight_vac": {
+    "value": 106.24,
+    "canonical_unit": "ratio",
+    "status": "derived",
+    "citation": null,
+    "derivation": {
+      "governing_equation": "T/W_vac = F_vac / (m_dry * g0)",
+      "input_parameters": {
+        "F_vac_n": "224000",
+        "m_dry_kg": "215"
+      },
+      "assumptions": [
+        "Standard sea-level gravity g0 = 9.80665 m/s^2"
+      ],
+      "solver_method": "Direct analytical relation",
+      "confidence_rating": "high"
+    },
+    "notes": null
+  },
+  "unit_cost_usd": {
+    "value": 850000.0,
+    "canonical_unit": "USD",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Firefly Alpha Payload User's Guide",
+      "author": "Firefly Aerospace",
+      "publisher": "Firefly Aerospace",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "Reaver 1 Propulsion Data",
+      "direct_url": "https://fireflyspace.com/alpha/",
+      "document_id": "firefly_alpha_pug",
+      "excerpt": "Firefly Alpha Stage 1 combustion tap-off kerolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "development_cost_usd": {
+    "value": 90000000.0,
+    "canonical_unit": "USD",
+    "status": "primary_source",
+    "citation": {
+      "document_title": "Firefly Alpha Payload User's Guide",
+      "author": "Firefly Aerospace",
+      "publisher": "Firefly Aerospace",
+      "publication_year": 2023,
+      "page_number": 1,
+      "table_or_figure": "Reaver 1 Propulsion Data",
+      "direct_url": "https://fireflyspace.com/alpha/",
+      "document_id": "firefly_alpha_pug",
+      "excerpt": "Firefly Alpha Stage 1 combustion tap-off kerolox engine."
+    },
+    "derivation": null,
+    "notes": null
+  },
+  "propellant_mass_kg": null,
+  "total_mass_kg": null,
+  "burn_time_s": null
+}

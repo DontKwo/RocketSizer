@@ -1,0 +1,14 @@
+[project]
+frameworks = ["tauri"]
+id_pattern = "^[a-z][a-z0-9_]*(\\.[a-z][a-z0-9_]*)+$"
+
+[registries]
+tooltips = "src/src/config/tooltipRegistry.ts"
+
+[tests]
+ui_globs = ["src/tests/ui/**"]
+evidence = "ui_evidence.json"
+exhaustive_state_max = 8
+ordered_triples_max_actions = 6
+max_cases_per_context = 5000
+seed = 1234

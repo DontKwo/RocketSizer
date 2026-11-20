@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "RocketSizer",
+  "version": "0.1.0",
+  "identifier": "com.rocketsizer.desktop",
+  "build": {
+    "beforeDevCommand": "npm --prefix ../src run dev",
+    "devUrl": "http://localhost:5173",
+    "beforeBuildCommand": "npm --prefix ../src run build",
+    "frontendDist": "../src/dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "RocketSizer",
+        "width": 1440,
+        "height": 900,
+        "minWidth": 1100,
+        "minHeight": 700
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; style-src 'self' 'unsafe-inline'"
+    }
+  }
+}
