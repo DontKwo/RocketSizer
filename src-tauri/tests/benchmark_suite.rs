@@ -740,6 +740,8 @@ fn test_benchmark_12_heritage_structural_estimator_accuracy() {
     ];
 
     let mut abs_errs = Vec::new();
+    let mut in_sample_errs = Vec::new();
+    let mut holdout_errs = Vec::new();
     for id in &benchmark_ids {
         let entry = summary
             .entries
@@ -761,8 +763,9 @@ fn test_benchmark_12_heritage_structural_estimator_accuracy() {
         assert!(bd.thrust_structure_mass_kg > 0.0);
         assert!(bd.avionics_and_wiring_mass_kg > 0.0);
         println!(
-            "STRUCT {:15} | S1 act={:7.0} pred={:7.0} ({:+5.1}%) | S2 act={:6.0} pred={:6.0} ({:+5.1}%) | Tot act={:7.0} pred={:7.0} ({:+5.1}%)",
+            "STRUCT {:15} [{:^10}] | S1 act={:7.0} pred={:7.0} ({:+5.1}%) | S2 act={:6.0} pred={:6.0} ({:+5.1}%) | Tot act={:7.0} pred={:7.0} ({:+5.1}%)",
             entry.vehicle_id,
+            entry.sample_type,
             entry.actual_s1_dry_kg,
             entry.predicted_s1_dry_kg,
             entry.s1_dry_error_pct,
@@ -774,11 +777,28 @@ fn test_benchmark_12_heritage_structural_estimator_accuracy() {
             entry.total_dry_error_pct
         );
         abs_errs.push(entry.total_dry_error_pct.abs());
+        if entry.is_calibration_set {
+            in_sample_errs.push(entry.total_dry_error_pct.abs());
+        } else {
+            holdout_errs.push(entry.total_dry_error_pct.abs());
+        }
     }
     let bench_mape = abs_errs.iter().sum::<f64>() / (abs_errs.len() as f64);
+    let in_sample_mape = in_sample_errs.iter().sum::<f64>() / (in_sample_errs.len() as f64);
+    let holdout_mape = holdout_errs.iter().sum::<f64>() / (holdout_errs.len() as f64);
     println!(
-        "Benchmark 16-vehicle Structural MAPE: {:.2}% | Catalog Operational Structural MAPE: {:.2}%",
-        bench_mape, summary.structural_mape_pct
+        "Benchmark Structural: In-Sample MAPE={:.2}%, Holdout MAPE={:.2}%, Combined MAPE={:.2}%, MdAPE={:.2}%",
+        in_sample_mape, holdout_mape, bench_mape, summary.structural_mdape_pct
+    );
+    assert!(
+        in_sample_mape < 15.0,
+        "In-sample structural MAPE {:.2}% exceeded 15.0%",
+        in_sample_mape
+    );
+    assert!(
+        holdout_mape < 18.0,
+        "Holdout structural MAPE {:.2}% exceeded 18.0%",
+        holdout_mape
     );
     assert!(
         bench_mape < 15.0,
@@ -812,6 +832,8 @@ fn test_benchmark_13_heritage_cost_model_accuracy() {
 
     let mut flight_errs = Vec::new();
     let mut ddte_errs = Vec::new();
+    let mut in_sample_flight = Vec::new();
+    let mut holdout_flight = Vec::new();
     for id in &cost_bench_ids {
         let entry = summary
             .entries
@@ -819,8 +841,9 @@ fn test_benchmark_13_heritage_cost_model_accuracy() {
             .find(|e| e.vehicle_id == *id)
             .unwrap_or_else(|| panic!("Missing cost validation entry for {id}"));
         println!(
-            "COST   {:15} | Flight act=${:7.1}M pred=${:7.1}M ({:+5.1}%) | DDTE act=${:8.1}M pred=${:8.1}M ({:+5.1}%)",
+            "COST   {:15} [{:^10}] | Flight act=${:7.1}M pred=${:7.1}M ({:+5.1}%) | DDTE act=${:8.1}M pred=${:8.1}M ({:+5.1}%)",
             entry.vehicle_id,
+            entry.sample_type,
             entry.actual_launch_cost_adj_usd / 1.0e6,
             entry.predicted_launch_cost_adj_usd / 1.0e6,
             entry.launch_cost_error_pct,
@@ -830,12 +853,29 @@ fn test_benchmark_13_heritage_cost_model_accuracy() {
         );
         flight_errs.push(entry.launch_cost_error_pct.abs());
         ddte_errs.push(entry.ddte_error_pct.abs());
+        if entry.is_calibration_set {
+            in_sample_flight.push(entry.launch_cost_error_pct.abs());
+        } else {
+            holdout_flight.push(entry.launch_cost_error_pct.abs());
+        }
     }
     let flight_mape = flight_errs.iter().sum::<f64>() / (flight_errs.len() as f64);
     let ddte_mape = ddte_errs.iter().sum::<f64>() / (ddte_errs.len() as f64);
+    let in_sample_cost_mape = in_sample_flight.iter().sum::<f64>() / (in_sample_flight.len() as f64);
+    let holdout_cost_mape = holdout_flight.iter().sum::<f64>() / (holdout_flight.len() as f64);
     println!(
-        "Benchmark 16-vehicle Cost MAPE: {:.2}%, DDTE MAPE: {:.2}% | Catalog Cost MAPE: {:.2}%",
-        flight_mape, ddte_mape, summary.cost_mape_pct
+        "Benchmark Cost: In-Sample MAPE={:.2}%, Holdout MAPE={:.2}%, Combined MAPE={:.2}%, DDTE MAPE={:.2}%, MdAPE={:.2}%",
+        in_sample_cost_mape, holdout_cost_mape, flight_mape, ddte_mape, summary.cost_mdape_pct
+    );
+    assert!(
+        in_sample_cost_mape < 5.0,
+        "In-sample launch cost MAPE {:.2}% exceeded 5.0%",
+        in_sample_cost_mape
+    );
+    assert!(
+        holdout_cost_mape < 10.0,
+        "Holdout launch cost MAPE {:.2}% exceeded 10.0%",
+        holdout_cost_mape
     );
     assert!(
         flight_mape < 18.0,
@@ -1307,4 +1347,59 @@ fn test_benchmark_14_default_saturn_v_and_presets_feasibility() {
     let res_ss = evaluate_manual_architecture(starship).expect("Starship eval failed");
     println!("Starship Feasible: {}, Violations: {:?}", res_ss.feasible, res_ss.violation_messages);
     assert!(res_ss.feasible, "Starship preset must be feasible: {:?}", res_ss.violation_messages);
+}
+
+#[test]
+fn test_benchmark_15_uncertainty_quantification_bounds() {
+    let cfg = VehicleConfiguration {
+        name: "Uncertainty Benchmark".to_string(),
+        payload_mass_kg: 10_000.0,
+        payload_diameter_m: 4.0,
+        payload_length_m: 8.0,
+        orbit: OrbitTarget {
+            preset: MissionPreset::Leo285,
+            ..OrbitTarget::default()
+        },
+        required_delta_v_m_s: Some(9_150.0),
+        core_diameter_m: 4.0,
+        stage_count: 2,
+        booster_engine_id: None,
+        booster_count: 0,
+        stages: vec![
+            default_stage(1, "merlin_1d", 9, 0.40, RecoveryMode::Expendable),
+            default_stage(2, "merlin_1d_vac", 1, 0.60, RecoveryMode::Expendable),
+        ],
+        staging_mode: StagingArchitectureMode::ColdPneumaticUllage,
+        cryo_state: CryoStateMode::SubcooledDensified,
+        fairing_profile: FairingProfile::VonKarman,
+        fairing_reusable: false,
+        mass_margin_frac: 0.05,
+        max_q_throttle_frac: 0.75,
+        max_q_bucket_duration_s: 20.0,
+        g_limit: 4.5,
+        expected_reuses: 1,
+        production_quantity: 10,
+        constraints: ConstraintEnvelope::default(),
+        custom_engines: Vec::new(),
+        booster_recovery_mode: RecoveryMode::Expendable,
+        recovery_optimizer_enabled: false,
+        advanced_defaults: Default::default(),
+    };
+
+    let res = evaluate_manual_architecture(cfg).expect("Architecture eval failed");
+    let uncert = res.uncertainty.expect("Uncertainty profile must be populated");
+
+    assert!(uncert.glow.p10_optimistic < uncert.glow.p50_median);
+    assert!(uncert.glow.p50_median < uncert.glow.p90_conservative);
+    assert!(uncert.dry_mass.p10_optimistic < uncert.dry_mass.p50_median);
+    assert!(uncert.dry_mass.p50_median < uncert.dry_mass.p90_conservative);
+    assert!(uncert.launch_price_usd.p10_optimistic < uncert.launch_price_usd.p50_median);
+    assert!(uncert.launch_price_usd.p50_median < uncert.launch_price_usd.p90_conservative);
+    assert!(uncert.ddte_usd.p10_optimistic < uncert.ddte_usd.p50_median);
+    assert!(uncert.ddte_usd.p50_median < uncert.ddte_usd.p90_conservative);
+    assert!(uncert.delivered_delta_v_m_s.p90_conservative < uncert.delivered_delta_v_m_s.p50_median);
+    assert!(uncert.delivered_delta_v_m_s.p50_median < uncert.delivered_delta_v_m_s.p10_optimistic);
+    assert!(uncert.payload_capacity_kg.p90_conservative < uncert.payload_capacity_kg.p50_median);
+    assert!(uncert.payload_capacity_kg.p50_median < uncert.payload_capacity_kg.p10_optimistic);
+    assert!(!uncert.dispersion_assumptions.is_empty());
 }

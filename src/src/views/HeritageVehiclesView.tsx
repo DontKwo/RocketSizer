@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import {
   formatBoosterType,
   formatIdentifierLabel,
@@ -9,12 +9,33 @@ import { adjustInflationUsd, convertFromSi, unitLabel, type UnitSystem } from ".
 import type { InspectorTarget, ProvenanceValue } from "../types/provenance";
 import type { ProvenanceEngine } from "../types/engine";
 import type { ProvenanceVehicle } from "../types/vehicle";
+import type { HeritageValidationSummary, HeritageVehicleValidationEntry } from "../types/sizing";
+import { validateHeritageModels } from "../api/tauriClient";
 import {
   VirtualCatalogTable,
   type CatalogColumnGroup,
   type ColumnDef,
   type VisibilityState,
 } from "../components/tables/VirtualCatalogTable";
+
+const BENCHMARK_VEHICLE_IDS = new Set<string>([
+  "electron",
+  "falcon_1",
+  "vega",
+  "soyuz_2",
+  "falcon_9",
+  "falcon_heavy",
+  "atlas_v_401",
+  "vulcan_vc6l",
+  "ariane_5",
+  "proton_m",
+  "delta_iv_heavy",
+  "h_iia_202",
+  "lm_5",
+  "saturn_v",
+  "sls_block_1",
+  "starship",
+]);
 
 interface HeritageVehiclesViewProps {
   vehicles: ProvenanceVehicle[];
@@ -79,6 +100,26 @@ const VEHICLE_COLUMN_GROUPS: CatalogColumnGroup[] = [
 
 const INITIAL_VISIBILITY: VisibilityState = {};
 
+function errTextClass(errPct: number): string {
+  const abs = Math.abs(errPct);
+  if (abs <= 12) return "text-emerald-300 font-semibold";
+  if (abs <= 25) return "text-sky-300 font-semibold";
+  if (abs <= 38) return "text-amber-300 font-semibold";
+  return "text-rose-300 font-semibold";
+}
+
+function fmtValMass(valKg: number, unitSystem: UnitSystem): string {
+  const conv = convertFromSi(valKg, "mass", unitSystem);
+  return conv.toLocaleString("en-US", { maximumFractionDigits: 0 });
+}
+
+function fmtValUsd(usd2026: number, currencyYear: number): string {
+  const adj = adjustInflationUsd(usd2026, 2026, currencyYear);
+  if (adj <= 0) return "-";
+  if (adj >= 1e9) return `$${(adj / 1e9).toFixed(2)}B`;
+  return `$${(adj / 1e6).toFixed(1)}M`;
+}
+
 export function HeritageVehiclesView({
   vehicles,
   engines = [],
@@ -96,6 +137,34 @@ export function HeritageVehiclesView({
   const [maxPayloadLeo, setMaxPayloadLeo] = useState<string>("");
   const [showSidebar, setShowSidebar] = useState<boolean>(false);
   const [manufSearch, setManufSearch] = useState<string>("");
+  const [subView, setSubView] = useState<"catalog" | "validation">("catalog");
+  const [validation, setValidation] = useState<HeritageValidationSummary | null>(null);
+  const [validationLoading, setValidationLoading] = useState<boolean>(false);
+  const [valFilter, setValFilter] = useState<"all" | "benchmark" | "calibration" | "holdout">("all");
+
+  useEffect(() => {
+    if (subView === "validation" && !validation && !validationLoading) {
+      setValidationLoading(true);
+      validateHeritageModels()
+        .then((res) => setValidation(res))
+        .catch((err) => console.error("Validation fetch error:", err))
+        .finally(() => setValidationLoading(false));
+    }
+  }, [subView, validation, validationLoading]);
+
+  const filteredValidationEntries = useMemo((): HeritageVehicleValidationEntry[] => {
+    if (!validation) return [];
+    if (valFilter === "benchmark") {
+      return validation.entries.filter((e) => BENCHMARK_VEHICLE_IDS.has(e.vehicle_id));
+    }
+    if (valFilter === "calibration") {
+      return validation.entries.filter((e) => e.is_calibration_set);
+    }
+    if (valFilter === "holdout") {
+      return validation.entries.filter((e) => !e.is_calibration_set && e.total_launches > 0);
+    }
+    return validation.entries.filter((e) => e.total_launches > 0);
+  }, [validation, valFilter]);
 
   const engineLookup = useMemo(() => {
     const map = new Map<string, string>();
@@ -515,42 +584,103 @@ export function HeritageVehiclesView({
       {/* Top Filter Summary and Action Bar */}
       <div className="panel-card flex flex-wrap items-center justify-between gap-3 p-3">
         <div className="flex flex-wrap items-center gap-2">
-          <button
-            type="button"
-            id="heritage_vehicles.toggle_sidebar"
-            onClick={() => setShowSidebar((v) => !v)}
-            title="Toggle Amazon-style faceted filters sidebar"
-            className="btn-secondary px-3 py-1.5 text-xs font-semibold"
-          >
-            {showSidebar ? "Hide Filters" : "Show Filters"}
-            {totalActiveFilterCount > 0 && ` (${totalActiveFilterCount})`}
-          </button>
-
-          <input
-            id="heritage_vehicles.search"
-            type="text"
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            placeholder="Search vehicle, manufacturer, engine..."
-            className="input-field w-64 text-xs"
-          />
-
-          {totalActiveFilterCount > 0 && (
+          <div className="flex items-center overflow-hidden rounded-md border border-slate-700 bg-slate-900" role="group" aria-label="View mode">
             <button
               type="button"
-              id="heritage_vehicles.clear_all_top"
-              onClick={clearAllFilters}
-              title="Clear all active vehicle filters and search query"
-              className="text-xs text-rose-400 hover:text-rose-300 underline font-semibold px-2 py-1"
+              id="heritage_vehicles.view_catalog_btn"
+              onClick={() => setSubView("catalog")}
+              className={`px-3 py-1.5 text-xs font-semibold ${
+                subView === "catalog"
+                  ? "bg-sky-500/20 text-sky-200 border-r border-slate-700"
+                  : "text-slate-400 hover:text-slate-200 border-r border-slate-700"
+              }`}
             >
-              Clear All Filters
+              Vehicle Database
             </button>
+            <button
+              type="button"
+              id="heritage_vehicles.view_validation_btn"
+              onClick={() => setSubView("validation")}
+              className={`px-3 py-1.5 text-xs font-semibold ${
+                subView === "validation"
+                  ? "bg-sky-500/20 text-sky-200"
+                  : "text-slate-400 hover:text-slate-200"
+              }`}
+            >
+              Model Validation &amp; Holdouts
+            </button>
+          </div>
+
+          {subView === "catalog" && (
+            <>
+              <button
+                type="button"
+                id="heritage_vehicles.toggle_sidebar"
+                onClick={() => setShowSidebar((v) => !v)}
+                title="Toggle Amazon-style faceted filters sidebar"
+                className="btn-secondary px-3 py-1.5 text-xs font-semibold"
+              >
+                {showSidebar ? "Hide Filters" : "Show Filters"}
+                {totalActiveFilterCount > 0 && ` (${totalActiveFilterCount})`}
+              </button>
+
+              <input
+                id="heritage_vehicles.search"
+                type="text"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                placeholder="Search vehicle, manufacturer, engine..."
+                className="input-field w-64 text-xs"
+              />
+
+              {totalActiveFilterCount > 0 && (
+                <button
+                  type="button"
+                  id="heritage_vehicles.clear_all_top"
+                  onClick={clearAllFilters}
+                  title="Clear all active vehicle filters and search query"
+                  className="text-xs text-rose-400 hover:text-rose-300 underline font-semibold px-2 py-1"
+                >
+                  Clear All Filters
+                </button>
+              )}
+            </>
+          )}
+
+          {subView === "validation" && (
+            <div className="flex flex-wrap items-center gap-1.5">
+              {(
+                [
+                  ["all", "All Vehicles"],
+                  ["benchmark", "16-Vehicle Benchmark"],
+                  ["calibration", "In-Sample Calibration"],
+                  ["holdout", "Independent Holdouts"],
+                ] as Array<["all" | "benchmark" | "calibration" | "holdout", string]>
+              ).map(([key, lbl]) => (
+                <button
+                  key={key}
+                  type="button"
+                  onClick={() => setValFilter(key)}
+                  className={`rounded border px-2.5 py-1 text-xs font-medium ${
+                    valFilter === key
+                      ? "border-sky-500 bg-sky-500/20 text-sky-200"
+                      : "border-slate-700 bg-slate-900 text-slate-400 hover:text-slate-200"
+                  }`}
+                >
+                  {lbl}
+                </button>
+              ))}
+            </div>
           )}
         </div>
 
         <div className="flex items-center gap-3">
           <span className="font-mono text-xs text-slate-300">
-            Showing <strong className="text-white">{filtered.length}</strong> of {vehicles.length} vehicles
+            {subView === "catalog" ? (
+              <>Showing <strong className="text-white">{filtered.length}</strong> of {vehicles.length} vehicles</>
+            ) : (
+              <>Showing <strong className="text-white">{filteredValidationEntries.length}</strong> evaluated launch vehicles</>
+            )}
           </span>
         </div>
       </div>
@@ -656,7 +786,8 @@ export function HeritageVehiclesView({
       )}
 
       {/* Main Container: Sidebar + Catalog Table */}
-      <div className="flex flex-col lg:flex-row gap-3 items-start">
+      {subView === "catalog" && (
+        <div className="flex flex-col lg:flex-row gap-3 items-start">
         {showSidebar && (
           <aside className="w-full lg:w-56 shrink-0 rounded-lg border border-slate-800 bg-slate-900/80 p-2.5 space-y-3">
             <div className="flex items-center justify-between border-b border-slate-800 pb-2">
@@ -928,6 +1059,151 @@ export function HeritageVehiclesView({
           />
         </div>
       </div>
+      )}
+
+      {/* Dedicated Validation & Holdout Benchmark Dashboard */}
+      {subView === "validation" && (
+        <div className="space-y-3">
+          {/* Executive Summary Badges */}
+          <div className="grid grid-cols-2 gap-2.5 md:grid-cols-3 lg:grid-cols-6">
+            <div className="panel-card p-3">
+              <div className="text-[11px] uppercase tracking-wide text-slate-400">In-Sample Calibration</div>
+              <div className="font-mono text-base font-bold text-sky-300">
+                {validation?.in_sample_structural_mape_pct ? `${validation.in_sample_structural_mape_pct.toFixed(2)}%` : "-"}
+              </div>
+              <div className="text-[11px] text-slate-500">Tuned coefficient baseline</div>
+            </div>
+            <div className="panel-card p-3">
+              <div className="text-[11px] uppercase tracking-wide text-slate-400">Independent Holdouts</div>
+              <div className="font-mono text-base font-bold text-emerald-300">
+                {validation?.out_of_sample_structural_mape_pct ? `${validation.out_of_sample_structural_mape_pct.toFixed(2)}%` : "-"}
+              </div>
+              <div className="text-[11px] text-slate-500">Untuned holdout test cases</div>
+            </div>
+            <div className="panel-card p-3">
+              <div className="text-[11px] uppercase tracking-wide text-slate-400">Structural Dry MdAPE</div>
+              <div className="font-mono text-base font-bold text-emerald-300">
+                {validation?.structural_mdape_pct ? `${validation.structural_mdape_pct.toFixed(2)}%` : "-"}
+              </div>
+              <div className="text-[11px] text-slate-500">Fleet median error</div>
+            </div>
+            <div className="panel-card p-3">
+              <div className="text-[11px] uppercase tracking-wide text-slate-400">Flight Price MAPE</div>
+              <div className="font-mono text-base font-bold text-emerald-300">
+                {validation?.cost_mape_pct ? `${validation.cost_mape_pct.toFixed(2)}%` : "-"}
+              </div>
+              <div className="text-[11px] text-slate-500">MdAPE: {validation?.cost_mdape_pct ? `${validation.cost_mdape_pct.toFixed(1)}%` : "-"}</div>
+            </div>
+            <div className="panel-card p-3">
+              <div className="text-[11px] uppercase tracking-wide text-slate-400">Program DDT&amp;E MAPE</div>
+              <div className="font-mono text-base font-bold text-sky-300">
+                {validation?.ddte_mape_pct ? `${validation.ddte_mape_pct.toFixed(2)}%` : "-"}
+              </div>
+              <div className="text-[11px] text-slate-500">MdAPE: {validation?.ddte_mdape_pct ? `${validation.ddte_mdape_pct.toFixed(1)}%` : "-"}</div>
+            </div>
+            <div className="panel-card p-3">
+              <div className="text-[11px] uppercase tracking-wide text-slate-400">90% Confidence Interval</div>
+              <div className="font-mono text-xs font-bold text-slate-200">
+                {validation?.p10_structural_error_pct !== undefined
+                  ? `${validation.p10_structural_error_pct.toFixed(1)}% to +${validation.p90_structural_error_pct?.toFixed(1)}%`
+                  : "-"}
+              </div>
+              <div className="text-[11px] text-slate-500">P10 to P90 error bounds</div>
+            </div>
+          </div>
+
+          {validationLoading ? (
+            <div className="panel-card p-6 text-center text-xs text-slate-400">
+              Running bottom-up structural synthesis and TRANSCOST CER evaluations across operational fleet...
+            </div>
+          ) : (
+            <div className="panel-card overflow-hidden">
+              <div className="max-h-[650px] overflow-auto">
+                <table className="w-full min-w-[1050px] border-collapse text-left text-xs">
+                  <thead>
+                    <tr className="sticky top-0 z-20 border-b border-slate-800 bg-slate-950 text-[11px] uppercase text-slate-400">
+                      <th className="sticky-col-head px-3 py-2.5">Launch Vehicle</th>
+                      <th className="px-3 py-2.5">Validation Role</th>
+                      <th className="px-3 py-2.5">Class</th>
+                      <th className="px-3 py-2.5 text-right">Maiden</th>
+                      <th className="px-3 py-2.5 text-right">S1 Dry Act / Pred ({unitLabel("mass", unitSystem)})</th>
+                      <th className="px-3 py-2.5 text-right">S1 Err</th>
+                      <th className="px-3 py-2.5 text-right">Total Dry Act / Pred ({unitLabel("mass", unitSystem)})</th>
+                      <th className="px-3 py-2.5 text-right">Total Dry Err</th>
+                      <th className="px-3 py-2.5 text-right">Reported Price / Pred</th>
+                      <th className="px-3 py-2.5 text-right">Price Err</th>
+                      <th className="px-3 py-2.5 text-right">DDT&amp;E Budget / Pred</th>
+                      <th className="px-3 py-2.5 text-right">DDT&amp;E Err</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-slate-800/70 font-mono text-slate-200">
+                    {filteredValidationEntries.map((ev) => (
+                      <tr key={ev.vehicle_id} className="hover:bg-slate-800/40">
+                        <td className="sticky-col-cell px-3 py-2 font-sans font-semibold text-slate-100">
+                          {ev.vehicle_name}
+                        </td>
+                        <td className="px-3 py-2 font-sans">
+                          <span
+                            className={`rounded px-1.5 py-0.5 text-xs font-medium border ${
+                              ev.is_calibration_set
+                                ? "border-sky-700/60 bg-sky-950/50 text-sky-300"
+                                : "border-emerald-700/60 bg-emerald-950/50 text-emerald-300"
+                            }`}
+                          >
+                            {ev.is_calibration_set ? "Calibration" : "Holdout"}
+                          </span>
+                        </td>
+                        <td className="px-3 py-2 font-sans text-slate-400">{ev.category}</td>
+                        <td className="px-3 py-2 text-right font-sans text-slate-400">{ev.maiden_flight_year || "-"}</td>
+                        <td className="px-3 py-2 text-right">
+                          {fmtValMass(ev.actual_s1_dry_kg, unitSystem)} / {fmtValMass(ev.predicted_s1_dry_kg, unitSystem)}
+                        </td>
+                        <td className={`px-3 py-2 text-right ${errTextClass(ev.s1_dry_error_pct)}`}>
+                          {ev.s1_dry_error_pct >= 0 ? "+" : ""}{ev.s1_dry_error_pct.toFixed(1)}%
+                        </td>
+                        <td className="px-3 py-2 text-right">
+                          {fmtValMass(ev.actual_total_dry_kg, unitSystem)} / {fmtValMass(ev.predicted_total_dry_kg, unitSystem)}
+                        </td>
+                        <td className={`px-3 py-2 text-right ${errTextClass(ev.total_dry_error_pct)}`}>
+                          {ev.total_dry_error_pct >= 0 ? "+" : ""}{ev.total_dry_error_pct.toFixed(1)}%
+                        </td>
+                        <td className="px-3 py-2 text-right">
+                          {ev.actual_launch_cost_adj_usd > 0
+                            ? `${fmtValUsd(ev.actual_launch_cost_adj_usd, currencyYear)} / ${fmtValUsd(ev.predicted_launch_cost_adj_usd, currencyYear)}`
+                            : fmtValUsd(ev.predicted_launch_cost_adj_usd, currencyYear)}
+                        </td>
+                        <td className={`px-3 py-2 text-right ${ev.actual_launch_cost_adj_usd > 0 ? errTextClass(ev.launch_cost_error_pct) : "text-slate-500"}`}>
+                          {ev.actual_launch_cost_adj_usd > 0
+                            ? `${ev.launch_cost_error_pct >= 0 ? "+" : ""}${ev.launch_cost_error_pct.toFixed(1)}%`
+                            : "-"}
+                        </td>
+                        <td className="px-3 py-2 text-right">
+                          {ev.actual_ddte_usd > 0
+                            ? `${fmtValUsd(ev.actual_ddte_usd, currencyYear)} / ${fmtValUsd(ev.predicted_ddte_usd, currencyYear)}`
+                            : fmtValUsd(ev.predicted_ddte_usd, currencyYear)}
+                        </td>
+                        <td className={`px-3 py-2 text-right ${ev.actual_ddte_usd > 0 ? errTextClass(ev.ddte_error_pct) : "text-slate-500"}`}>
+                          {ev.actual_ddte_usd > 0
+                            ? `${ev.ddte_error_pct >= 0 ? "+" : ""}${ev.ddte_error_pct.toFixed(1)}%`
+                            : "-"}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          )}
+
+          {/* Model Scope & Exclusions Notice */}
+          <div className="rounded-lg border border-slate-800 bg-slate-950/70 p-3 text-xs text-slate-400 space-y-1">
+            <span className="font-semibold text-slate-300">Engineering Fidelity Scope: </span>
+            <span>
+              Predictions evaluate conceptual sizing fidelity. Structural dry masses use closed-form Barlow/SP-8007 relationships with unmargined nominal dimensions. Launch prices reflect commercial list pricing with corporate gross margins, SEPM, and Wright learning curve amortization. Excludes 3D FEA structural analysis and 6-DOF flight dynamics.
+            </span>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

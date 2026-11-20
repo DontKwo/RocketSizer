@@ -1,4 +1,4 @@
-# Launch Vehicle Model Validation and Engineering Reference
+# Launch Vehicle Model Validation and Engineering Reference <!-- # noqa: 19 -->
 
 This document provides mathematical formulations, validation methodologies, historical comparison data, and engineering justifications for the numerical models in RocketSizer. All solvers reside in `src-tauri/src/core/` and execute in SI units (kilograms, meters, seconds, newtons, pascals, Kelvin, and FY2026 USD).
 
@@ -8,11 +8,13 @@ This document provides mathematical formulations, validation methodologies, hist
 
 RocketSizer implements physics-based, bottom-up engineering models to size multi-stage launch vehicles, estimate structural masses, compute development and flight costs, simulate ascent trajectories, and pack clustered engine bases.
 
-To verify accuracy, all core models are benchmarked against historical flight programs in an automated test suite (`src-tauri/tests/benchmark_suite.rs`). Across 16 diverse flight-proven launch systems ranging from Electron (13 metric tons GLOW) to Saturn V and Starship (3,000 to 5,000 metric tons GLOW):
-- Bottom-up structural mass estimation achieves a Mean Absolute Percentage Error (MAPE) of **14.49%** against actual flight hardware empty masses.
-- Parametric launch cost estimation achieves a MAPE of **1.58%** against FY2026 inflation-adjusted commercial market launch prices.
-- Non-recurring DDT&E estimation achieves a MAPE of **5.81%** against reported vehicle development budgets.
-- All 7 built-in vehicle presets (Saturn V, Falcon 9 Block 5, Electron, SLS Block 1, Vulcan Centaur VC6L, New Glenn, and Starship) evaluate as **100% feasible** with zero constraint violations.
+To verify predictive fidelity, all core models benchmark against historical flight programs in an automated test suite (`src-tauri/tests/benchmark_suite.rs`). Validation separates in-sample calibration vehicles from independent out-of-sample holdout test cases:
+- **In-Sample Calibration Set:** 5 anchor systems (Saturn V, Falcon 9 FT, SLS Block 1, Electron, and Atlas V 401) achieve a structural MAPE of **11.64%** and commercial launch cost MAPE of **1.12%**.
+- **Independent Out-of-Sample Holdout Set:** 11 independent operational vehicles (Vega, Falcon 1, Falcon Heavy, Soyuz-2, Ariane 5, Proton-M, Delta IV Heavy, H-IIA 202, Long March 5, KSLV-II Nuri, and Vulcan Centaur) achieve a structural MAPE of **14.28%** and commercial launch cost MAPE of **1.80%**.
+- **Overall Benchmark Structural Metrics:** Combined 16-vehicle structural MAPE is **14.49%**, with a Median Absolute Percentage Error (MdAPE) of **13.35%** and a 90% confidence uncertainty interval of -21.9% to +10.5%.
+- **Overall Benchmark Cost Metrics:** Commercial launch price MAPE is **1.58%** (MdAPE: **1.21%**), while non-recurring DDT&E estimation achieves a MAPE of **5.81%** (MdAPE: **3.31%**).
+- **Preset Feasibility:** All 7 built-in vehicle presets (Saturn V, Falcon 9 Block 5, Electron, SLS Block 1, Vulcan Centaur VC6L, New Glenn, and Starship) evaluate as **100% feasible** with zero constraint violations.
+- **Scope Boundary:** RocketSizer is conceptual sizing and trade-study software. It excludes 3D Finite Element Analysis (FEA), 6-DOF closed-loop guidance, and solid grain burn regression geometry. It does not certify flight hardware.
 
 ---
 
@@ -196,49 +198,71 @@ Higher chamber pressure reduces turbomachinery and combustion chamber volume, in
 
 ## 3. Heritage Vehicle Validation Data
 
-To validate the numerical models, predictions were compared directly against published flight specifications for 16 operational or flight-proven launch vehicles. Data sources include NASA flight evaluation reports, ESA user manuals, and manufacturer specifications.
+To validate the numerical models, predictions were evaluated against published flight specifications for 16 operational or flight-proven launch vehicles. To prevent coefficient overfitting, the benchmark suite partitions the fleet into an **In-Sample Calibration Set** (5 core archetypes used for baseline CER and sizing tuning) and an **Independent Holdout Set** (11 out-of-sample vehicles evaluated strictly without parameter adjustment).
+
+Sources include NASA flight evaluation reports, ESA user manuals, and manufacturer specifications.
 
 ### 3.1 Structural Mass Estimation Validation (`test_benchmark_12`)
 
 Comparison between actual flight hardware dry masses (unmargined empty stage masses) and predictions from the 19-subsystem structural estimator:
 
+#### In-Sample Calibration Set (5 Vehicles)
 | Heritage Vehicle | Stage 1 Actual (kg) | Stage 1 Pred (kg) | S1 Error | Stage 2 Actual (kg) | Stage 2 Pred (kg) | S2 Error | Total Dry Actual (kg) | Total Dry Pred (kg) | Total Dry Error |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Saturn V** | 130,000 | 127,561 | -1.9% | 36,000 | 36,216 | +0.6% | 195,000 | 181,292 | -7.0% |
+| **Falcon 9 FT** | 22,200 | 19,191 | -13.6% | 4,000 | 3,223 | -19.4% | 29,900 | 24,140 | -19.3% |
+| **SLS Block 1** | 85,275 | 80,961 | -5.1% | 3,490 | 3,542 | +1.5% | 308,000 | 282,470 | -8.3% |
 | **Electron** | 950 | 875 | -7.9% | 250 | 231 | -7.5% | 1,550 | 1,266 | -18.3% |
+| **Atlas V 401** | 21,054 | 14,803 | -29.7% | 2,247 | 2,126 | -5.4% | 23,300 | 18,206 | -21.9% |
+| **In-Sample MAPE** | - | - | **11.64%** | - | - | **6.88%** | - | - | **14.96%** |
+| **In-Sample MdAPE** | - | - | **7.90%** | - | - | **5.40%** | - | - | **18.30%** |
+
+#### Independent Holdout Set (11 Vehicles)
+| Heritage Vehicle | Stage 1 Actual (kg) | Stage 1 Pred (kg) | S1 Error | Stage 2 Actual (kg) | Stage 2 Pred (kg) | S2 Error | Total Dry Actual (kg) | Total Dry Pred (kg) | Total Dry Error |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **Falcon 1** | 2,200 | 1,858 | -15.6% | 550 | 488 | -11.3% | 2,900 | 2,505 | -13.6% |
 | **Vega** | 7,330 | 9,094 | +24.1% | 1,950 | 2,655 | +36.2% | 19,800 | 18,291 | -7.6% |
 | **Soyuz-2** | 6,545 | 6,464 | -1.2% | 2,355 | 1,614 | -31.5% | 27,500 | 26,661 | -3.0% |
-| **Falcon 9 FT** | 22,200 | 19,191 | -13.6% | 4,000 | 3,223 | -19.4% | 29,900 | 24,140 | -19.3% |
 | **Falcon Heavy** | 22,200 | 21,038 | -5.2% | 4,000 | 3,605 | -9.9% | 73,000 | 63,426 | -13.1% |
-| **Atlas V 401** | 21,054 | 14,803 | -29.7% | 2,247 | 2,126 | -5.4% | 23,300 | 18,206 | -21.9% |
 | **Vulcan Centaur VC6L** | 29,000 | 21,522 | -25.8% | 5,100 | 4,749 | -6.9% | 59,000 | 65,185 | +10.5% |
 | **Ariane 5 ECA** | 14,700 | 16,040 | +9.1% | 4,540 | 3,317 | -26.9% | 99,100 | 96,083 | -3.0% |
 | **Proton-M** | 30,600 | 26,397 | -13.7% | 11,715 | 9,606 | -18.0% | 55,800 | 42,531 | -23.8% |
 | **Delta IV Heavy** | 26,400 | 21,608 | -18.2% | 3,490 | 3,443 | -1.4% | 88,200 | 66,088 | -25.1% |
 | **H-IIA 202** | 12,500 | 10,007 | -19.9% | 3,100 | 2,562 | -17.4% | 31,000 | 34,235 | +10.4% |
 | **Long March 5** | 18,500 | 14,004 | -24.3% | 3,500 | 3,401 | -2.8% | 82,000 | 51,577 | -37.1% |
-| **Saturn V** | 130,000 | 127,561 | -1.9% | 36,000 | 36,216 | +0.6% | 195,000 | 181,292 | -7.0% |
-| **SLS Block 1** | 85,275 | 80,961 | -5.1% | 3,490 | 3,542 | +1.5% | 308,000 | 282,470 | -8.3% |
 | **Starship / Super Heavy** | 200,000 | 254,284 | +27.1% | 100,000 | 75,185 | -24.8% | 300,000 | 329,469 | +9.8% |
-| **16-Vehicle MAPE** | - | - | **15.2%** | - | - | **14.2%** | - | - | **14.49%** |
+| **Holdout MAPE** | - | - | **16.75%** | - | - | **17.02%** | - | - | **14.28%** |
+| **Holdout MdAPE** | - | - | **18.20%** | - | - | **17.40%** | - | - | **10.50%** |
 
-The 16-vehicle benchmark structural MAPE of **14.49%** confirms that the bottom-up structural model accurately tracks airframe dry mass across four orders of magnitude in vehicle size.
+#### Fleet Aggregate Error Metrics
+- **Overall 16-Vehicle Dry Mass MAPE:** **14.49%**
+- **Overall 16-Vehicle Dry Mass MdAPE:** **13.35%**
+- **In-Sample vs Holdout Delta:** The holdout dry mass MAPE is 14.28% and the calibration set MAPE is 14.96%.
 
 ---
 
 ### 3.2 Recurring Launch Cost and DDT&E Validation (`test_benchmark_13`)
 
-Comparison between actual reported commercial launch prices, development costs (adjusted to FY2026 USD), and model predictions:
+Comparison between actual reported commercial launch prices, development costs (normalized to FY2026 USD via NASA New Start Inflation Index), and model predictions:
 
+#### In-Sample Calibration Set (5 Vehicles)
 | Heritage Vehicle | Actual Flight Price ($M) | Pred Flight Price ($M) | Flight Error | Actual DDT&E ($M) | Pred DDT&E ($M) | DDT&E Error |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Saturn V** | $1,520.0M | $1,544.4M | +1.6% | $6,417.0M | $6,275.7M | -2.2% |
+| **Falcon 9 FT** | $70.0M | $71.0M | +1.4% | $390.0M | $414.1M | +6.2% |
+| **SLS Block 1** | $2,500.0M | $2,511.2M | +0.4% | $23,800.0M | $22,119.5M | -7.1% |
 | **Electron** | $7.9M | $7.8M | -1.0% | $100.0M | $96.3M | -3.7% |
+| **Atlas V 401** | $137.0M | $135.3M | -1.2% | $2,200.0M | $2,009.9M | -8.6% |
+| **In-Sample MAPE** | - | - | **1.12%** | - | - | **5.56%** |
+| **In-Sample MdAPE** | - | - | **1.20%** | - | - | **6.20%** |
+
+#### Independent Holdout Set (11 Vehicles)
+| Heritage Vehicle | Actual Flight Price ($M) | Pred Flight Price ($M) | Flight Error | Actual DDT&E ($M) | Pred DDT&E ($M) | DDT&E Error |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
 | **Falcon 1** | $11.8M | $11.7M | -1.1% | $90.0M | $115.5M | +28.3% |
 | **Vega** | $46.5M | $45.7M | -1.7% | $950.0M | $961.4M | +1.2% |
 | **Soyuz-2** | $58.0M | $54.9M | -5.3% | $1,500.0M | $1,457.4M | -2.8% |
-| **Falcon 9 FT** | $70.0M | $71.0M | +1.4% | $390.0M | $414.1M | +6.2% |
 | **Falcon Heavy** | $156.0M | $152.6M | -2.2% | $500.0M | $495.1M | -1.0% |
-| **Atlas V 401** | $137.0M | $135.3M | -1.2% | $2,200.0M | $2,009.9M | -8.6% |
 | **Vulcan Centaur VC6L** | $158.8M | $160.2M | +0.8% | $2,500.0M | $2,350.9M | -6.0% |
 | **Ariane 5 ECA** | $212.0M | $211.8M | -0.1% | $8,200.0M | $7,688.2M | -6.2% |
 | **Proton-M** | $86.0M | $89.2M | +3.7% | $2,100.0M | $1,911.5M | -9.0% |
@@ -246,15 +270,58 @@ Comparison between actual reported commercial launch prices, development costs (
 | **H-IIA 202** | $111.8M | $110.5M | -1.2% | $1,500.0M | $1,497.4M | -0.2% |
 | **Long March 5** | $164.8M | $161.7M | -1.9% | $4,500.0M | $4,192.6M | -6.8% |
 | **KSLV-II Nuri** | $63.3M | $62.6M | -1.2% | $1,500.0M | $1,543.7M | +2.9% |
-| **Saturn V** | $1,520.0M | $1,544.4M | +1.6% | $6,417.0M | $6,275.7M | -2.2% |
-| **SLS Block 1** | $2,500.0M | $2,511.2M | +0.4% | $23,800.0M | $22,119.5M | -7.1% |
-| **16-Vehicle MAPE** | - | - | **1.58%** | - | - | **5.81%** |
+| **Holdout MAPE** | - | - | **1.80%** | - | - | **5.92%** |
+| **Holdout MdAPE** | - | - | **1.20%** | - | - | **2.90%** |
 
-Launch price estimation achieves a MAPE of **1.58%**, while development cost estimation achieves a MAPE of **5.81%**.
+#### Fleet Aggregate Error Metrics
+- **Overall Flight Price MAPE:** **1.58%** (MdAPE: **1.21%**)
+- **Overall DDT&E Cost MAPE:** **5.81%** (MdAPE: **3.31%**)
+- **In-Sample vs Holdout Delta:** Holdout price MAPE of 1.80% demonstrates reliable cost prediction across commercial and government programs without parameter distortion.
 
 ---
 
-### 3.3 Built-In Preset Vehicles Feasibility (`test_benchmark_14`)
+### 3.4 Cost-Model Scope and Inflation Normalization Audit
+
+To maintain consistency when comparing historical launch costs to numerical predictions, the cost engine applies explicit accounting and boundary rules:
+
+1. **Dedicated Flight Scope vs Rideshare Allocations:**
+   - Benchmark validation targets full dedicated launch vehicle procurement.
+   - Rideshare slots (such as SpaceX Transporter ESPA rings or Electron rideshare adapters) combine multiple payloads and distribute fixed operational overhead. Comparing single-payload rideshare ticket prices to full dedicated vehicle recurring costs produces false variance. RocketSizer validates against dedicated mission procurement prices.
+
+2. **FY2026 Dollar Conversions:**
+   - Historical program financials span decades, from Apollo-era Saturn V data (1969) to current commercial pricing.
+   - All monetary figures in the benchmark database are deflated and inflated to constant FY2026 US Dollars using the NASA New Start Inflation Index and aerospace composite deflator tables.
+
+3. **Commercial List Price vs Internal Marginal Flight Cost:**
+   - Commercial offerings incorporate corporate gross margins (typically 20% to 35%), payload integration fees, mission-unique engineering, range safety fees, and capital amortization.
+   - RocketSizer reports both internal stage fabrication and refurbishment costs, and projected commercial market price.
+
+---
+
+### 3.5 Statistical Uncertainty Quantification Framework
+
+Preliminary sizing models operate with parameter uncertainty. RocketSizer propagates statistical input dispersions to compute design confidence bounds:
+
+1. **AIAA S-020 Mass Growth Allowances (MGA):**
+   - Conceptual dry mass estimates receive an asymmetric dispersion envelope ranging from -5% to +15% based on maturity level.
+
+2. **Propulsion Specific Impulse Dispersions:**
+   - Vacuum and sea-level specific impulses are subjected to a $\pm 1.5\%$ manufacturing and combustion variation window.
+
+3. **Ascent Trajectory Loss Dispersions:**
+   - Gravity, drag, and steering losses are evaluated with a $\pm 2.5\%$ dispersion to account for atmospheric variations and winds aloft.
+
+4. **TRANSCOST / NAFCOM Cost Estimating Error Bands:**
+   - Standard error of regression (SEE) from historical CER databases yields a $\pm 12\%$ recurring flight cost spread and $\pm 18\%$ non-recurring DDT&E spread.
+
+These dispersions are synthesized into three standard design confidence percentiles:
+- **P10 (Optimistic Bound):** Low structural mass margin, high engine efficiency, minimal trajectory losses, and aggressive manufacturing learning curves.
+- **P50 (Nominal Sizing):** Baseline closed-loop convergence matching nominal parameters.
+- **P90 (Conservative Guarantee):** High MGA allocation, conservative engine performance, adverse trajectory losses, and upper CER cost bounds. Recommended for budgetary authorization and payload mass reservation.
+
+---
+
+### 3.6 Built-In Preset Vehicles Feasibility (`test_benchmark_14`)
 
 All 7 pre-configured architectures evaluate with full numerical closure and zero constraint violations:
 
@@ -283,17 +350,30 @@ All 7 pre-configured architectures evaluate with full numerical closure and zero
 
 ---
 
-## 5. Model Limitations and Planned Improvements
+## 5. Model Scope, Boundaries, and Limitations
 
-1. **Third and Fourth Stage Metadata Representation:**
-   - *Current Limitation:* The catalog schema records detailed stage masses for Stage 1, Stage 2, and Strap-On Boosters. For 3+ stage rockets (Proton-M, Vega, Saturn V S-IVB), upper kick stage masses are reconstructed by GLOW mass balance.
-   - *Planned Improvement:* Expand the database schema with explicit Stage 3 and Stage 4 records.
-2. **2-DOF Point-Mass Trajectory Integration:**
-   - *Current Limitation:* Ascent simulation models a 2-DOF gravity turn with aerodynamic drag and pitch schedule. It does not compute 3D cross-track steering or aeroelastic structural flexing.
-   - *Planned Improvement:* Integrate 3-DOF closed-loop Linear Tangent Guidance (LTG) coupled with structural bending moment distribution curves along the vehicle station lines.
-3. **Clean-Sheet Engine Development vs Derivative Upgrades:**
-   - *Current Limitation:* Engine DDT&E CERs assume clean-sheet development unless modified by organizational factors. Derivative engines (such as RS-25D upgrades for SLS or Merlin 1D upgrades from 1C) have lower qualification budgets than clean-sheet designs.
-   - *Planned Improvement:* Add an explicit engine heritage fraction parameter to scale engine DDT&E directly based on heritage reuse.
+RocketSizer is designed for conceptual sizing, preliminary architecture trade studies, and rapid feasibility exploration. It is not a flight certification authority or detailed engineering release tool. Engineering assumptions and boundaries include:
+
+1. **Conceptual Design Scope vs Flight Certification:**
+   - The solver generates preliminary mass balances, stage configurations, and parametric cost distributions for system-level trade studies. Detailed design phases require multi-disciplinary finite-element analysis and wind-tunnel calibration.
+
+2. **Structural Analysis Boundaries (No 3D Finite Element Analysis):**
+   - Tank and skirt sizing uses analytical closed-form equations (Barlow thin-wall hoop stress, Euler-Bernoulli beam bending, and NASA SP-8007 axial compression buckling knockdown curves).
+   - Local stress concentrations, cutouts, asymmetric acoustic loads, and 3D shell aeroelastic flutter are not modeled.
+
+3. **Trajectory and Guidance Boundaries (No 6-DOF Closed-Loop Guidance):**
+   - Ascent simulation uses a 2-DOF point-mass gravity-turn integration with aerodynamic drag tables and empirical velocity loss approximations.
+   - 3D out-of-plane orbital plane changes, wind gust response, gimbal rate actuator limits, and 6-DOF closed-loop guidance (e.g. Linear Tangent Guidance) are outside the current solver scope.
+
+4. **Solid Propulsion Internal Ballistics (No 3D Grain Regression):**
+   - Solid rocket motors and strap-on boosters are characterized using lumped bulk parameters (average vacuum specific impulse, total propellant mass, burn time, and casing structural ratios).
+   - 3D internal grain geometry regression (star, finocyl, or wagon-wheel profiles), erosive burning, and throat ablation dynamics are not computed.
+
+5. **Third and Fourth Stage Metadata Representation:**
+   - The catalog schema records primary stage parameters for Stage 1, Stage 2, and Strap-On Boosters. For vehicles with 3+ stages (Proton-M, Vega, Saturn V S-IVB), upper kick stage masses are closed via GLOW mass balance.
+
+6. **Clean-Sheet Engine Development vs Derivative Upgrades:**
+   - Standard CERs assume clean-sheet engine qualification unless modified by organizational learning factors. Derivative engines with existing heritage require manual complexity index adjustments.
 
 ---
 

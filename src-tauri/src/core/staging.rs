@@ -8,8 +8,8 @@ use super::models::mission::{
     CryoStateMode, MissionPreset, RecoveryMode, StagingArchitectureMode, TankMaterialPreset,
 };
 use super::models::vehicle::{
-    AdvancedModelDefaults, StageConfig, StageSizingMetrics, VehicleConfiguration,
-    VehicleCostBreakdown, VehicleSizingResult,
+    AdvancedModelDefaults, MetricUncertaintyBounds, StageConfig, StageSizingMetrics,
+    VehicleConfiguration, VehicleCostBreakdown, VehicleSizingResult, VehicleUncertaintyProfile,
 };
 use super::packaging::{solve_engine_circle_packing, EnginePlacementInput, PackingConstraints};
 use super::physics::{
@@ -1201,6 +1201,7 @@ pub fn evaluate_vehicle_configuration(
         constraint_violations: violations.clone(),
         violation_messages: violation_messages.clone(),
         objective_score: glow_kg,
+        uncertainty: None,
     };
 
     let materials: Vec<_> = sorted_stages.iter().map(|s| s.tank_material).collect();
@@ -1219,6 +1220,7 @@ pub fn evaluate_vehicle_configuration(
         recovery_ops_per_flight_usd: adv.recovery_ops_per_flight_usd,
     };
     tmp_result.cost_breakdown = compute_vehicle_cost_breakdown(&tmp_result, engines_map, &materials, &recoveries, &cost_params);
+    tmp_result.uncertainty = Some(compute_vehicle_uncertainty_profile(&tmp_result, config));
 
     if let Some(max_cost_usd) = config.constraints.max_cost_usd {
         if tmp_result.cost_breakdown.reusable_flight_cost_usd > max_cost_usd {
@@ -1237,4 +1239,96 @@ pub fn evaluate_vehicle_configuration(
     }
 
     Ok(tmp_result)
+}
+
+pub fn compute_vehicle_uncertainty_profile(
+    res: &VehicleSizingResult,
+    config: &VehicleConfiguration,
+) -> VehicleUncertaintyProfile {
+    let nom_glow = res.glow_kg;
+    let nom_dry = res.total_dry_mass_kg;
+    let nom_price = if res.cost_breakdown.predicted_market_launch_price_usd > 0.0 {
+        res.cost_breakdown.predicted_market_launch_price_usd
+    } else {
+        res.cost_breakdown.reusable_flight_cost_usd
+    };
+    let nom_ddte = res.cost_breakdown.total_ddte_usd;
+    let nom_dv = res.delta_v_breakdown.total_delivered_dv_m_s;
+    let nom_payload = config.payload_mass_kg;
+
+    let glow_p10 = nom_glow * 0.94;
+    let glow_p50 = nom_glow;
+    let glow_p90 = nom_glow * 1.09;
+
+    let dry_p10 = nom_dry * 0.95;
+    let dry_p50 = nom_dry;
+    let dry_p90 = nom_dry * 1.15;
+
+    let price_p10 = nom_price * 0.90;
+    let price_p50 = nom_price;
+    let price_p90 = nom_price * 1.18;
+
+    let ddte_p10 = nom_ddte * 0.88;
+    let ddte_p50 = nom_ddte;
+    let ddte_p90 = nom_ddte * 1.25;
+
+    let dv_p10 = nom_dv * 1.025;
+    let dv_p50 = nom_dv;
+    let dv_p90 = nom_dv * 0.975;
+
+    let payload_p10 = nom_payload * 1.08;
+    let payload_p50 = nom_payload;
+    let payload_p90 = nom_payload * 0.88;
+
+    VehicleUncertaintyProfile {
+        glow: MetricUncertaintyBounds {
+            nominal: glow_p50,
+            p10_optimistic: glow_p10,
+            p50_median: glow_p50,
+            p90_conservative: glow_p90,
+            unit: "kg".to_string(),
+        },
+        dry_mass: MetricUncertaintyBounds {
+            nominal: dry_p50,
+            p10_optimistic: dry_p10,
+            p50_median: dry_p50,
+            p90_conservative: dry_p90,
+            unit: "kg".to_string(),
+        },
+        launch_price_usd: MetricUncertaintyBounds {
+            nominal: price_p50,
+            p10_optimistic: price_p10,
+            p50_median: price_p50,
+            p90_conservative: price_p90,
+            unit: "USD".to_string(),
+        },
+        ddte_usd: MetricUncertaintyBounds {
+            nominal: ddte_p50,
+            p10_optimistic: ddte_p10,
+            p50_median: ddte_p50,
+            p90_conservative: ddte_p90,
+            unit: "USD".to_string(),
+        },
+        delivered_delta_v_m_s: MetricUncertaintyBounds {
+            nominal: dv_p50,
+            p10_optimistic: dv_p10,
+            p50_median: dv_p50,
+            p90_conservative: dv_p90,
+            unit: "m/s".to_string(),
+        },
+        payload_capacity_kg: MetricUncertaintyBounds {
+            nominal: payload_p50,
+            p10_optimistic: payload_p10,
+            p50_median: payload_p50,
+            p90_conservative: payload_p90,
+            unit: "kg".to_string(),
+        },
+        dispersion_assumptions: vec![
+            "Specific Impulse (Isp) 3-sigma dispersion: ±1.5%".to_string(),
+            "Structural Dry Mass Growth Allowance (AIAA S-020): -5% to +15%".to_string(),
+            "Atmospheric & Steering Ascent Loss dispersion: ±2.5%".to_string(),
+            "TRANSCOST / NAFCOM CER Statistical Standard Error: -10% to +18% on recurring cost".to_string(),
+            "Development Programmatic Schedule & Technical Risk Growth: -12% to +25% on DDT&E".to_string(),
+        ],
+    }
 }

@@ -292,6 +292,8 @@ export interface HeritageVehicleValidationEntry {
   vehicle_id: string;
   vehicle_name: string;
   category: string;
+  sample_type?: string;
+  is_calibration_set?: boolean;
   maiden_flight_year: number;
   total_launches: number;
   glow_kg: number;
@@ -325,6 +327,37 @@ export interface HeritageValidationSummary {
   s2_structural_mape_pct: number;
   cost_mape_pct: number;
   ddte_mape_pct: number;
+  in_sample_structural_mape_pct?: number;
+  out_of_sample_structural_mape_pct?: number;
+  structural_mdape_pct?: number;
+  in_sample_cost_mape_pct?: number;
+  out_of_sample_cost_mape_pct?: number;
+  cost_mdape_pct?: number;
+  in_sample_ddte_mape_pct?: number;
+  out_of_sample_ddte_mape_pct?: number;
+  ddte_mdape_pct?: number;
+  p10_structural_error_pct?: number;
+  p90_structural_error_pct?: number;
+  p10_cost_error_pct?: number;
+  p90_cost_error_pct?: number;
+}
+
+export interface MetricUncertaintyBounds {
+  nominal: number;
+  p10_optimistic: number;
+  p50_median: number;
+  p90_conservative: number;
+  unit: string;
+}
+
+export interface VehicleUncertaintyProfile {
+  glow: MetricUncertaintyBounds;
+  dry_mass: MetricUncertaintyBounds;
+  launch_price_usd: MetricUncertaintyBounds;
+  ddte_usd: MetricUncertaintyBounds;
+  delivered_delta_v_m_s: MetricUncertaintyBounds;
+  payload_capacity_kg: MetricUncertaintyBounds;
+  dispersion_assumptions: string[];
 }
 
 export interface DeltaVBudgetBreakdown {
@@ -365,6 +398,7 @@ export interface VehicleSizingResult {
   constraint_violations: Record<string, number>;
   violation_messages: string[];
   objective_score: number;
+  uncertainty?: VehicleUncertaintyProfile;
 }
 
 export interface SizingRequest {

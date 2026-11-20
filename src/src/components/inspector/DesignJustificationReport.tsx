@@ -25,7 +25,12 @@ interface DesignJustificationReportProps {
   currencyYear: number;
 }
 
-type ValidationFilterMode = "benchmark" | "category" | "operational";
+type ValidationFilterMode =
+  | "benchmark"
+  | "calibration"
+  | "holdout"
+  | "category"
+  | "operational";
 
 interface SubsystemRowDef {
   label: string;
@@ -74,6 +79,7 @@ export function DesignJustificationReport({
   const [validation, setValidation] = useState<HeritageValidationSummary | null>(null);
   const [validationLoading, setValidationLoading] = useState<boolean>(false);
   const [filterMode, setFilterMode] = useState<ValidationFilterMode>("benchmark");
+  const [copiedDeck, setCopiedDeck] = useState<boolean>(false);
 
   useEffect(() => {
     let cancelled = false;
@@ -162,6 +168,12 @@ export function DesignJustificationReport({
     if (filterMode === "benchmark") {
       return validation.entries.filter((e) => BENCHMARK_HERITAGE_IDS.has(e.vehicle_id));
     }
+    if (filterMode === "calibration") {
+      return validation.entries.filter((e) => e.is_calibration_set);
+    }
+    if (filterMode === "holdout") {
+      return validation.entries.filter((e) => !e.is_calibration_set && e.total_launches > 0);
+    }
     if (filterMode === "category") {
       return validation.entries.filter((e) => e.category === report.category);
     }
@@ -200,6 +212,50 @@ export function DesignJustificationReport({
     URL.revokeObjectURL(url);
   };
 
+  const handleCopyInputDeck = async (): Promise<void> => {
+    const deck = {
+      vehicle_configuration: config,
+      sizing_metrics: {
+        glow_kg: result.glow_kg,
+        total_dry_mass_kg: result.total_dry_mass_kg,
+        total_propellant_kg: result.total_propellant_kg,
+        liftoff_thrust_sl_n: result.liftoff_thrust_sl_n,
+        liftoff_tw0: result.liftoff_tw0,
+        total_height_m: result.total_height_m,
+        core_diameter_m: result.core_diameter_m,
+        max_width_m: result.max_width_m,
+        delivered_delta_v_m_s: result.delta_v_breakdown.total_delivered_dv_m_s,
+        required_delta_v_m_s: result.delta_v_breakdown.total_required_dv_m_s,
+        market_launch_price_usd: marketPriceUsd,
+        ddte_usd: result.cost_breakdown.total_ddte_usd,
+        uncertainty_p10_p50_p90: result.uncertainty,
+      },
+      provenance_metadata: {
+        generated_by: "RocketSizer Conceptual Architecture Solver",
+        fidelity_level: "Conceptual / Preliminary Trade-Study",
+        model_assumptions: [
+          "Barlow thin-wall + SP-8007 axial buckling structural synthesis",
+          "2-DOF gravity turn trajectory integration with transonic drag divergence",
+          "TRANSCOST 8.2 & NAFCOM Cost Estimating Relationships (FY2026 USD)",
+          "AIAA S-020 Mass Growth Allowance contingency synthesis",
+        ],
+        exclusions: [
+          "No full 3D Finite Element Analysis (FEA)",
+          "No 6-DOF closed-loop trajectory guidance",
+          "No solid motor grain regression geometry",
+          "Not certified for flight hardware authority",
+        ],
+      },
+    };
+    try {
+      await navigator.clipboard.writeText(JSON.stringify(deck, null, 2));
+      setCopiedDeck(true);
+      setTimeout(() => setCopiedDeck(false), 2500);
+    } catch (err) {
+      console.error("Clipboard copy failed:", err);
+    }
+  };
+
   const marketPriceUsd =
     result.cost_breakdown.predicted_market_launch_price_usd && result.cost_breakdown.predicted_market_launch_price_usd > 0
       ? result.cost_breakdown.predicted_market_launch_price_usd
@@ -229,6 +285,14 @@ export function DesignJustificationReport({
             >
               {result.feasible ? "Feasible Design" : "Constraint Violations"}
             </span>
+            <button
+              type="button"
+              onClick={handleCopyInputDeck}
+              title="Copy complete machine-readable configuration and sizing metrics JSON to clipboard"
+              className="rounded border border-slate-700 bg-slate-800 px-3 py-1.5 text-xs font-semibold text-slate-200 hover:bg-slate-700"
+            >
+              {copiedDeck ? "Copied Sizing Deck JSON!" : "Copy Input Deck (JSON)"}
+            </button>
             <button
               type="button"
               onClick={handleDownloadReport}
@@ -500,7 +564,9 @@ export function DesignJustificationReport({
           <div className="flex flex-wrap items-center gap-1.5">
             {(
               [
-                ["benchmark", "17-Vehicle Benchmark Fleet"],
+                ["benchmark", "16-Vehicle Benchmark Fleet"],
+                ["calibration", "In-Sample Calibration Set"],
+                ["holdout", "Independent Holdouts"],
                 ["category", `${report.category}-Class Peers`],
                 ["operational", "All Operational Vehicles"],
               ] as Array<[ValidationFilterMode, string]>
@@ -522,30 +588,46 @@ export function DesignJustificationReport({
         </div>
 
         {/* MAPE Summary Badges */}
-        <div className="grid grid-cols-2 gap-2.5 md:grid-cols-4">
+        <div className="grid grid-cols-2 gap-2.5 md:grid-cols-3 lg:grid-cols-6">
           <div className="rounded border border-slate-800 bg-slate-950/70 p-2.5">
-            <div className="text-[11px] text-slate-400">Filtered Dry Mass MAPE</div>
-            <div className="font-mono text-base font-bold text-emerald-300">{filteredMape.struct.toFixed(2)}%</div>
-            <div className="text-[11px] text-slate-500">
-              {filteredValidationEntries.length} vehicles shown
+            <div className="text-[11px] text-slate-400">Calibration MAPE</div>
+            <div className="font-mono text-base font-bold text-sky-300">
+              {validation?.in_sample_structural_mape_pct ? `${validation.in_sample_structural_mape_pct.toFixed(2)}%` : "-"}
             </div>
+            <div className="text-[11px] text-slate-500">In-sample tuned baseline</div>
           </div>
           <div className="rounded border border-slate-800 bg-slate-950/70 p-2.5">
-            <div className="text-[11px] text-slate-400">Filtered Flight Cost MAPE</div>
+            <div className="text-[11px] text-slate-400">Holdout MAPE</div>
+            <div className="font-mono text-base font-bold text-emerald-300">
+              {validation?.out_of_sample_structural_mape_pct ? `${validation.out_of_sample_structural_mape_pct.toFixed(2)}%` : "-"}
+            </div>
+            <div className="text-[11px] text-slate-500">Untuned holdout cases</div>
+          </div>
+          <div className="rounded border border-slate-800 bg-slate-950/70 p-2.5">
+            <div className="text-[11px] text-slate-400">Dry Mass MdAPE</div>
+            <div className="font-mono text-base font-bold text-emerald-300">
+              {validation?.structural_mdape_pct ? `${validation.structural_mdape_pct.toFixed(2)}%` : "-"}
+            </div>
+            <div className="text-[11px] text-slate-500">Fleet median error</div>
+          </div>
+          <div className="rounded border border-slate-800 bg-slate-950/70 p-2.5">
+            <div className="text-[11px] text-slate-400">Flight Cost MAPE</div>
             <div className="font-mono text-base font-bold text-emerald-300">{filteredMape.cost.toFixed(2)}%</div>
-            <div className="text-[11px] text-slate-500">Market launch price prediction</div>
+            <div className="text-[11px] text-slate-500">MdAPE: {validation?.cost_mdape_pct ? `${validation.cost_mdape_pct.toFixed(1)}%` : "-"}</div>
           </div>
           <div className="rounded border border-slate-800 bg-slate-950/70 p-2.5">
-            <div className="text-[11px] text-slate-400">Filtered DDT&amp;E MAPE</div>
+            <div className="text-[11px] text-slate-400">DDT&amp;E MAPE</div>
             <div className="font-mono text-base font-bold text-sky-300">{filteredMape.ddte.toFixed(2)}%</div>
-            <div className="text-[11px] text-slate-500">Program non-recurring R&amp;D</div>
+            <div className="text-[11px] text-slate-500">MdAPE: {validation?.ddte_mdape_pct ? `${validation.ddte_mdape_pct.toFixed(1)}%` : "-"}</div>
           </div>
           <div className="rounded border border-slate-800 bg-slate-950/70 p-2.5">
-            <div className="text-[11px] text-slate-400">Full Fleet S1 / S2 / Total MAPE</div>
-            <div className="font-mono text-sm font-bold text-slate-200">
-              {validation ? `${validation.s1_structural_mape_pct.toFixed(1)}% / ${validation.s2_structural_mape_pct.toFixed(1)}% / ${validation.structural_mape_pct.toFixed(1)}%` : "-"}
+            <div className="text-[11px] text-slate-400">90% Confidence Bounds</div>
+            <div className="font-mono text-xs font-bold text-slate-200">
+              {validation?.p10_structural_error_pct !== undefined
+                ? `${validation.p10_structural_error_pct.toFixed(1)}% to +${validation.p90_structural_error_pct?.toFixed(1)}%`
+                : "-"}
             </div>
-            <div className="text-[11px] text-slate-500">Catalog operational averages</div>
+            <div className="text-[11px] text-slate-500">P10 to P90 interval</div>
           </div>
         </div>
 
@@ -563,6 +645,7 @@ export function DesignJustificationReport({
               <thead>
                 <tr className="sticky top-0 z-20 border-b border-slate-800 bg-slate-950 text-[11px] uppercase text-slate-400">
                   <th className="sticky-col-head px-3 py-2">Heritage Vehicle</th>
+                  <th className="px-3 py-2">Role</th>
                   <th className="px-3 py-2">Class</th>
                   <th className="px-3 py-2 text-right">S1 Dry Act / Pred ({mUnit})</th>
                   <th className="px-3 py-2 text-right">S1 Err</th>
@@ -580,6 +663,17 @@ export function DesignJustificationReport({
                   <tr key={ev.vehicle_id} className="hover:bg-slate-800/40">
                     <td className="sticky-col-cell px-3 py-1.5 font-sans font-semibold text-slate-100">
                       {ev.vehicle_name}
+                    </td>
+                    <td className="px-3 py-1.5 font-sans">
+                      <span
+                        className={`rounded px-1.5 py-0.5 text-xs font-medium border ${
+                          ev.is_calibration_set
+                            ? "border-sky-700/60 bg-sky-950/50 text-sky-300"
+                            : "border-emerald-700/60 bg-emerald-950/50 text-emerald-300"
+                        }`}
+                      >
+                        {ev.is_calibration_set ? "Calibration" : "Holdout"}
+                      </span>
                     </td>
                     <td className="px-3 py-1.5 font-sans text-slate-400">{ev.category}</td>
                     <td className="px-3 py-1.5 text-right">
@@ -627,6 +721,106 @@ export function DesignJustificationReport({
             </table>
           </div>
         )}
+      </div>
+
+      {/* Table 4: Statistical Uncertainty Quantification & Confidence Intervals */}
+      {result.uncertainty && (
+        <div className="panel-card p-3.5 space-y-3">
+          <div className="flex flex-wrap items-center justify-between gap-2">
+            <div>
+              <h4 className="text-xs font-bold uppercase tracking-wide text-sky-300">
+                Table 4 - Statistical Uncertainty Quantification &amp; Confidence Intervals
+              </h4>
+              <p className="text-[11px] text-slate-400">
+                Propagated design distributions accounting for specific impulse variance, AIAA S-020 structural growth allowance, trajectory flight dispersions, and CER standard error.
+              </p>
+            </div>
+          </div>
+
+          <div className="overflow-x-auto rounded border border-slate-800">
+            <table className="w-full border-collapse text-left text-xs">
+              <thead>
+                <tr className="border-b border-slate-800 bg-slate-950 text-[11px] uppercase text-slate-400">
+                  <th className="px-3 py-2">Vehicle Performance Metric</th>
+                  <th className="px-3 py-2 text-right">P10 (Optimistic)</th>
+                  <th className="px-3 py-2 text-right">P50 (Nominal / Median)</th>
+                  <th className="px-3 py-2 text-right">P90 (Design Guarantee)</th>
+                  <th className="px-3 py-2">Unit</th>
+                  <th className="px-3 py-2">Primary Uncertainty Driver</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-slate-800/70 font-mono text-slate-200">
+                <tr className="hover:bg-slate-800/40">
+                  <td className="px-3 py-2 font-sans font-semibold text-slate-100">Gross Liftoff Weight (GLOW)</td>
+                  <td className="px-3 py-2 text-right text-emerald-300">{fmtMassVal(result.uncertainty.glow.p10_optimistic, unitSystem)}</td>
+                  <td className="px-3 py-2 text-right text-sky-300 font-bold">{fmtMassVal(result.uncertainty.glow.p50_median, unitSystem)}</td>
+                  <td className="px-3 py-2 text-right text-amber-300">{fmtMassVal(result.uncertainty.glow.p90_conservative, unitSystem)}</td>
+                  <td className="px-3 py-2 text-slate-400">{mUnit}</td>
+                  <td className="px-3 py-2 font-sans text-slate-400">Upper stage dry growth allowance &amp; Isp shortfall</td>
+                </tr>
+                <tr className="hover:bg-slate-800/40">
+                  <td className="px-3 py-2 font-sans font-semibold text-slate-100">Total Vehicle Dry Mass</td>
+                  <td className="px-3 py-2 text-right text-emerald-300">{fmtMassVal(result.uncertainty.dry_mass.p10_optimistic, unitSystem)}</td>
+                  <td className="px-3 py-2 text-right text-sky-300 font-bold">{fmtMassVal(result.uncertainty.dry_mass.p50_median, unitSystem)}</td>
+                  <td className="px-3 py-2 text-right text-amber-300">{fmtMassVal(result.uncertainty.dry_mass.p90_conservative, unitSystem)}</td>
+                  <td className="px-3 py-2 text-slate-400">{mUnit}</td>
+                  <td className="px-3 py-2 font-sans text-slate-400">AIAA S-020 Mass Growth Allowance contingency (-5% to +15%)</td>
+                </tr>
+                <tr className="hover:bg-slate-800/40">
+                  <td className="px-3 py-2 font-sans font-semibold text-slate-100">Commercial Market Launch Price</td>
+                  <td className="px-3 py-2 text-right text-emerald-300">{fmtUsdShort(result.uncertainty.launch_price_usd.p10_optimistic, currencyYear)}</td>
+                  <td className="px-3 py-2 text-right text-sky-300 font-bold">{fmtUsdShort(result.uncertainty.launch_price_usd.p50_median, currencyYear)}</td>
+                  <td className="px-3 py-2 text-right text-amber-300">{fmtUsdShort(result.uncertainty.launch_price_usd.p90_conservative, currencyYear)}</td>
+                  <td className="px-3 py-2 text-slate-400">USD</td>
+                  <td className="px-3 py-2 font-sans text-slate-400">TRANSCOST learning curve slope &amp; flight cadence variance</td>
+                </tr>
+                <tr className="hover:bg-slate-800/40">
+                  <td className="px-3 py-2 font-sans font-semibold text-slate-100">Program DDT&amp;E Development Cost</td>
+                  <td className="px-3 py-2 text-right text-emerald-300">{fmtUsdShort(result.uncertainty.ddte_usd.p10_optimistic, currencyYear)}</td>
+                  <td className="px-3 py-2 text-right text-sky-300 font-bold">{fmtUsdShort(result.uncertainty.ddte_usd.p50_median, currencyYear)}</td>
+                  <td className="px-3 py-2 text-right text-amber-300">{fmtUsdShort(result.uncertainty.ddte_usd.p90_conservative, currencyYear)}</td>
+                  <td className="px-3 py-2 text-slate-400">USD</td>
+                  <td className="px-3 py-2 font-sans text-slate-400">First-time engine qualification &amp; schedule slip risk</td>
+                </tr>
+                <tr className="hover:bg-slate-800/40">
+                  <td className="px-3 py-2 font-sans font-semibold text-slate-100">Total Delivered Delta-V</td>
+                  <td className="px-3 py-2 text-right text-emerald-300">{result.uncertainty.delivered_delta_v_m_s.p10_optimistic.toFixed(0)}</td>
+                  <td className="px-3 py-2 text-right text-sky-300 font-bold">{result.uncertainty.delivered_delta_v_m_s.p50_median.toFixed(0)}</td>
+                  <td className="px-3 py-2 text-right text-amber-300">{result.uncertainty.delivered_delta_v_m_s.p90_conservative.toFixed(0)}</td>
+                  <td className="px-3 py-2 text-slate-400">m/s</td>
+                  <td className="px-3 py-2 font-sans text-slate-400">Engine vacuum specific impulse dispersion (±1.5%)</td>
+                </tr>
+                <tr className="hover:bg-slate-800/40">
+                  <td className="px-3 py-2 font-sans font-semibold text-slate-100">Payload Insertion Capacity</td>
+                  <td className="px-3 py-2 text-right text-emerald-300">{fmtMassVal(result.uncertainty.payload_capacity_kg.p10_optimistic, unitSystem)}</td>
+                  <td className="px-3 py-2 text-right text-sky-300 font-bold">{fmtMassVal(result.uncertainty.payload_capacity_kg.p50_median, unitSystem)}</td>
+                  <td className="px-3 py-2 text-right text-amber-300">{fmtMassVal(result.uncertainty.payload_capacity_kg.p90_conservative, unitSystem)}</td>
+                  <td className="px-3 py-2 text-slate-400">{mUnit}</td>
+                  <td className="px-3 py-2 font-sans text-slate-400">Guaranteed insertion under 90th percentile growth</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div className="rounded border border-slate-800 bg-slate-950/60 p-3 text-xs text-slate-400 space-y-1.5">
+            <div className="font-semibold text-slate-300">Model Uncertainty Assumptions &amp; Dispersion Bounds:</div>
+            <ul className="list-disc pl-5 space-y-0.5 text-[11px] text-slate-400">
+              {result.uncertainty.dispersion_assumptions.map((asm, idx) => (
+                <li key={idx}>{asm}</li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      )}
+
+      {/* Engineering Scope and Conceptual Boundary Notice */}
+      <div className="rounded-lg border border-amber-800/40 bg-amber-950/20 p-3.5 text-xs text-amber-200/90 space-y-1.5">
+        <div className="flex items-center gap-2 font-bold uppercase tracking-wider text-amber-300">
+          <span>Engineering Fidelity Scope &amp; Conceptual Model Boundaries</span>
+        </div>
+        <p className="text-[11px] leading-relaxed text-amber-200/80">
+          RocketSizer is preliminary conceptual architecture synthesis and trade-study software. Sizing utilizes closed-form Barlow pressure vessel mechanics, NASA SP-8007 cylinder buckling criteria, 2-DOF gravity-turn ascent integration, and calibrated TRANSCOST / NAFCOM Cost Estimating Relationships. Excludes 3D Finite Element Analysis (FEA), 6-DOF closed-loop guidance, and solid grain burn regression geometry. Not an authority for flight certification.
+        </p>
       </div>
     </div>
   );

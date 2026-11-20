@@ -379,6 +379,10 @@ export function App(): React.ReactElement {
               <p>
                 <strong>6. Save &amp; Load Designs:</strong> Use <em>Save</em> and <em>Load</em> in the header to write or read a <code>.rsizer</code> design file. Use <em>A-</em> / <em>A+</em> to scale all text and layout.
               </p>
+              <div className="rounded-lg border border-amber-800/40 bg-amber-950/25 p-3 text-[11px] leading-relaxed text-amber-200/90 space-y-1">
+                <strong className="text-amber-300 block uppercase tracking-wide">7. Engineering Fidelity Scope &amp; Conceptual Boundaries:</strong>
+                RocketSizer is preliminary conceptual architecture synthesis and trade-study software. Sizing utilizes closed-form Barlow pressure vessel mechanics, NASA SP-8007 cylinder buckling criteria, 2-DOF gravity-turn ascent integration, and calibrated TRANSCOST / NAFCOM Cost Estimating Relationships. Excludes 3D Finite Element Analysis (FEA), 6-DOF closed-loop guidance, and solid grain burn regression geometry. Not an authority for flight certification.
+              </div>
             </div>
           </div>
         </div>

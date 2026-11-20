@@ -432,6 +432,10 @@ pub struct HeritageVehicleValidationEntry {
     pub vehicle_id: String,
     pub vehicle_name: String,
     pub category: String,
+    #[serde(default)]
+    pub sample_type: String,
+    #[serde(default)]
+    pub is_calibration_set: bool,
     pub maiden_flight_year: u16,
     pub total_launches: u32,
     pub glow_kg: f64,
@@ -466,6 +470,52 @@ pub struct HeritageValidationSummary {
     pub s2_structural_mape_pct: f64,
     pub cost_mape_pct: f64,
     pub ddte_mape_pct: f64,
+    #[serde(default)]
+    pub in_sample_structural_mape_pct: f64,
+    #[serde(default)]
+    pub out_of_sample_structural_mape_pct: f64,
+    #[serde(default)]
+    pub structural_mdape_pct: f64,
+    #[serde(default)]
+    pub in_sample_cost_mape_pct: f64,
+    #[serde(default)]
+    pub out_of_sample_cost_mape_pct: f64,
+    #[serde(default)]
+    pub cost_mdape_pct: f64,
+    #[serde(default)]
+    pub in_sample_ddte_mape_pct: f64,
+    #[serde(default)]
+    pub out_of_sample_ddte_mape_pct: f64,
+    #[serde(default)]
+    pub ddte_mdape_pct: f64,
+    #[serde(default)]
+    pub p10_structural_error_pct: f64,
+    #[serde(default)]
+    pub p90_structural_error_pct: f64,
+    #[serde(default)]
+    pub p10_cost_error_pct: f64,
+    #[serde(default)]
+    pub p90_cost_error_pct: f64,
+}
+
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct MetricUncertaintyBounds {
+    pub nominal: f64,
+    pub p10_optimistic: f64,
+    pub p50_median: f64,
+    pub p90_conservative: f64,
+    pub unit: String,
+}
+
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct VehicleUncertaintyProfile {
+    pub glow: MetricUncertaintyBounds,
+    pub dry_mass: MetricUncertaintyBounds,
+    pub launch_price_usd: MetricUncertaintyBounds,
+    pub ddte_usd: MetricUncertaintyBounds,
+    pub delivered_delta_v_m_s: MetricUncertaintyBounds,
+    pub payload_capacity_kg: MetricUncertaintyBounds,
+    pub dispersion_assumptions: Vec<String>,
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
@@ -508,6 +558,8 @@ pub struct VehicleSizingResult {
     pub constraint_violations: HashMap<String, usize>,
     pub violation_messages: Vec<String>,
     pub objective_score: f64,
+    #[serde(default)]
+    pub uncertainty: Option<VehicleUncertaintyProfile>,
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
