@@ -77,17 +77,6 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-
-      - name: Build Frontend Bundle
-        run: |
-          cd src
-          npm ci || npm install
-          npm run build
-
       - name: Install Rust Toolchain
         uses: dtolnay/rust-toolchain@stable
 
@@ -117,17 +106,6 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-
-      - name: Build Frontend Bundle
-        run: |
-          cd src
-          npm ci || npm install
-          npm run build
 
       - name: Install Rust Toolchain (Universal)
         uses: dtolnay/rust-toolchain@stable
@@ -165,17 +143,6 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-
-      - name: Build Frontend Bundle
-        run: |
-          cd src
-          npm ci || npm install
-          npm run build
 
       - name: Install Rust Toolchain
         uses: dtolnay/rust-toolchain@stable
