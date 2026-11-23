@@ -1,4 +1,4 @@
-# RocketSizer Design Specification
+# System Architecture & Design Specification
 
 A desktop launch vehicle conceptual sizing, heritage cataloging, and interactive trade study platform built with Tauri v2, a Rust numerical core, and a React/TypeScript web interface.
 
@@ -285,7 +285,7 @@ Standard Mission Presets:
 - **TMI (Trans-Mars Injection)**: $\Delta V = 12,850\text{ m/s}$ (42,159 ft/s).
 
 ### 4.2 Event-Based Ascent Milestones
-Rather than treating each stage as a single monolithic mass dump, RocketSizer models discrete in-flight flight events:
+RocketSizer decomposes each stage into discrete in-flight flight events:
 
 1. **Fairing Jettison Sub-Phasing**:
 The upper stage burn is split into two distinct mass integration regimes:
@@ -803,7 +803,7 @@ rocket_sizer/
 │   ├── MATHEMATICAL_MODELS.md
 │   ├── COST_MODEL_REFERENCE.md
 │   └── PROVENANCE_GUIDE.md
-├── DESIGN.md                        # Master architectural design document
+├── docs/ARCHITECTURE.md             # Master architectural design document
 ├── LICENSE                          # MIT License
 ├── README.md                        # Project summary & user guide
 └── SECURITY.md                      # Security vulnerability policy
@@ -860,4 +860,16 @@ Development proceeds phase-by-phase. Each phase must be committed and verified b
 - **Phase 5: Trade Study Studio, Export Engine & Final Integration**
   - Implement Recharts / Plotly.js trade curves (GLOW vs Payload, Cost vs Payload, Staging dV Split).
   - Implement multi-format export: standalone SVG drawings, high-res PNG, CSV tables, and Markdown/PDF design briefs.
-  - Complete git initialization, GitHub repository creation (`DontKwo/rocket_sizer`), branch protection rulesets, and secret scanning setup.
+  - Complete git initialization, GitHub repository creation (`DontKwo/RocketSizer`), branch protection rulesets, and secret scanning setup.
+
+
+## Related Documentation
+
+- [Project Overview](../README.md)
+- [User Guide](USER_GUIDE.md)
+- [Mathematical Models](MATHEMATICAL_MODELS.md)
+- [Cost Model Reference](COST_MODEL_REFERENCE.md)
+- [Model Validation](MODEL_VALIDATION.md)
+- [Provenance Guide](PROVENANCE_GUIDE.md)
+- [Developer Guide](DEVELOPMENT.md)
+- [Security Policy](../SECURITY.md)

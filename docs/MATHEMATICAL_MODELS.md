@@ -177,3 +177,12 @@ Across the broader 60+ operational vehicles in the JSON catalog (including unmod
 - Expand the vehicle JSON schema (`data/vehicles/*.json`) to include explicit `s3_*` and `s4_*` stage fields and add exact heritage engine specs (`rd_276`, `rd_0210`, `p80`, `zefiro_23`, `zefiro_9`, `avum`) to `data/engines/` to eliminate catalog proxy scaling on `Vega`, `Soyuz-2`, and `Proton-M`.
 - Replace global `f_bend` slenderness approximation with integrated axial + lateral wind-shear Max-Q bending moment distribution $M(x)$ along the stack length.
 - Couple closed-loop Linear Tangent Guidance (LTG / PEG) inside the staging loop to size gravity/steering losses dynamically per vehicle T/W history during combinatorial optimization.
+
+## Related Documentation
+
+- [Project Overview](../README.md)
+- [System Architecture](ARCHITECTURE.md)
+- [Cost Model Reference](COST_MODEL_REFERENCE.md)
+- [Model Validation](MODEL_VALIDATION.md)
+- [User Guide](USER_GUIDE.md)
+- [Security Policy](../SECURITY.md)

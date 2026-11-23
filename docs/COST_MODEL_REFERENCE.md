@@ -126,3 +126,12 @@ Validated via `predict_heritage_vehicle_cost` and `cargo test test_benchmark_13`
 - Add explicit `engine_heritage_frac` (`0.0 = clean-sheet`, `0.65 = major upgrade`, `0.90 = existing hardware`) on engine entries and `program_contract_type` (`CostPlus`, `FixedPriceCommercial`, `StatePrime`, `InternationalConsortium`) on `ProvenanceVehicle` and `VehicleConfiguration` so organizational overhead is derived directly from contract attributes instead of manufacturer name matching.
 - Normalize every `development_cost_usd` record in `data/vehicles/*.json` to a uniform FY2026 Aerospace CPI basis with explicit NASA New Start Index provenance citations.
 - Model launch cadence sensitivity (`flights_per_year`) dynamically to compute annual fixed standing-army launch facility and ground crew costs per flight across commercial vs flagship programs.
+
+## Related Documentation
+
+- [Project Overview](../README.md)
+- [System Architecture](ARCHITECTURE.md)
+- [Mathematical Models](MATHEMATICAL_MODELS.md)
+- [Model Validation](MODEL_VALIDATION.md)
+- [User Guide](USER_GUIDE.md)
+- [Security Policy](../SECURITY.md)

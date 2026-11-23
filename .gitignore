@@ -13,6 +13,9 @@ ENV/
 .ai-dev-tools/
 .toolchain/
 artifacts/
+lint_report*.txt
+scripts/lint_report*.txt
+.lint_cache.json
 
 # Rust / Tauri build artifacts
 src-tauri/target/

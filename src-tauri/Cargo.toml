@@ -6,6 +6,8 @@ resolver = "2"
 name = "rocket_sizer_core"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+repository = "https://github.com/DontKwo/RocketSizer"
 description = "RocketSizer Rust numerical aerospace core and Tauri command layer"
 
 [lib]

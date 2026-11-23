@@ -4,28 +4,12 @@ RocketSizer is a self-contained launch vehicle conceptual design, sizing, catalo
 
 ## Launching the application
 
-### Option 1: Standalone Windows executable (recommended)
+### Standalone desktop application
 
-1. Double-click `RocketSizer.exe` in the repository folder (or download `RocketSizer-windows-x86_64.exe` from the repository GitHub Releases page).
-2. RocketSizer starts its embedded Rust API backend and opens a dedicated desktop application window automatically. No separate terminal commands, Python scripts, or browser extensions are needed.
+1. Download the executable for your platform from [Latest Releases](https://github.com/DontKwo/RocketSizer/releases/latest) (`RocketSizer-Windows.exe`, `RocketSizer-macOS.zip`, or `RocketSizer-Linux.tar.gz`) and follow the [Desktop Installation Guide](INSTALLATION.md).
+2. Double-click or launch RocketSizer. It starts its embedded local API backend and opens a dedicated desktop window automatically without separate browser extensions or servers.
 
-### Option 2: Run from source with Cargo
-
-```bash
-cargo run --manifest-path src-tauri/Cargo.toml --bin rocket_sizer_desktop
-```
-
-Run `--self-test` to verify embedded HTML/JS/CSS assets and Rust API endpoints from a command prompt without launching a GUI window:
-
-```bash
-.\RocketSizer.exe --self-test
-```
-
-### Option 3: Automated benchmark verification
-
-```bash
-cargo test --manifest-path src-tauri/Cargo.toml --offline
-```
+For building from source or running the benchmark suite, see the [Developer Guide](DEVELOPMENT.md).
 
 ---
 
@@ -94,3 +78,13 @@ Displayed automatically at the bottom of **Optimization Search** (both Visuals a
 - Sweep `payload_mass_kg`, stage 1 delta-V split fraction, core diameter, required mission delta-V, or expected booster reuses across user-defined bounds.
 - View dual-axis GLOW vs flight cost sensitivity curves and the Pareto trade frontier populated by optimizer runs.
 - Export results as CSV tables, Markdown reports, or print/PDF via browser print controls.
+
+## Related Documentation
+
+- [Project Overview](../README.md)
+- [Desktop Installation Guide](INSTALLATION.md)
+- [Frequently Asked Questions](FAQ.md)
+- [Mathematical Models](MATHEMATICAL_MODELS.md)
+- [Cost Model Reference](COST_MODEL_REFERENCE.md)
+- [Model Validation](MODEL_VALIDATION.md)
+- [Security Policy](../SECURITY.md)

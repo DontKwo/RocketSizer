@@ -1,95 +1,82 @@
+<p align="center">
+  <img src="assets/logo.png" alt="RocketSizer Logo" width="240" />
+</p>
+
 # RocketSizer
 
-RocketSizer is a self-contained launch vehicle conceptual sizing, heritage cataloging, and trade study application built with a Rust numerical core and a React/TypeScript interface.
+**Interactive launch vehicle sizing, structural mass estimation, nozzle layout, and cost trade studio.**
 
-## Downloads & Releases
+RocketSizer lets aerospace students and engineers compare 2-stage to 3.5-stage launch vehicles, sweep engine combinations against orbital delta-V budgets, explore 99 historical rockets and 132 engines with sourced citations, and export full design briefs offline.
 
-Pre-compiled standalone desktop executables for Windows, Linux, and macOS are automatically built, validated, and published via GitHub Actions on every push to `main` and on version tags:
+---
 
-- **All Releases**: [GitHub Releases Page](https://github.com/DontKwo/rocket_sizer/releases)
-- **Latest Build (main)**: [Rolling Latest Release](https://github.com/DontKwo/rocket_sizer/releases/latest)
+## Download
 
-| Platform | Binary | Architecture | Direct Download |
-| :--- | :--- | :--- | :--- |
-| **Windows** | `.exe` standalone | x86_64 | [RocketSizer-windows-x86_64.exe](https://github.com/DontKwo/rocket_sizer/releases/download/latest/RocketSizer-windows-x86_64.exe) |
-| **Linux** | ELF standalone | x86_64 | [RocketSizer-linux-x86_64](https://github.com/DontKwo/rocket_sizer/releases/download/latest/RocketSizer-linux-x86_64) |
-| **macOS Universal** | Mach-O Universal | Apple Silicon & Intel | [RocketSizer-macos-universal](https://github.com/DontKwo/rocket_sizer/releases/download/latest/RocketSizer-macos-universal) |
-| **macOS Apple Silicon** | Mach-O 64-bit | Apple Silicon (M1/M2/M3/M4) | [RocketSizer-macos-aarch64](https://github.com/DontKwo/rocket_sizer/releases/download/latest/RocketSizer-macos-aarch64) |
-| **macOS Intel** | Mach-O 64-bit | Intel (x86_64) | [RocketSizer-macos-x86_64](https://github.com/DontKwo/rocket_sizer/releases/download/latest/RocketSizer-macos-x86_64) |
+| Platform | Download | Setup Guide |
+| :--- | :--- | :--- |
+| Windows | [RocketSizer-Windows.exe](https://github.com/DontKwo/RocketSizer/releases/latest/download/RocketSizer-Windows.exe) | [Windows Install Steps](docs/INSTALLATION.md#windows) |
+| macOS | [RocketSizer-macOS.zip](https://github.com/DontKwo/RocketSizer/releases/latest/download/RocketSizer-macOS.zip) | [macOS Install Steps](docs/INSTALLATION.md#macos) |
+| Linux | [RocketSizer-Linux.tar.gz](https://github.com/DontKwo/RocketSizer/releases/latest/download/RocketSizer-Linux.tar.gz) | [Linux Install Steps](docs/INSTALLATION.md#linux) |
 
-Each release includes SHA256 checksums in `SHA256SUMS.txt`.
+---
 
-## How to run
+## Screenshots
 
-### Windows
-Double-click `RocketSizer.exe` in the repository root or `RocketSizer-windows-x86_64.exe` from Releases. The app launches maximized in desktop window mode with no external dependencies or separate server.
+<p align="center">
+  <img src="assets/screenshots/01_main.png" alt="RocketSizer Optimization Search Studio" width="760" />
+</p>
 
-### Linux
-Make the binary executable and launch:
-```bash
-chmod +x RocketSizer-linux-x86_64
-./RocketSizer-linux-x86_64
-```
+<p align="center">
+  <img src="assets/screenshots/02_sizing_studio.png" alt="RocketSizer Single Config Evaluator" width="760" />
+</p>
 
-### macOS
-Make the binary executable and launch:
-```bash
-chmod +x RocketSizer-macos-universal
-./RocketSizer-macos-universal
-```
+---
 
-### From Source (All Platforms)
-```bash
-cargo run --manifest-path src-tauri/Cargo.toml --bin rocket_sizer_desktop
-```
+## How to Use
 
-To run the automated historical aerospace benchmark suite:
-```bash
-cargo test --manifest-path src-tauri/Cargo.toml
-```
+1. Download the executable for your platform from the table above.
+2. Follow the [Desktop Installation Guide](docs/INSTALLATION.md) if Windows SmartScreen or macOS Gatekeeper prompts for approval.
+3. Choose an orbit preset and payload mass in **Optimization Search**, click **Run Search**, and compare feasible rocket architectures.
+4. Open any candidate in **Single Config Evaluator** to inspect dimensioned schematics, base engine packing, structural breakdowns, and exported briefs.
 
-## Continuous Integration & Automated Builds
+---
 
-All releases and commits are validated by GitHub Actions workflows:
-- **ClaudeMD Strict Linter**: Codebase AST inspection, import verification, and anti-AI writing guards via `ai-dev-tools`.
-- **TypeScript Verification**: Strict compiler check (`tsc --noEmit`).
-- **Cross-Platform Matrix Tests**: 15 historical benchmark suites executed across Ubuntu, Windows, and macOS.
-- **Self-Test Verification**: Built binaries execute internal loopback HTTP and numerical verification (`--self-test`) prior to artifact publication.
+## Key Features
 
-## Numerical Model Validation & Accuracy
+- **Combinatorial Stage Optimizer**: Evaluates 2-stage through 3.5-stage vehicles with booster reuse, MGA margin, and 2-DOF gravity-turn delta-V closure.
+- **Interactive Base Engine Packing**: Visualizes 2D nozzle circles, TVC gimbal envelopes, and stage skirt clearances with drag-and-drop editing.
+- **Cited Heritage Database**: Includes 99 historical launch vehicles and 132 engines with click-to-inspect reference sources and model validation benchmarks.
 
-Numerical models are verified against published flight hardware specifications and cost accounting records across 16 flight-proven launch systems. Sizing models partition the vehicle fleet into calibration and holdout sets to prevent coefficient overfitting:
+---
 
-| Evaluation Domain | In-Sample Calibration MAPE (5 Vehicles) | Independent Holdout MAPE (11 Vehicles) | Full Benchmark Fleet MAPE (16 Vehicles) | Fleet MdAPE |
-| :--- | :---: | :---: | :---: | :---: |
-| **Structural Dry Mass** | 11.64% | 14.28% | **14.49%** | 13.35% |
-| **Recurring Flight Price** | 1.12% | 1.80% | **1.58%** | 1.21% |
-| **Non-Recurring DDT&E** | 5.56% | 5.92% | **5.81%** | 3.31% |
+## Safety & Disclaimers
 
-Statistical uncertainty quantification propagates AIAA S-020 mass growth allowances (-5% to +15%), propulsion specific impulse dispersions ($\pm 1.5\%$), trajectory losses ($\pm 2.5\%$), and CER standard errors to produce P10, P50, and P90 confidence percentiles on all sizing outputs. Complete details are documented in [docs/MODEL_VALIDATION.md](docs/MODEL_VALIDATION.md).
+- **Official `main` Releases Only**: Download executables exclusively from [DontKwo/RocketSizer Releases](https://github.com/DontKwo/RocketSizer/releases/latest) (`main` branch). Never run forked builds unless you are sure they contain no malware; only official `main` releases are maintained by the author, and I make no promises.
+- **OS Security Warnings**: Windows SmartScreen and macOS Gatekeeper will likely warn that independently built executables are unrecognized or unsafe. Bypassing prompts is strictly at your own discretion using [Desktop Installation Guide](docs/INSTALLATION.md).
+- **Conceptual Engineering & AS-IS Disclaimer**: Outputs are educational conceptual estimates, **not** certified aerospace flight hardware or structural qualification guarantees. Provided "AS IS" under the [MIT License](LICENSE) with zero warranty or liability at your own risk.
 
-## Engineering Scope, Boundaries, and Exclusions
+---
 
-RocketSizer is designed for conceptual sizing, preliminary architecture trade studies, and rapid configuration exploration. It is not a flight certification authority or detailed structural release tool. Explicit model boundaries include:
+## Documentation
 
-1. **Structural Sizing**: Uses analytical closed-form equations (Barlow thin-wall hoop stress, Euler-Bernoulli beam bending, and NASA SP-8007 axial buckling knockdowns). The solver does not perform 3D finite element analysis (FEA), local cutout modeling, acoustic fatigue analysis, or aeroelastic flutter calculations.
-2. **Trajectory & Guidance**: Sizing integrates a 2-DOF point-mass gravity-turn trajectory with empirical velocity loss accounting. It does not compute 3D cross-track steering, closed-loop 6-DOF guidance, or wind-shear responses.
-3. **Solid Propulsion**: Solid motors and strap-on boosters are sized with lumped bulk properties (average vacuum specific impulse, propellant mass, casing mass ratio, and burn time). 3D propellant grain geometry regression and erosive burning dynamics are excluded.
-4. **Economic Valuation**: Historical launch and development expenditures are normalized to FY2026 USD via the NASA New Start Inflation Index. Comparisons evaluate dedicated commercial launch procurement; rideshare ticket pricing is excluded. Detailed scope explanations are provided in [docs/MODEL_VALIDATION.md](docs/MODEL_VALIDATION.md).
+### User Documentation
+- [User Guide](docs/USER_GUIDE.md)
+- [Desktop Installation Guide](docs/INSTALLATION.md)
+- [Frequently Asked Questions](docs/FAQ.md)
 
-## Quick in-app workflow
+### Developer Documentation
+- [Developer Guide](docs/DEVELOPMENT.md)
+- [Developer uv Installation](docs/UV_INSTALLATION.md)
 
-1. Select a built-in architecture from the top **Preset** menu (`Falcon 9 Block 5`, `Saturn V`, `SLS Block 1`, `Vulcan Centaur VC6L`, `Blue Origin New Glenn`, `Electron`, `Starship Super Heavy`, or `Default 2-Stage`) or click **Guide** in the header bar for an interactive walkthrough.
-2. Adjust payload, orbit, engine selection, tank materials, or recovery mode in **Sizing Studio**, or click **Run Combinatorial Optimizer** to search heritage engine and delta-V combinations across 130+ sourced liquid and solid engines.
-3. Inspect the dimensioned SVG schematic, mass and delta-V breakdowns, and drag engine nozzles inside the interactive **2D Engine Base Layout**.
-4. Switch between **Metric (SI)** and **Imperial (US)** units or change economic inflation year in the header at any time.
-5. Open **Heritage Vehicles** (95+ launch vehicles), **Heritage Engines** (130+ engines), **Scale Lineup**, or **Trade & Sensitivity** to compare historical rockets, scale custom rubber engines, inspect 55+ primary source citations, and export SVG, CSV, Markdown, or PDF deliverables.
+### AI, Mathematical Proof & Technical Documentation
+- [System Architecture](docs/ARCHITECTURE.md)
+- [Mathematical Models](docs/MATHEMATICAL_MODELS.md)
+- [Cost Model Reference](docs/COST_MODEL_REFERENCE.md)
+- [Model Validation Benchmarks](docs/MODEL_VALIDATION.md)
+- [Provenance Guide](docs/PROVENANCE_GUIDE.md)
+- [AI Agent Reference](AGENTS.md)
 
-## Documentation index
-
-- [docs/MODEL_VALIDATION.md](docs/MODEL_VALIDATION.md): Heritage vehicle validation data, accuracy benchmarks, mathematical equations, and assumptions.
-- [docs/USER_GUIDE.md](docs/USER_GUIDE.md): Complete user manual for all five workspaces and built-in presets.
-- [docs/MATHEMATICAL_MODELS.md](docs/MATHEMATICAL_MODELS.md): Staging closure, structures, delta-V losses, and circle-packing equations.
-- [docs/COST_MODEL_REFERENCE.md](docs/COST_MODEL_REFERENCE.md): TRANSCOST and NASA PCEC parametric cost relationships.
-- [docs/PROVENANCE_GUIDE.md](docs/PROVENANCE_GUIDE.md): Data provenance schema and citation inspection drawer.
-- [DESIGN.md](DESIGN.md): Master architectural specification.
+### Legal & Security Policies
+- [Security Policy](SECURITY.md)
+- [Third-Party Notices](THIRD_PARTY_NOTICES.md)
+- [MIT License](LICENSE)
