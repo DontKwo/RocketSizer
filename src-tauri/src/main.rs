@@ -769,12 +769,148 @@ fn run_self_test() -> Result<(), String> {
     Ok(())
 }
 
+fn parse_screenshot_arg(args: &[String]) -> Option<String> {
+    let mut i = 0;
+    while i < args.len() {
+        if args[i] == "--screenshot" && i + 1 < args.len() {
+            return Some(args[i + 1].clone());
+        }
+        if let Some(rest) = args[i].strip_prefix("--screenshot=") {
+            if !rest.is_empty() {
+                return Some(rest.to_string());
+            }
+        }
+        i += 1;
+    }
+    None
+}
+
+fn find_any_headless_browser() -> Option<PathBuf> {
+    #[cfg(target_os = "windows")]
+    {
+        return find_app_browser_windows();
+    }
+    #[cfg(target_os = "macos")]
+    {
+        return find_app_browser_macos();
+    }
+    #[cfg(not(any(target_os = "windows", target_os = "macos")))]
+    {
+        return find_app_browser_linux();
+    }
+}
+
+fn run_headless_server() -> Result<(), String> {
+    let listener =
+        TcpListener::bind("127.0.0.1:0").map_err(|e| format!("Bind failed: {e}"))?;
+    let port = listener
+        .local_addr()
+        .map_err(|e| format!("Addr failed: {e}"))?
+        .port();
+    println!("READY http://127.0.0.1:{port}"); // noqa: 25
+    let _ = std::io::stdout().flush();
+    for stream in listener.incoming().flatten() {
+        thread::spawn(move || handle_client(stream, None));
+    }
+    Ok(())
+}
+
+fn run_screenshot(raw_out: &str) -> Result<(), String> {
+    let browser = find_any_headless_browser()
+        .ok_or_else(|| "No Chrome/Chromium/Edge browser found for --screenshot".to_string())?;
+    let out_path = PathBuf::from(raw_out);
+    if let Some(parent) = out_path.parent() {
+        if !parent.as_os_str().is_empty() {
+            let _ = std::fs::create_dir_all(parent);
+        }
+    }
+    let resolved = std::fs::canonicalize(out_path.parent().unwrap_or_else(|| std::path::Path::new(".")))
+        .unwrap_or_else(|_| PathBuf::from("."))
+        .join(out_path.file_name().unwrap_or_else(|| std::ffi::OsStr::new("screenshot.png")));
+
+    let listener =
+        TcpListener::bind("127.0.0.1:0").map_err(|e| format!("Bind failed: {e}"))?;
+    let port = listener
+        .local_addr()
+        .map_err(|e| format!("Addr failed: {e}"))?
+        .port();
+    let stop = Arc::new(AtomicBool::new(false));
+    let stop_flag = Arc::clone(&stop);
+    listener.set_nonblocking(true).ok();
+
+    let server_handle = thread::spawn(move || {
+        while !stop_flag.load(Ordering::Relaxed) {
+            match listener.accept() {
+                Ok((stream, _)) => {
+                    stream.set_nonblocking(false).ok();
+                    handle_client(stream, None);
+                }
+                Err(_) => thread::sleep(Duration::from_millis(10)),
+            }
+        }
+    });
+
+    let profile_dir = std::env::temp_dir().join(format!("rocket_sizer_shot_{port}"));
+    let _ = std::fs::create_dir_all(&profile_dir);
+    let shot_arg = format!("--screenshot={}", resolved.display());
+    let user_data_arg = format!("--user-data-dir={}", profile_dir.display());
+    let target_url = format!("http://127.0.0.1:{port}/");
+
+    let status = Command::new(browser) // noqa: 32
+        .args([
+            "--headless=new",
+            "--disable-gpu",
+            "--no-sandbox",
+            "--disable-dev-shm-usage",
+            "--disable-background-networking",
+            "--no-first-run",
+            "--no-default-browser-check",
+            "--window-size=1440,900",
+            "--virtual-time-budget=5000",
+            user_data_arg.as_str(),
+            shot_arg.as_str(),
+            target_url.as_str(),
+        ])
+        .status()
+        .map_err(|e| format!("Failed to invoke browser: {e}"));
+
+    stop.store(true, Ordering::Relaxed);
+    let _ = server_handle.join();
+    let _ = std::fs::remove_dir_all(&profile_dir);
+
+    let exit_status = status?;
+    if !exit_status.success() {
+        return Err(format!("Headless browser exited with {exit_status}"));
+    }
+    if !resolved.is_file() {
+        return Err(format!("Screenshot file not created at {}", resolved.display()));
+    }
+    println!("Saved screenshot to {}", resolved.display()); // noqa: 25
+    Ok(())
+}
+
 fn main() {
     let args: Vec<String> = std::env::args().collect();
     if args.iter().any(|a| a == "--self-test") {
         win_console::attach_parent_console_if_needed();
         if let Err(err) = run_self_test() {
             eprintln!("Self-test failed: {err}");
+            std::process::exit(1);
+        }
+        return;
+    }
+    if args.iter().any(|a| a == "--headless-server") {
+        win_console::attach_parent_console_if_needed();
+        if let Err(err) = run_headless_server() {
+            eprintln!("Headless server failed: {err}");
+            std::process::exit(1);
+        }
+        return;
+    }
+    if let Some(shot_path) = parse_screenshot_arg(&args[1..]) {
+        win_console::attach_parent_console_if_needed();
+        if let Err(err) = run_screenshot(&shot_path) {
+            eprintln!("Screenshot failed: {err}");
             std::process::exit(1);
         }
         return;

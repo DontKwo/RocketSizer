@@ -2,15 +2,11 @@
 
 Install and launch `RocketSizer` on your computer without Rust, Cargo, or Node.js setup.
 
-## Safety & Authenticity Warning
-
-- **Official `main` Releases Only**: Download `RocketSizer` exclusively from [DontKwo/RocketSizer Releases](https://github.com/DontKwo/RocketSizer/releases/latest).
-- **Fork Warning**: Do **not** download or run executables from forked repositories unless you have verified the source code yourself and confirmed they contain no malware. Only official `main` releases are maintained by the author, and I make no promises.
-- **Bypassing Security Prompts**: Because independent open-source executables do not carry paid commercial signing certificates, Windows and macOS will warn that the app is unrecognized or potentially unsafe. Bypassing these prompts is strictly at your own discretion, and the software is provided "AS IS" with zero liability.
-
 ---
 
-## Windows
+## Platform Instructions
+
+### Windows
 
 1. Download `RocketSizer-Windows.exe` from [Latest Releases](https://github.com/DontKwo/RocketSizer/releases/latest).
 2. Double-click `RocketSizer-Windows.exe` to open the desktop application window automatically.
@@ -21,7 +17,7 @@ Install and launch `RocketSizer` on your computer without Rust, Cargo, or Node.j
 
 ---
 
-## macOS
+### macOS
 
 1. Download `RocketSizer-macOS.zip` from [Latest Releases](https://github.com/DontKwo/RocketSizer/releases/latest).
 2. Double-click `RocketSizer-macOS.zip` to extract the `RocketSizer` universal executable (Apple Silicon and Intel).
@@ -32,11 +28,19 @@ Install and launch `RocketSizer` on your computer without Rust, Cargo, or Node.j
 
 ---
 
-## Linux
+### Linux
 
 1. Download `RocketSizer-Linux.tar.gz` from [Latest Releases](https://github.com/DontKwo/RocketSizer/releases/latest).
 2. Extract the archive (`tar -xzf RocketSizer-Linux.tar.gz`).
 3. Ensure execute permission (`chmod +x RocketSizer-Linux`) and run `./RocketSizer-Linux`.
+
+---
+
+## Safety & Authenticity Warning
+
+- **Official `main` Releases Only**: Download `RocketSizer` exclusively from [DontKwo/RocketSizer Releases](https://github.com/DontKwo/RocketSizer/releases/latest).
+- **Fork Warning**: Do **not** download or run executables from forked repositories unless you have verified the source code yourself and confirmed they contain no malware. Only official `main` releases are maintained by the author, and I make no promises.
+- **Bypassing Security Prompts**: Because independent open-source executables do not carry paid commercial signing certificates, Windows and macOS will warn that the app is unrecognized or potentially unsafe. Bypassing these prompts is strictly at your own discretion, and the software is provided "AS IS" with zero liability.
 
 ---
 

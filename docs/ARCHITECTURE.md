@@ -734,7 +734,7 @@ pub fn scale_rubber_engine(
 ## 13. File Tree & Workspace Structure
 
 ```
-rocket_sizer/
+RocketSizer/
 ├── src-tauri/                       # Rust desktop application backend
 │   ├── Cargo.toml
 │   ├── tauri.conf.json

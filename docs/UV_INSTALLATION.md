@@ -6,7 +6,9 @@ Developers running the repository's strict linter and Markdown link validation t
 
 ---
 
-## Windows
+## Platform Instructions
+
+### Windows
 
 Install `uv` using PowerShell or winget:
 
@@ -17,7 +19,7 @@ winget install --id=astral-sh.uv -e
 
 ---
 
-## macOS
+### macOS
 
 Install `uv` using the standalone installer or Homebrew:
 
@@ -28,7 +30,7 @@ brew install uv
 
 ---
 
-## Linux
+### Linux
 
 Install `uv` using the official standalone installer:
 

@@ -49,14 +49,6 @@ RocketSizer lets aerospace students and engineers compare 2-stage to 3.5-stage l
 
 ---
 
-## Safety & Disclaimers
-
-- **Official `main` Releases Only**: Download executables exclusively from [DontKwo/RocketSizer Releases](https://github.com/DontKwo/RocketSizer/releases/latest) (`main` branch). Never run forked builds unless you are sure they contain no malware; only official `main` releases are maintained by the author, and I make no promises.
-- **OS Security Warnings**: Windows SmartScreen and macOS Gatekeeper will likely warn that independently built executables are unrecognized or unsafe. Bypassing prompts is strictly at your own discretion using [Desktop Installation Guide](docs/INSTALLATION.md).
-- **Conceptual Engineering & AS-IS Disclaimer**: Outputs are educational conceptual estimates, **not** certified aerospace flight hardware or structural qualification guarantees. Provided "AS IS" under the [MIT License](LICENSE) with zero warranty or liability at your own risk.
-
----
-
 ## Documentation
 
 ### User Documentation
@@ -68,7 +60,7 @@ RocketSizer lets aerospace students and engineers compare 2-stage to 3.5-stage l
 - [Developer Guide](docs/DEVELOPMENT.md)
 - [Developer uv Installation](docs/UV_INSTALLATION.md)
 
-### AI, Mathematical Proof & Technical Documentation
+### Mathematical Models, Validation & AI Documentation
 - [System Architecture](docs/ARCHITECTURE.md)
 - [Mathematical Models](docs/MATHEMATICAL_MODELS.md)
 - [Cost Model Reference](docs/COST_MODEL_REFERENCE.md)
@@ -80,3 +72,11 @@ RocketSizer lets aerospace students and engineers compare 2-stage to 3.5-stage l
 - [Security Policy](SECURITY.md)
 - [Third-Party Notices](THIRD_PARTY_NOTICES.md)
 - [MIT License](LICENSE)
+
+---
+
+## Safety & Disclaimers
+
+- **Official `main` Releases Only**: Download executables exclusively from [DontKwo/RocketSizer Releases](https://github.com/DontKwo/RocketSizer/releases/latest) (`main` branch). Never run forked builds unless you are sure they contain no malware; only official `main` releases are maintained by the author, and I make no promises.
+- **OS Security Warnings**: Windows SmartScreen and macOS Gatekeeper will likely warn that independently built executables are unrecognized or unsafe. Bypassing prompts is strictly at your own discretion using [Desktop Installation Guide](docs/INSTALLATION.md).
+- **Conceptual Engineering & AS-IS Disclaimer**: Outputs are educational conceptual estimates, **not** certified aerospace flight hardware or structural qualification guarantees. Provided "AS IS" under the [MIT License](LICENSE) with zero warranty or liability at your own risk.
